@@ -1,25 +1,10 @@
 module.exports = {
-    title: "Nom du site / service",
-    url: "https://url_du_site.gouv.fr/",
-    newsletter: [
-        {
-            url: "",
-            title: "",
-            description: ""
-        }
-    ],
-    facebook_url: "",
-    mastodon_url: "",
-    twitter_url: "",
-    instagram_url: "",
-    linkedin_url: "",
-    youtube_url: "",
-    peertube_url: "",
-    github_url: "",
-    sourcehut_url: "",
+    title: "Mission interministérielle",
+    url: "https://ecoresponsable.numerique.gouv.fr/",
     repository_url: "https://github.com/codegouvfr/eleventy-dsfr",
     language: "fr",
-    description: "baseline - précisions sur l‘organisation",
+    description: "MiNumEco, la mission interministérielle numérique écoresponsable pilotée par la DINUM et le Ministère de la Transition écologique pour réduire les impacts environnementaux du numérique",
+		subtitle: "Numérique écoresponsable",
     author: {
         name: "Nom du service",
         email: "contact@nom.du.service.gouv.fr",

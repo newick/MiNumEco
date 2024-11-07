@@ -12,6 +12,7 @@
           <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-{{ loop.index }}">
             {{ link.title }}
           </button>
+
           <div class="fr-collapse fr-menu" id="menu-{{ loop.index }}">
             <ul class="fr-menu__list">
               {% for sublink in link.children %}
