@@ -4,7 +4,7 @@ name: Deploy Eleventy with GitHub Pages dependencies preinstalled
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: 
+    branches:
     - main
 
   # Allows you to run this workflow manually from the Actions tab
@@ -36,7 +36,7 @@ jobs:
       - name: Build with Eleventy
         run: |
           npm install
-          npm run build
+          npm run build-ghpages
       - name: Index site for pagefind
         run: npm run postbuild
       - name: fr fallback homepage
