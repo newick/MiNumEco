@@ -14,7 +14,7 @@ Dans le cadre de la mission interministérielle Numérique écoresponsable, la r
 
 Pour faire converger la transition numérique et la transition écologique, plusieurs actions et dispositifs ont été déployés au sein du gouvernement français et à l’échelle européenne. En France, le gouvernement a mis en place un dispositif pour rendre nos services publics plus écoresponsables. De plus, la loi Anti-Gaspillage et Économie Circulaire (AGEC) incite au rallongement de la durée de vie des équipements et à mieux informer les consommateurs. Un dispositif stratégique a été publié sous forme d’une feuille de route gouvernementale intitulée « numérique et environnement ». Elle a notamment permis de formaliser les propositions formulées lors de la Convention citoyenne pour le Climat en faveur de la sobriété numérique. Cette feuille de route a par ailleurs enrichi et alimenté les travaux parlementaires ayant conduit à l’adoption de la loi du 15 novembre 2021 visant à réduire l’empreinte environnementale du numérique (REEN).** A l’échelle européenne, de nombreux dispositifs ont été mis en place dans le cadre du Pacte Vert pour L’Europe.
 
-<nav class="fr-summary" role="navigation" aria-labelledby="fr-summary-title">
+<nav class="fr-summary fr-my-5w" role="navigation" aria-labelledby="fr-summary-title">
     <p class="fr-summary__title" id="fr-summary-title">Sommaire</p>
     <ol class="fr-summary__list">
       <li>
