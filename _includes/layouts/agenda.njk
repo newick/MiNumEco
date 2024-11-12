@@ -9,6 +9,7 @@ eleventyNavigation:
   order: 32
 ---
 
+<div class="fr-container fr-py-6w">
 {% include "components/breadcrumb.njk" %}
 
 <h1>{{ title }}</h1>
@@ -17,3 +18,4 @@ eleventyNavigation:
 
 {% set postslist = collections.agenda %}
 {% include "postslist.njk" %}
+</div>

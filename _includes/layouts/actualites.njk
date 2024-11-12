@@ -1,15 +1,18 @@
 ---
 layout: layouts/base.njk
-permalink: /actualités/
+permalink: /actualites/
 title: Actualités
 eleventyNavigation:
   key: Actualités
   order: 30
 ---
 
-{% include "components/breadcrumb.njk" %}
+<div class="fr-container fr-py-6w">
+  {% include "components/breadcrumb.njk" %}
 
-<h1>{{ title }}</h1>
+  <h1>{{ title }}</h1>
 
-{% set postslist = collections.posts | reverse %}
-{% include "postslist.njk" %}
+  {% set postslist = collections.posts | reverse %}
+
+  {% include "postslist.njk" %}
+</div>
