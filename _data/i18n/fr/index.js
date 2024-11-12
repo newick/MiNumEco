@@ -9,6 +9,7 @@ module.exports = {
     copied: "Copié !",
     dark_theme: "Thème sombre",
     display_params: "Paramètres d'affichage",
+		ecodesign: "Écoconception",
     edit_this_page: "Modifier cette page",
     filter_by_tag: "Filtrer par catégorie :",
     filtered_by: "Filtré par",
