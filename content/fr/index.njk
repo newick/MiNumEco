@@ -1,47 +1,96 @@
 ---
-title: Un exemple de site institutionnel
+title: Accueil
 layout: layouts/home.njk
 eleventyNavigation:
   key: Accueil
   order: 1
+numberOfLatestPostsToShow: 3
 ---
-<div class="fr-py-6w fr-background-alt--blue-cumulus">
+
+<div class="fr-py-6w">
   <div class="fr-container">
-    <div class="fr-grid-row fr-grid-row--center">
-      <div class="fr-col-10 fr-col-md-6">
-        <h1>{{ title }}</h1>
+    <section class="fr-grid-row fr-grid-row--center fr-pb-5w">
+      <div class="fr-col-12 fr-col-md-8">
+        <h1>Réduire l’empreinte environnementale du numérique public</h1>
         <p class="fr-text--lead">
-          Ce site statique, généré avec <a href="https://www.11ty.dev/" target="_blank" rel="noopener"><strong>eleventy</strong></a>,
-          utilise le <a href="https://www.systeme-de-design.gouv.fr/" target="_blank" rel="noopener"><strong>Système de Design de
-              l'État</strong></a>.
+          La MiNumEco, la Mission Interministérielle Numérique Écoresponsable, accompagne les administrations dans la réduction de
+          l'empreinte environnementale du numérique public. Elle met à disposition de toutes les organisations publiques ou
+          privées, des guides, des référentiels et des outils pour les accompagner dans cette démarche.
         </p>
+        <a class="fr-btn" href="/a-propos/">En savoir plus sur la mission interministérielle</a>
       </div>
-      <div class="fr-hidden fr-unhidden-md fr-col-md-4">
-        <img src="/icons/1F3DB.svg" alt="" width="256">
-      </div>
-    </div>
+    </section>
   </div>
-</div>
-  {# {% set postsCount = collections.posts | filterCollectionLang | length %}
-  {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-  <h2>{% if latestPostsCount != 1 %}Les {{ latestPostsCount }} derniers articles{% else %}Le dernier article{% endif %}</h2>
 
-  {% set postslist = collections.posts | filterCollectionLang | head(-1 * numberOfLatestPostsToShow) %}
-  {% set postslistCounter = postsCount %}
-  {% include "postslist.njk" %}
+  <section class="fr-container fr-background-alt--blue-cumulus">
+    <h2>Actualités</h2>
+    <div class="fr-grid-row fr-grid-row--gutters fr-py-3w">
+      {% for post in collections.posts | head(-3) | reverse %}
+        <div class="fr-col-12 fr-col-md-4">
+          <div class="fr-card fr-enlarge-link">
+            <div class="fr-card__body">
+              <h2 class="fr-card__title">
+                <a href="{{ post.url }}" class="fr-card__link">{{ post.data.title }}</a>
+              </h2>
+              <p class="fr-card__detail ">{{ post.data.date | readableDate }}</p>
+            </div>
+            <div class="fr-card__img">
+              <img src="{{ post.data.image }}" alt="">
+						</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
 
-  {% set morePosts = postsCount - numberOfLatestPostsToShow %}
-  {% if morePosts > 0 %}
-    <p>{{ morePosts }} {% if morePosts != 1 %}articles supplémentaires peuvent être consultés{% else %}article supplémentaire peut être consulté{% endif %}
-      dans <a href="{{ "/blog" | locale_url }}">la documentation</a>.</p>
-  {% endif %} #}
+		<p>
+      <a href="/actualités/" class="fr-link fr-fi-arrow-right-line fr-link--icon-right">Voir plus d'actualités</a>
+    </p>
+  </section>
 
-  {# List every content page in the project #}
-  {#
-  <ul>
-    {%- for entry in collections.all %}
-    <li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-    {%- endfor %}
-  </ul>
-  #}
+  <section>
+		<div class="fr-container">
+			<h2>Ressources</h2>
+
+			<div class="fr-grid-row fr-grid-row--gutters fr-py-3w">
+				<div class="fr-col-12 fr-col-md-4">
+						<div class="fr-card fr-enlarge-link">
+								<div class="fr-card__body">
+										<h2 class="fr-card__title">
+												<a href="/publications/bonnes-pratiques/" class="fr-card__link">Guide de bonnes pratiques numérique responsable pour les organisations</a>
+										</h2>
+								</div>
+								<div class="fr-card__img">
+										<img src="/img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp" alt="">
+								</div>
+						</div>
+				</div>
+
+				<div class="fr-col-12 fr-col-md-4">
+						<div class="fr-card fr-enlarge-link">
+								<div class="fr-card__body">
+										<h2 class="fr-card__title">
+												<a href="/publications/guide-pratique-achats-numeriques-responsables/" class="fr-card__link">Guide pratique pour des achats numériques responsables</a>
+										</h2>
+								</div>
+								<div class="fr-card__img">
+										<img src="/img/publications/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp" alt="">
+								</div>
+						</div>
+				</div>
+
+				<div class="fr-col-12 fr-col-md-4">
+						<div class="fr-card fr-enlarge-link">
+								<div class="fr-card__body">
+										<h2 class="fr-card__title">
+												<a href="/publications/referentiel-general-ecoconception/" class="fr-card__link">Référentiel général d’écoconception de service numérique</a>
+										</h2>
+								</div>
+								<div class="fr-card__img">
+										<img src="/img/publications/referentiel-general-ecoconception/referentiel-ecoconception.webp" alt="">
+								</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
 </div>
