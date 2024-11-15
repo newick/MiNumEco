@@ -1,6 +1,6 @@
 ---
 title: Réemployer les équipements
-layout: layouts/thematique.njk
+layout: layouts/thematiques/thematique.njk
 type: thematique
 eleventyNavigation:
   parent: thematiques

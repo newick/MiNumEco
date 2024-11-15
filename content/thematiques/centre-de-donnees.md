@@ -1,6 +1,6 @@
 ---
 title: Réduire l'impact des salles serveur et centres de données
-layout: layouts/thematique.njk
+layout: layouts/thematiques/thematique.njk
 type: thematique
 eleventyNavigation:
   parent: thematiques

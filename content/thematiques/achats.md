@@ -1,6 +1,6 @@
 ---
 title: Acheter responsable
-layout: layouts/thematique.njk
+layout: layouts/thematiques/thematique.njk
 type: thematique
 eleventyNavigation:
   parent: thematiques

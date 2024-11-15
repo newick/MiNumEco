@@ -10,12 +10,12 @@ eleventyNavigation:
 ---
 
 <div class="fr-container fr-py-6w">
-{% include "components/breadcrumb.njk" %}
+	{% include "components/breadcrumb.njk" %}
 
-<h1>{{ title }}</h1>
+	<h1>{{ title }}</h1>
 
-<p>{{ description }}</p>
+	<p>{{ description }}</p>
 
-{% set postslist = collections.agenda %}
-{% include "postslist.njk" %}
+	{% set postslist = collections.agenda %}
+	{% include "postslist.njk" %}
 </div>

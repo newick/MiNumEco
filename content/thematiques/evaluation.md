@@ -1,6 +1,6 @@
 ---
 title: Mesurer et évaluer l'empreinte environnementale numérique de mon organisation
-layout: layouts/thematique.njk
+layout: layouts/thematiques/thematique.njk
 type: thematique
 eleventyNavigation:
   parent: thematiques

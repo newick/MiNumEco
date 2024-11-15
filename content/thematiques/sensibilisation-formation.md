@@ -1,6 +1,6 @@
 ---
 title: Se sensibiliser et se former aux enjeux environnementaux du numérique
-layout: layouts/thematique.njk
+layout: layouts/thematiques/thematique.njk
 type: thematique
 eleventyNavigation:
   parent: thematiques
