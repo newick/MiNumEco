@@ -4,5 +4,5 @@ permalink: /actualites/
 title: Actualités
 eleventyNavigation:
   key: Actualités
-  order: 30
+  order: 2
 ---

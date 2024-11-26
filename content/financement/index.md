@@ -4,10 +4,6 @@ title: Financement
 description: Vous êtes une administration d’État ou un opérateur de l’État ? Obtenez un cofinancement pour votre projet en faveur d’un numérique écoresponsable, grâce à ce guichet piloté par la DINUM dans le cadre du Fonds pour la transformation de l’action publique.
 date: 2024-03-22
 image: /img/financements/guichet-ftap.webp
-eleventyNavigation:
-  key: financement
-  title: Financement
-  order: 56
 ---
 
 ## Guichet Numérique Ecoresponsable
@@ -16,7 +12,7 @@ eleventyNavigation:
 
 **Vous êtes une administration d’État ou un opérateur de l’État ? Obtenez un cofinancement pour votre projet en faveur d’un numérique écoresponsable, grâce à ce guichet piloté par la DINUM dans le cadre du Fonds pour la transformation de l’action publique (FTAP).**
 
-Le guichet "Numérique Ecoresponsable" du Fonds de transformation pour l'action publique (FTAP) vous permet d'obtenir des co-financements pour vos projets de réduction de l'empreinte environnementale du numérique de l'État. 
+Le guichet "Numérique Ecoresponsable" du Fonds de transformation pour l'action publique (FTAP) vous permet d'obtenir des co-financements pour vos projets de réduction de l'empreinte environnementale du numérique de l'État.
 
 <a href="https://www.demarches-simplifiees.fr/commencer/guichet-numerique-ecoresponsable" class="fr-btn" target="_blank" title="Nouvelle fenêtre : Déposer un dossier FTAP sur démarches simplifiées">Déposer un dossier</a>
 
@@ -66,7 +62,7 @@ Les projets seront sélectionnés et le montant de cofinancement défini au rega
 - Évaluation des impacts environnementaux évités (chiffrage des Kg de CO2 économisés, KWh d’électricité économisés, matériaux qui ne seront pas consommés – extraction minières, ressources abiotiques, terres rares -, etc.) ;
 - Portage du projet par un agent interne, ayant du temps et une capacité de décision suffisants ;
 - Bonne identification et associations des parties prenantes nécessaires au succès du projet  ;
-- Pas de redondance avec d'autres projets portés par l'administration, lorsque les projets sont proches ou complémentaires proposer un plan de mutualisation ; 
+- Pas de redondance avec d'autres projets portés par l'administration, lorsque les projets sont proches ou complémentaires proposer un plan de mutualisation ;
 - Dans le cas d'un produit numérique, avoir prévu l'utilisation et les modalités de financement, pour permettre aux administrations la libre utilisation du produit ;
 - Conformité au RGESN > à 70% s’il s’agit d’un service numérique ;
 - Mesure de l'impact du projet ;
