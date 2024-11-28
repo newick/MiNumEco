@@ -1,9 +1,9 @@
 ---
 title: Ressources
-layout: layouts/publications.njk
+layout: layouts/page.njk
 permalink: /ressources/
 eleventyNavigation:
-  key: publications
+  key: ressources
   title: Ressources
   order: 4
 ---

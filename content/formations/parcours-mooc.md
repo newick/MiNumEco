@@ -1,10 +1,9 @@
 ---
-title: Formations
-description: Sélection non-exhaustive de formations libres d’accès dédiés aux impacts environnementaux du numérique
-layout: layouts/page.njk
+title: Parcours MOOC des agents publics
+layout: layouts/landing.njk
 eleventyNavigation:
-  key: formations
-  title: Formations
+  parent: formations
+  title: Parcours MOOC des agents publics
   order: 3
 ---
 

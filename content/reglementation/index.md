@@ -1,8 +1,8 @@
 ---
-layout: layouts/post.njk
-title: "Politique publique numérique responsable : quels dispositifs ?"
+layout: layouts/landing.njk
+title: "Réglementation"
 eleventyNavigation:
-  key: Réglementations
+  key: Réglementation
   order: 6
 ---
 

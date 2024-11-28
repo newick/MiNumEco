@@ -1,11 +1,10 @@
 ---
-title: Formations
-description: Sélection non-exhaustive de formations libres d’accès dédiés aux impacts environnementaux du numérique
-layout: layouts/page.njk
+title: Autres formations et ressources
+layout: layouts/landing.njk
 eleventyNavigation:
-  key: formations
-  title: Formations
-  order: 3
+  parent: formations
+  title: Autres formations et ressources
+  order: 4
 ---
 
 <div class="fr-highlight">

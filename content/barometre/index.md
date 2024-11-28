@@ -1,9 +1,9 @@
 ---
 title: Baromètre
-layout: layouts/publications.njk
+layout: layouts/landing.njk
 permalink: /barometre/
 eleventyNavigation:
-  key: publications
+  key: barometre
   title: Baromètre
   order: 5
 ---
