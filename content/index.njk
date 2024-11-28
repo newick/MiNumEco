@@ -28,20 +28,24 @@ numberOfLatestPostsToShow: 3
 <div class="fr-container fr-pt-4w">
   <section>
     <h2>Les dernières actualités</h2>
+
     <div class="fr-grid-row fr-grid-row--gutters fr-py-3w">
       {% for post in collections.posts | head(-3) | reverse %}
         <div class="fr-col-12 fr-col-md-4">
-          <div class="fr-card fr-enlarge-link">
-            <div class="fr-card__body">
-              <h2 class="fr-card__title">
-                <a href="{{ post.url }}" class="fr-card__link">{{ post.data.title }}</a>
-              </h2>
-              <p class="fr-card__detail ">{{ post.data.date | readableDate }}</p>
-            </div>
-            <div class="fr-card__img">
-              <img src="{{ post.data.image }}" alt="" class="fr-responsive-img">
-						</div>
-					</div>
+					{% from "components/component.njk" import component with context %}
+					{{ component("card", {
+						url: post.url,
+						title: post.data.title,
+						description: post.data.description | safe,
+						tags: post.data.tags,
+						date: post.date,
+						description: "",
+						badges: post.data.badges,
+						image: {
+							path: post.data.image.path | resolvePath(post),
+							alt: post.data.image.alt
+						}
+					}) }}
 				</div>
 			{% endfor %}
 		</div>
@@ -50,11 +54,11 @@ numberOfLatestPostsToShow: 3
 		</p>
 	</section>
 
-	<section>
+	<section class="fr-mt-8w">
 		<h2>Ressources multimédias</h2>
 	</section>
 
-	<section>
+	<section class="fr-mt-8w">
 		<h2>S'inscrire aux prochaines formations</h2>
 	</section>
 </div>

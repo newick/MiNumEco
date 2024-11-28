@@ -8,15 +8,21 @@
           <a href="{{ cardUrl }}">
             {{ card.title }}
           </a>
-        {% else %}{{ card.title }}
+        {% else %}
+					{{ card.title }}
         {% endif %}
       </h3>
-      <p class="fr-card__desc">{{ card.description }}</p>
+
+			{% if card.description %}
+      	<p class="fr-card__desc">{{ card.description }}</p>
+			{% endif %}
+
       <div class="fr-card__start">
         {% if card.tags %}
           {% set tags = card.tags %}
           {% include "components/taggroup-disabled.njk" %}
         {% endif %}
+
         {% if card.date %}
           <p class="fr-card__detail fr-icon-time-fill">
             <time class="postlist-date" datetime="{{ card.date | htmlDateString }}">
@@ -27,12 +33,15 @@
           <p class="fr-card__detail">{{ card.detail }}</p>
         {% endif %}
       </div>
+
       {% if card.detailEnd %}
         <div class="fr-card__end">
           <p class="fr-card__detail">{{ card.detailEnd }}</p>
         </div>
       {% endif %}
     </div>
+
+ 		{% if card.externalUrl %}
     <div class="fr-card__footer">
       {% if card.externalUrl %}
         <a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="{{ card.externalUrl }}"
@@ -41,7 +50,9 @@
         </a>
       {% endif %}
     </div>
+		{% endif %}
   </div>
+
   {% if card.badges or card.image %}
     <div class="fr-card__header">
       {% if card.badges %}
