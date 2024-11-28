@@ -1,5 +1,5 @@
 ---
-layout: layouts/numerique-responsable-collectivites.njk
+layout: layouts/page.njk
 title: "4. Mise en place d’une politique de sensibilisation au numérique responsable et à la sécurité informatique à destination des élus et agents publics"
 description: Afin de faciliter l'élaboration et la mise en oeuvre de ces nouvelles obligation par les collectivités concernées, la Mission interministérielle numérique responsable a travaillé avec le réseau des Interconnectés, dans le cadre du programme Transformation numérique des territoires à une traduction opérationnelle des nouvelles obligations fixées par ce décret.
 date: 2023-07-13

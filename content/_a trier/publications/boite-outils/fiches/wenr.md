@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: WeNR
 description: Outil de mesure de l'empreinte du SI
 tags: tool

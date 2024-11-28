@@ -1,7 +1,7 @@
 ---
-layout: layouts/video.njk
+layout: layouts/page.njk
 title: "Épisode #1 : Les enjeux environnementaux de l'innovation"
-description: Table ronde du 3 juin 2024, avec Virginie Rozière, Juliette Froppier, Bastien Guerry et animée par Mélanie Raphaël. Quels sont les défis environnementaux de l'innovation numérique ? Avec des contraintes de cybersécurité ? Dans l'IA ? Quels sont les apports des logiciels libres ? 
+description: Table ronde du 3 juin 2024, avec Virginie Rozière, Juliette Froppier, Bastien Guerry et animée par Mélanie Raphaël. Quels sont les défis environnementaux de l'innovation numérique ? Avec des contraintes de cybersécurité ? Dans l'IA ? Quels sont les apports des logiciels libres ?
 date: 2024-07-15
 image: /img/podcast/podcast-minumechos-episode1.webp
 apercu: /img/podcast/podcast-minumechos-episode1.webp
@@ -19,8 +19,8 @@ type: podcastminumechos
 </br>
 
 Questions posées à l'issu de la table ronde du 3 juin 2024, animée par **Mélanie RAPHAÊL**, Experte numérique écoresponsable de la DINUM (Direction Interministéruelle du Numérique) avec :
-* **Virginie Rozière**, Directrice du numérique du ministère des Affaires Etrangères, 
-* **Juliette Froppier**, Cheffe de projet IA, Ecolab, ministère de la transition écologique, 
+* **Virginie Rozière**, Directrice du numérique du ministère des Affaires Etrangères,
+* **Juliette Froppier**, Cheffe de projet IA, Ecolab, ministère de la transition écologique,
 * **Bastien Guerry**, chef de la mission logiciels libres, DINUM.
 
 

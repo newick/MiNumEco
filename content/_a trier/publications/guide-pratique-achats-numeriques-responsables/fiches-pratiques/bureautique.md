@@ -1,5 +1,5 @@
 ---
-layout: layouts/guide-achats.njk
+layout: layouts/page.njk
 title: "Matériels bureautiques : PC fixes - portables - écrans - tablettes"
 date: 2021-04-29
 image: /img/publications/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
@@ -122,8 +122,8 @@ En matière de qualité environnementale des matériels IT, les principaux texte
   </tbody>
 </table>
 </div>
-    
-* À partir du 1er janvier 2022 : 
+
+* À partir du 1er janvier 2022 :
     * obligations d’affichage environnemental et d’information du consommateur, dont l’indice de réparabilité et part de matériaux recyclés le cas échéant (articles 13 et 16 ; parution du décret d’application et des arrêtés d’application de l’article 16 le 29 décembre 2020)
     * durée minimale de disponibilité des pièces détachées de 5 ans (article 19)
 
@@ -163,7 +163,7 @@ Nota bene : le secteur économique de la fourniture de matériels IT est caract�
 
 Nota bene : la garantie est en général délivrée par le distributeur, mais il peut être utile de poser la question aux constructeurs également. La garantie de la batterie et sa durée doivent faire l’objet d’une caractérisation précise dans une optique d’allongement de la durée de vie des matériels.
 
-#### Préoccupations sociales : responsabilité sociale	
+#### Préoccupations sociales : responsabilité sociale
 
 1. Recours au secteur de l'insertion par l’activité économique
     * Avez-vous déjà mis en œuvre dans le cadre de marchés une clause d'insertion par l'activité économique ? Si oui, quel est votre retour d’expérience ?
@@ -174,7 +174,7 @@ Nota bene : la garantie est en général délivrée par le distributeur, mais il
 4. Maîtrise des chaînes d'approvisionnement
     1. Pouvez-vous décrire vos chaînes d'approvisionnement (décomposition : nb de fournisseurs et sous-traitants, nature des activités, lieux d'implantation géographiques) ?
     2. Avez-vous engagé, ou prévoyez-vous de le faire, une démarche de maîtrise des risques relatifs aux violations des droits humains fondamentaux dans toute la chaîne d'approvisionnement (filiales, fournisseurs, sous-traitants) ? Si oui, pouvez-vous la décrire ?
-    3. Disposez-vous d'informations sur l'origine des minerais utilisés dans la fabrication de vos matériels ? Quelles précautions prenez-vous pour garantir le caractère licite des exploitations minières et le non-approvisionnement en « minerais de guerre » ? 
+    3. Disposez-vous d'informations sur l'origine des minerais utilisés dans la fabrication de vos matériels ? Quelles précautions prenez-vous pour garantir le caractère licite des exploitations minières et le non-approvisionnement en « minerais de guerre » ?
     4. Etes-vous concerné par la loi sur le devoir de vigilance des sociétés mères et des entreprises donneuses d'ordre de mars 2017 ? Si oui avez-vous publié votre plan de vigilance et le rapport annuel de suivi (le cas échéant merci de nous le communiquer)
     5. Êtes-vous, d'une manière générale, engagé dans des initiatives sectorielles relatives au management de votre démarche RSE ? Si oui, les citer. Votre entreprise a-t-elle adhéré aux principes directeurs de l'OCDE relatifs au respect des droits de l'Homme au travail ?
 
@@ -192,7 +192,7 @@ Nota bene : la garantie est en général délivrée par le distributeur, mais il
 
 Les matériels sont-ils tous labellisés ? Quel est le niveau de labellisation (label et niveau) ?
 Par exemple : label TCO Certified Edge, label 2018 EPEAT niveau Gold.
-Attention, le niveau d’exigences minimales du label EPEAT a été revu en 2018. 
+Attention, le niveau d’exigences minimales du label EPEAT a été revu en 2018.
 
 #### Préoccupations environnementales
 
@@ -278,14 +278,14 @@ Toutes les étapes de production sont concernées : extraction minière, fabrica
 Les enjeux liés à l’extraction minière sont particulièrement prégnants :
 -	provenance des minerais de zones de conflit ou à haut risque
 -	conditions de travail dans les mines : pénibilité, conditions de santé et de sécurité dangereuses
--	alimentation des conflits armés impliquant 4 minerais (« 3TG » ou « minerais de sang ») : tungstène, étain, tantale et or 
+-	alimentation des conflits armés impliquant 4 minerais (« 3TG » ou « minerais de sang ») : tungstène, étain, tantale et or
 -	travail des enfants dans les mines, notamment pour le cobalt dont la moitié de la production mondiale provient de la République démocratique du Congo et employant des enfants.
 
 Les étapes de fabrication des composants et d’assemblage des équipements sont également porteuses de nombreux risques : heures de travail irrégulières, travail précaire, risque de travail forcé dans certaines régions du monde, non application des règles de santé et sécurité au travail, etc.
 
 L’article 6 du cahier des clauses administratives générales (CCAG) des marchés publics de prestations intellectuelles et de techniques de l’information et de la communication rappelle les obligations qui s’imposent au titulaire en matière de protection de la main-d’œuvre et de conditions de travail. Cet article se réfère explicitement aux huit conventions fondamentales de l’OIT. Il impose au titulaire d’être en mesure de justifier le respect de ces obligations par lui et ses sous-traitants, et ce, sur simple demande de l’acheteur et tout au long de l’exécution du marché.
 
-Cet article précise par ailleurs que les modalités d’application de ces textes sont prévues dans les documents particuliers du marché. 
+Cet article précise par ailleurs que les modalités d’application de ces textes sont prévues dans les documents particuliers du marché.
 
 Ces obligations deviennent ainsi applicables dès lors qu’elles sont précisées aux cahiers des clauses administratives particulières.
 
@@ -327,7 +327,7 @@ Plus d’informations sur [le dispositif d’insertion dans les marchés publics
 
 Le dispositif de formation sous statut scolaire de jeunes en situation de décrochage scolaire est développé par le ministère de l’éducation nationale ; il s’adresse à tous les marchés de l’Etat et de ses établissements publics. Il vise à encourager les jeunes en situation de décrochage scolaire à réintégrer le système éducatif ou à les orienter vers un premier emploi.
 
-Ce dispositif est particulièrement adapté aux marchés dont les montants ne sont pas suffisamment importants pour calibrer une clause sociale d’insertion. Durant la préparation de son projet achat, l’acheteur doit choisir un des deux dispositifs à intégrer dans son marché. 
+Ce dispositif est particulièrement adapté aux marchés dont les montants ne sont pas suffisamment importants pour calibrer une clause sociale d’insertion. Durant la préparation de son projet achat, l’acheteur doit choisir un des deux dispositifs à intégrer dans son marché.
 
 Condition d’exécution du marché, la clause de formation engage le titulaire à réaliser une action de formation d’un ou plusieurs jeunes entre 16 et 25 ans, d’un niveau de qualification inférieur à celui mentionné à l'article L. 313-7 du code de l'éducation, tel que modifié par le décret n° 2010-1781 du 31 décembre 2010. Les jeunes sont stagiaires de l’entreprise sur une durée précisée à la clause et calibrée selon le montant du marché. Ils sont accompagnés par les Missions de Lutte contre le Décrochage Scolaire (MLDS) du ministère chargé de l’Education nationale.
 
@@ -356,7 +356,7 @@ Condition d’exécution du marché, la clause de formation engage le titulaire 
   </tbody>
 </table>
 </div>
-	
+
 <div class="fr-highlight">
 
 Les informations sur le dispositif : [La clause sociale de formation sous statut scolaire dans les marchés publics](https://www.education.gouv.fr/la-clause-sociale-de-formation-sous-statut-scolaire-dans-les-marches-publics-41543)
@@ -569,7 +569,7 @@ Les candidats sont invités à renseigner le questionnaire ci-dessous.
 
 Les éléments de réponse apportés doivent être clairs, fiables, transparents et documentés.
 
-L'attention des candidats est attirée sur le caractère informatif des réponses mentionnées dans ce document. En cas d’attribution du marché, ce document devient contractuel. 
+L'attention des candidats est attirée sur le caractère informatif des réponses mentionnées dans ce document. En cas d’attribution du marché, ce document devient contractuel.
 
 Les candidats dont les produits comportent un label de performance sociale (TCO certified, SA 8000 ou label équivalent)  doivent  préciser dans la rubrique "moyen  de preuve associé" le label correspondant.
 
@@ -694,7 +694,7 @@ Si autre organisation, préciser</td>
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/guide-pratique-achats-numeriques-responsables/labels/interministeriel/">Page précédente :<br />La mission interministérielle Label</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/impression/">Page suivante :<br />Solutions d’impression</a>
   </div>

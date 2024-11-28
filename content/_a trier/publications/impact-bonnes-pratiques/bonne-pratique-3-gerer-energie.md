@@ -1,6 +1,6 @@
 ---
-layout: layouts/impact-bonnes-pratiques.njk
-title: 3. Gérer l'énergie 
+layout: layouts/page.njk
+title: 3. Gérer l'énergie
 date: 2021-11-23
 image: /img/publications/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
 type: publication
@@ -27,16 +27,16 @@ eleventyNavigation:
   * Préférer l'extinction des matériels à la veille
   * Maîtriser les mises en veille
   * Eteindre les écrans non utilisés
-  * Adapter la luminosité des écrans  
+  * Adapter la luminosité des écrans
 
 **Impacts pour une consommation moyenne annuelle :**
 
   * Ordinateur portable : 48 kWh/an
   * PC fixe : 151 kWh/an
-  
+
 **Gains :**
-    
--40% de consommation énergétique 
+
+-40% de consommation énergétique
   * Ordinateur portable : -1,2 kg eq CO2
   * PC fixe : -3,6 kg eq CO2
 
@@ -45,7 +45,7 @@ eleventyNavigation:
   * Diminuer la consommation d'énergie
   * Diminuer les émissions de gaz à effet de serre
   * Augmenter la durée de vie des équipements
-    
+
 </div>
 
   <h2 class="fr-accordion__title">
@@ -64,7 +64,7 @@ Source : [ADN Ouest, Consommation énergétique des équipements informatiques e
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/impact-bonnes-pratiques/bonne-pratique-4-limiter-les-flux-de-donnees/">Étape précédente :<br />4. Limiter les flux de données</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/impact-bonnes-pratiques/bonne-pratique-2-ecoconcevoir-service-numerique/">Étape suivante :<br />2. Éco-concevoir les services numériques</a>
   </div>

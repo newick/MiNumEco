@@ -1,5 +1,5 @@
 ---
-layout: layouts/guide-achats.njk
+layout: layouts/page.njk
 title: Guide pratique pour des achats numériques responsables
 description: Ce guide consigne de nombreuses recommandations à l’adresse des acteurs publics, recommandations également ouvertes aux acteurs du secteur privé qui peuvent se les approprier dans leur propre démarche d’achat.
 date: 2021-04-29
@@ -15,7 +15,7 @@ eleventyNavigation:
   order: 30
 ---
 
-Depuis la loi relative à la lutte contre le gaspillage et à l'économie circulaire, ainsi que la circulaire relative aux services publics écoresponsables, l’État s’engage davantage à réduire son empreinte environnementale liée au numérique. Les efforts d’adaptation pour s’engager dans la transition écologique et solidaire doivent, pour une raison d’exemplarité, s’appliquer au service public. 
+Depuis la loi relative à la lutte contre le gaspillage et à l'économie circulaire, ainsi que la circulaire relative aux services publics écoresponsables, l’État s’engage davantage à réduire son empreinte environnementale liée au numérique. Les efforts d’adaptation pour s’engager dans la transition écologique et solidaire doivent, pour une raison d’exemplarité, s’appliquer au service public.
 
 La fabrication des équipements informatiques concentre la grande majorité des impacts environnementaux et sociaux. Il est donc essentiel de s’emparer du sujet de l’achat numérique pour le rendre plus responsable.
 
@@ -36,7 +36,7 @@ Vous y trouverez plusieurs familles d’achats avec pour chacune, des recommanda
       <div class="fr-card__img">
         <img src="/img/publications/guide-pratique-achats-numeriques-responsables/picto-ordinateur.svg" alt="">
       </div>
-    </div> 
+    </div>
   </div>
   <div class="fr-col-md-4 fr-col-12">
     <div class="fr-card fr-enlarge-link">
@@ -48,7 +48,7 @@ Vous y trouverez plusieurs familles d’achats avec pour chacune, des recommanda
       <div class="fr-card__img">
         <img src="/img/publications/guide-pratique-achats-numeriques-responsables/picto-imprimante.svg" alt="">
       </div>
-    </div> 
+    </div>
   </div>
   <div class="fr-col-md-4 fr-col-12">
     <div class="fr-card fr-enlarge-link">
@@ -60,7 +60,7 @@ Vous y trouverez plusieurs familles d’achats avec pour chacune, des recommanda
       <div class="fr-card__img">
         <img src="/img/publications/guide-pratique-achats-numeriques-responsables/picto-reseau.svg" alt="">
       </div>
-    </div> 
+    </div>
   </div>
   <div class="fr-col-md-4 fr-col-12">
     <div class="fr-card fr-enlarge-link">
@@ -72,7 +72,7 @@ Vous y trouverez plusieurs familles d’achats avec pour chacune, des recommanda
       <div class="fr-card__img">
         <img src="/img/publications/guide-pratique-achats-numeriques-responsables/picto-serveur.svg" alt="">
       </div>
-    </div> 
+    </div>
   </div>
   <div class="fr-col-md-4 fr-col-12">
     <div class="fr-card fr-enlarge-link">
@@ -84,7 +84,7 @@ Vous y trouverez plusieurs familles d’achats avec pour chacune, des recommanda
       <div class="fr-card__img">
         <img src="/img/publications/guide-pratique-achats-numeriques-responsables/picto-prestations-intellectuelles.svg" alt="">
       </div>
-    </div> 
+    </div>
   </div>
   <div class="fr-col-md-4 fr-col-12">
     <div class="fr-card fr-enlarge-link">
@@ -96,7 +96,7 @@ Vous y trouverez plusieurs familles d’achats avec pour chacune, des recommanda
       <div class="fr-card__img">
         <img src="/img/publications/guide-pratique-achats-numeriques-responsables/picto-logiciels.svg" alt="">
       </div>
-    </div> 
+    </div>
   </div>
 </div>
 

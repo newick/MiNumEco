@@ -1,5 +1,5 @@
 ---
-layout: layouts/video.njk
+layout: layouts/page.njk
 title: "Épisode #3 : Les actions des ministères vers un numérique responsable"
 description: Quelles sont les actions des ministères ? Réponse des référents ministériels numérique responsable
 date: 2024-07-21

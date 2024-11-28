@@ -1,5 +1,5 @@
 ---
-layout: layouts/bonne-pratique/default.njk
+layout: layouts/page.njk
 title: Webographie
 date: 2023-06-01
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
@@ -17,15 +17,15 @@ image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 * [Convention Citoyenne pour le Climat](https://propositions.conventioncitoyennepourleclimat.fr/objectif/accompagner-levolution-du-numerique-pour-reduire-ses-impacts-environnementaux/)
 * [Décret n° 2019-771 du 23 juillet 2019 relatif aux obligations d’actions de réduction de la consommation d’énergie finale dans des bâtiments  à usage tertiaire.](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038812251)
 * [DEEE professionnels : recyclage des déchets électriques](https://www.e-dechet.com/) (service proposé par Ecologic)
-* [Définition de « *Bloatware* »](https://fr.wikipedia.org/w/index.php?title=Bloatware&oldid=184255084), Wikipédia. 
+* [Définition de « *Bloatware* »](https://fr.wikipedia.org/w/index.php?title=Bloatware&oldid=184255084), Wikipédia.
 * [Directive 2012/19/UE du Parlement européen et du Conseil du 4 juillet 2012 relative aux déchets d’équipements électriques et électroniques (DEEE)](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026319124)
 * [Déployer la sobriété numérique, Shift Project, 2020](https://theshiftproject.org/wp-content/uploads/2020/10/Deployer-la-sobriete-numerique_Rapport-complet_ShiftProject.pdf)
 * [Eco-conception Web : Les 115 bonnes pratiques](https://collectif.greenit.fr/ecoconception-web/115-bonnes-pratiques-eco-conception_web.html)
-* [Économie de la fonctionnalité »](https://www.ademe.fr/expertises/economie-circulaire/economie-fonctionnalite), ADEME. 
+* [Économie de la fonctionnalité »](https://www.ademe.fr/expertises/economie-circulaire/economie-fonctionnalite), ADEME.
 * [En route vers la sobriété numérique](https://librairie.ademe.fr/consommer-autrement/5086-en-route-vers-la-sobriete-numerique-9791029718755.html), ADEME.
 * [Être écolo, même au bureau !](https://presse.ademe.fr/2017/06/etre-ecolo-meme-au-bureau-ecolobureau.html), ADEME Presse.
 * [Feuille de route numérique et environnement](https://www.ecologie.gouv.fr/numerique-et-environnement-feuille-route), Ministère de la Transition écologique et de la Cohésion des territoires.
-* [Formation Appliquez les principes du Green IT dans votre entreprise](https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise), OpenClassrooms. 
+* [Formation Appliquez les principes du Green IT dans votre entreprise](https://openclassrooms.com/fr/courses/6227476-appliquez-les-principes-du-green-it-dans-votre-entreprise), OpenClassrooms.
 * [Grafana](https://grafana.com/)
 * [Guide de bonnes pratiques du Code de Conduite européen sur les Datacentres](https://ecoinfo.cnrs.fr/2020/05/19/guide-des-bonnes-pratiques-du-code-de-conduite-europeen-sur-les-datacentres/), EcoInfo.
 * [Guide pratique pour des achats numériques responsables](https://ecoresponsable.numerique.gouv.fr/publications/guide-pratique-achats-numeriques-responsables/)
@@ -33,15 +33,15 @@ image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 * [Guide pratique « La face cachée du numérique »](https://librairie.ademe.fr/cadic/2351/guide-pratique-face-cachee-numerique.pdf), ADEME.
 * [Indice de réparabilité](https://www.ecologie.gouv.fr/indice-reparabilite), *Ministère de la Transition écologique et de la Cohésion des territoires*.
 * [INR | Institut du Numérique Responsable](https://institutnr.org)
-* [Impacts environnementaux du numérique en France »](https://www.greenit.fr/impacts-environnementaux-du-numerique-en-france/), Green IT. 
+* [Impacts environnementaux du numérique en France »](https://www.greenit.fr/impacts-environnementaux-du-numerique-en-france/), Green IT.
 * [La Fresque du Numérique](https://www.fresquedunumerique.org/)
 * [La mise en œuvre de la diligence raisonnable](https://electronicswatch.org/fr/la-mise-en-%C5%93uvre-de-la-diligence-raisonnable_2595038), Electronics Watch.
-* [Le guide d’éco-conception de services numériques](https://eco-conception.designersethiques.org/guide/), *Designers éthiques*. 
+* [Le guide d’éco-conception de services numériques](https://eco-conception.designersethiques.org/guide/), *Designers éthiques*.
 * [Légifrance - Droit national en vigueur - Circulaires et instructions - Engagements de l’État pour des services publics écoresponsables](https://www.legifrance.gouv.fr/download/pdf/circ?id=44936)
 * [Livre Blanc « Décideurs, comment concilier Numérique durable, gouvernance d'organisation et équité sociale »](https://alliancegreenit.org/2020-numerique-et-impact-social), AGIT (Alliance Green IT), 2020
 * [Livre Blanc « Guide des Labels RSE & Numérique Responsable - Comment valoriser votre engagement ? »](https://alliancegreenit.org/livre-blanc-label), AGIT (Alliance Green IT), 2021
 * [Livre Blanc « Sensibilisation-grand-public - Pour un numérique responsable au quotidien en 3 épisodes »](https://alliancegreenit.org/2019-sensibilisation-grand-public), AGIT (Alliance Green IT), 2019
-* [Loi de Wirth](https://fr.wikipedia.org/w/index.php?title=Loi_de_Wirth&oldid=187534799), *Wikipédia*. 
+* [Loi de Wirth](https://fr.wikipedia.org/w/index.php?title=Loi_de_Wirth&oldid=187534799), *Wikipédia*.
 * [LOI n° 2015-992 du 17 août 2015 relative à la transition énergétique pour la croissance verte](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031044385/).
 * [LOI n° 2019-1147 du 8 novembre 2019 relative à l’énergie et au climat](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000038430994/)
 * [LOI n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l’économie circulaire](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759/)

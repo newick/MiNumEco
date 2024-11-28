@@ -1,5 +1,5 @@
 ---
-layout: layouts/video.njk
+layout: layouts/page.njk
 title: "Épisode #2 FAQ : Les questions des référents numérique responsable"
 description: Questions à l'issue de la table ronde du 3 juin 2024, Les actions possibles sur le cycle de vie du matériel avec Laura De Oliveira, Mathilde Chevalier, Claire Dorville et Alain Caumeil.
 date: 2024-09-15

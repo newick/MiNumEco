@@ -1,5 +1,5 @@
 ---
-layout: layouts/guide-achats.njk
+layout: layouts/page.njk
 title: L’analyse de cycle de vie (ACV)
 date: 2021-04-29
 eleventyNavigation:
@@ -21,7 +21,7 @@ L’ACV recense et quantifie, tout au long de la vie des produits, les flux phys
 Qu’il s’agisse d’un bien, d’un service, voire d’un procédé, toutes les étapes du cycle de vie d’un produit sont prises en compte pour l’inventaire des flux, du « berceau à la tombe » : extraction des matières premières énergétiques et non énergétiques nécessaires à la fabrication et à l’assemblage du produit, la fabrication et l’assemblage du produit lui-même, distribution, utilisation, collecte et élimination vers les filières de fin de vie ainsi que toutes les phases de transport.
 
 ![](/img/publications/guide-pratique-achats-numeriques-responsables/schema-acv.svg)
- 
+
 ## Une approche « multicritère »
 
 Une ACV se fonde sur plusieurs critères d’analyse des flux entrants et sortants. On appelle « flux » tout ce qui entre dans la fabrication du produit et tout ce qui sort en matière de pollution. Parmi les flux entrants, on trouve, par exemple, ceux des matières et de l’énergie : ressources en fer, eau, pétrole, gaz. Quant aux flux sortants, ils peuvent correspondre aux déchets, émissions gazeuses, liquide rejeté, etc.
@@ -34,7 +34,7 @@ Source : [Qu'est-ce que l'ACV ? ADEME, 2018](https://www.ademe.fr/expertises/con
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/definition/">Page précédente :<br />Qu’est-ce que le numérique responsable ?</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/alternative-achat/">Page suivante :<br />Les alternatives à l’achat du neuf</a>
   </div>

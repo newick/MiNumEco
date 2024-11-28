@@ -1,6 +1,6 @@
 ---
 tags: collectivitesOutils
-layout: layouts/outil-collectivites.njk
+layout: layouts/page.njk
 title: NumÉcoEval
 description: Outil open source d’évaluation et de pilotage de l’empreinte environnementale des systèmes d’information.
 date: 2023-07-13

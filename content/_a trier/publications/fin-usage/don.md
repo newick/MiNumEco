@@ -1,5 +1,5 @@
 ---
-layout: layouts/fin-usage.njk
+layout: layouts/page.njk
 title: Focus sur le don
 date: 2022-03-22
 image: /img/publications/fin-usage/atelier-fin-usage.webp
@@ -50,8 +50,8 @@ Loi relative à la différenciation, décentralisation, déconcentration et port
 <div class="fr-collapse" id="figure-conditions-don">
 
 * le bien est valorisable (< 5 ans ou marque premium, en état de marche et les données effacées) ⇒ vente avec mise en concurrence et publicité (article R3211-25 CG3P) par la DNID
-* le bien est peu valorisable (<300€, en état de marche et les données effacées) ⇒ il est proposé aux dons sur le site des dons (article L3212-2 CG3P) 
-* le bien est valorisable ou peu valorisable (en état de marche), il peut être transféré à d’autres administrations ou EPN, via le site des dons  
+* le bien est peu valorisable (<300€, en état de marche et les données effacées) ⇒ il est proposé aux dons sur le site des dons (article L3212-2 CG3P)
+* le bien est valorisable ou peu valorisable (en état de marche), il peut être transféré à d’autres administrations ou EPN, via le site des dons
 * le bien est considéré comme déchet (ne fonctionne plus ou mal) ⇒ il est transmis aux professionnels d’éco-organismes D3E agréés (Ecologic, ecosystem, …).
 
 </div>
@@ -66,9 +66,9 @@ Loi relative à la différenciation, décentralisation, déconcentration et port
 
 ## À qui donner ?
 
-En dehors du transfert à d’autres administrations, la réglementation des dons permet aux organismes publics de donner sous conditions : 
-1. **Le bénéficiaire appartient à la liste des bénéficiaires potentiels :** personnels des administrations ; collectivités territoriales, leurs Établissement public locaux (EPL) et leurs groupements ; associations de parents d'élèves, de soutien scolaire ou d'étudiants ; associations reconnues d'utilité publique (RUP) et associations reconnues d’intérêt général (RIG) dont l’objet statutaire est d’équiper, de former et d’accompagner des personnes en situation de précarité ; organismes de réutilisation et de réemploi agréés 
-“entreprise solidaire d'utilité sociale” en application du II de l’article L. 3332-17-1 du code du travail. 
+En dehors du transfert à d’autres administrations, la réglementation des dons permet aux organismes publics de donner sous conditions :
+1. **Le bénéficiaire appartient à la liste des bénéficiaires potentiels :** personnels des administrations ; collectivités territoriales, leurs Établissement public locaux (EPL) et leurs groupements ; associations de parents d'élèves, de soutien scolaire ou d'étudiants ; associations reconnues d'utilité publique (RUP) et associations reconnues d’intérêt général (RIG) dont l’objet statutaire est d’équiper, de former et d’accompagner des personnes en situation de précarité ; organismes de réutilisation et de réemploi agréés
+“entreprise solidaire d'utilité sociale” en application du II de l’article L. 3332-17-1 du code du travail.
 2. **La valeur unitaire des biens donnés n'excède pas 300€.**
 3. **Les biens donnés ne sont pas revendus.** La loi 3DS a introduit une exception en permettant aux associations reconnues d’utilité publique (RUP) et aux associations reconnues d’intérêt général (RIG) de revendre les biens reçus en dons, à des personnes en situation de précarité ou à des associations œuvrant en faveur de telles personnes dès lors que le prix dit « solidaire » des biens informatiques ne dépasse pas un seuil défini par décret. Ce tarif solidaire sera fixé par décret.
 
@@ -82,10 +82,10 @@ En dehors du transfert à d’autres administrations, la réglementation des don
 
 **Utilisation**
 
-1. Créer son compte 
-2. Rédiger son offre avec descriptif, photos et contact 
-3. Définir la durée de réservation du don aux autres administrations (15 jours) puis la date limite de validité de l’offre 
-4. Publication de l’offre, après validation par le Domaine 
+1. Créer son compte
+2. Rédiger son offre avec descriptif, photos et contact
+3. Définir la durée de réservation du don aux autres administrations (15 jours) puis la date limite de validité de l’offre
+4. Publication de l’offre, après validation par le Domaine
 5. Remise du bien : vérification de l’éligibilité du bénéficiaire et signature d’une convention de dons ou de transfert.
 
 ## Chiffres et perspectives
@@ -139,7 +139,7 @@ Les **indicateurs de suivi** de la démarche « Services publics écoresponsabl
 - nombre de biens donnés à des associations, fondations, autres organismes
 - nombre de bénéficiaires de dons
 
-### Les perspectives 
+### Les perspectives
 
 Deux décrets sont à venir :
 

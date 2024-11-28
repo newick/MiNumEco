@@ -1,5 +1,5 @@
 ---
-layout: layouts/video.njk
+layout: layouts/page.njk
 title: "Épisode #1 : Présentation du réseau des référents"
 description: Comment les ministères agissent pour réduire leur empreinte environnementale ? Présentation de l'action de la MinumEco et des référents ministériels numérique écoresponsable.
 date: 2024-07-20

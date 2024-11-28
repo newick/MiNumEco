@@ -1,5 +1,5 @@
 ---
-layout: layouts/referentiel-ecoconception.njk
+layout: layouts/page.njk
 title: Retours d'expérience
 description: Quelques exemples de mise en œuvre d'une démarche d'écoconception de service numérique.
 image: /img/publications/referentiel-general-ecoconception/referentiel-ecoconception.webp

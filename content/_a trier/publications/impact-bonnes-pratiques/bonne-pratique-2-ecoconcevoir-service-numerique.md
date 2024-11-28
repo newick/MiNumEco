@@ -1,5 +1,5 @@
 ---
-layout: layouts/impact-bonnes-pratiques.njk
+layout: layouts/page.njk
 title: 2. Éco-concevoir les services numériques
 date: 2021-11-23
 image: /img/publications/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
@@ -38,7 +38,7 @@ eleventyNavigation:
 
   * 2 g eq. CO2
   * 3 cl d'eau consommé
-  
+
 **Gains :**
 
 Comparaison pour 100000 parcours utilisateur sur une démarche en ligne "comment se pacser" en France et en Grande-Bretagne :
@@ -49,7 +49,7 @@ Comparaison pour 100000 parcours utilisateur sur une démarche en ligne "comment
 **Bénéfices :**
 
   * Diminuer la consommation d'eau
-  * Diminuer les émissions de gaz à effet de serre 
+  * Diminuer les émissions de gaz à effet de serre
   * Réduire le nombre de serveurs nécessaires au service numérique
   * Allonger la durée de vie des équipements
 
@@ -69,7 +69,7 @@ L’hypothèse des gains est issue de l’analyse comparative à l’aide de l�
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/impact-bonnes-pratiques/bonne-pratique-3-gerer-energie/">Étape précédente :<br />3. Gérer l'énergie</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/impact-bonnes-pratiques/bonne-pratique-1-allonger-duree-vie-materiel/">Étape suivante :<br />1. Allonger la durée de vie du matériel</a>
   </div>

@@ -1,5 +1,5 @@
 ---
-layout: layouts/numerique-responsable-collectivites.njk
+layout: layouts/page.njk
 title: "6. Mise en place d’une démarche de territoire connecté et durable en lien avec une démarche d’ouverture et de valorisation des données"
 description: Afin de faciliter l'élaboration et la mise en oeuvre de ces nouvelles obligation par les collectivités concernées, la Mission interministérielle numérique responsable a travaillé avec le réseau des Interconnectés, dans le cadre du programme Transformation numérique des territoires à une traduction opérationnelle des nouvelles obligations fixées par ce décret.
 date: 2023-07-13
@@ -25,7 +25,7 @@ eleventyNavigation:
 - Réfléchir en amont à l'hébergement des données et leur partage : approche "self data" (exemple plateforme [Rudi](https://blog.rudi.bzh/)) ou mutualisation (datalake)
 - Travailler sur l'exploitation et la valorisation des données en proposant des outils dédiés : exemple des jumeaux numériques ou hyperviseurs permettant de croiser différentes sources de données, de formats différents pour l'amélioration du pilotage des politiques publiques et des projets transversaux complexes)
 - Mutualiser les usages de l'infrastructure réseau et IOT du territoire
-- Privilégier les solutions, outils et équipements interopérables 
+- Privilégier les solutions, outils et équipements interopérables
 
 #### Exemples d'indicateurs à suivre
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: EcoDiag
 description: Bilan carbone des équipements informatiques d'une organisation
 tags: tool

@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: GreenIT-Analysis
 description: Mesure des impacts environnementaux d'une page web
 tags: tool

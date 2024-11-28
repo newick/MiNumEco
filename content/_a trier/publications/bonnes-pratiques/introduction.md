@@ -1,5 +1,5 @@
 ---
-layout: layouts/bonne-pratique/default.njk
+layout: layouts/page.njk
 title: À propos du Guide de bonnes pratiques numérique responsable pour les organisations
 date: 2023-06-19
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
@@ -76,7 +76,7 @@ Des guides, référentiels, outils, supports de sensibilisation sont publiés da
 
 Elle oriente, anime, soutient et coordonne les actions des administrations de l’État visant à améliorer la qualité, l’efficacité, l’efficience et la fiabilité des services rendus par le système d’information et de communication de l’État. Elle conseille le Premier ministre et les ministres compétents sur la prise en compte du numérique dans les politiques publiques mises en œuvre par les ministères.
 
-Dans le cadre de la mission interministérielle numérique écoresponsable du programme TECH.GOUV, la DINUM est engagée avec le Ministère de la Transition Ecologique auprès des ministères pour permettre aux administrations de s’inscrire durablement dans les démarches pour un numérique plus responsable. 
+Dans le cadre de la mission interministérielle numérique écoresponsable du programme TECH.GOUV, la DINUM est engagée avec le Ministère de la Transition Ecologique auprès des ministères pour permettre aux administrations de s’inscrire durablement dans les démarches pour un numérique plus responsable.
 
 ### Le Ministère de la Transition écologique et la de Cohésion des territoires
 
@@ -100,7 +100,7 @@ Au sein du service du pilotage stratégique et de la gouvernance, la sous-direct
 
 ### L’Institut du Numérique Responsable (INR)
 
-Association loi 1901 à but non lucratif créée en 2018, l’[INR](https://institutnr.org/) a pour objet d’être un lieu de réflexion sur les trois enjeux clés du numérique responsable : la réduction de l’empreinte (économique, sociale et environnementale) du numérique, la capacité du numérique à réduire l’empreinte (économique, sociale et environnementale) de l’humanité, et la création de valeur durable / innovation responsable via le numérique pour réussir l’e-inclusion de tous. 
+Association loi 1901 à but non lucratif créée en 2018, l’[INR](https://institutnr.org/) a pour objet d’être un lieu de réflexion sur les trois enjeux clés du numérique responsable : la réduction de l’empreinte (économique, sociale et environnementale) du numérique, la capacité du numérique à réduire l’empreinte (économique, sociale et environnementale) de l’humanité, et la création de valeur durable / innovation responsable via le numérique pour réussir l’e-inclusion de tous.
 
 L’INR est un acteur de référence rassemblant entreprises et organisations autour de l’expérimentation et la promotion de bonnes pratiques pour un numérique plus régénérateur, inclusif et éthique.
 
@@ -112,7 +112,7 @@ EcoInfo est l’acteur de référence pour l’Enseignement Supérieur et la Rec
 
 ### Ecologic
 
-[Ecologic](https://www.ecologic-france.com/) est un éco-organisme agréé, fortement investi depuis son origine sur le secteur IT. Entreprise à but non lucratif, Ecologic est investi par l’Etat d’une mission d’utilité publique consistant à développer la prévention des déchets et à assurer la gestion des déchets des équipements électriques et électroniques (DEEE) ménagers et professionnels. 
+[Ecologic](https://www.ecologic-france.com/) est un éco-organisme agréé, fortement investi depuis son origine sur le secteur IT. Entreprise à but non lucratif, Ecologic est investi par l’Etat d’une mission d’utilité publique consistant à développer la prévention des déchets et à assurer la gestion des déchets des équipements électriques et électroniques (DEEE) ménagers et professionnels.
 
 ### ecosystem
 

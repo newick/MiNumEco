@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: NumEcoEval
 description: Outil open source d’évaluation et de pilotage de l’empreinte environnementale des systèmes d’information.
 tags: tool

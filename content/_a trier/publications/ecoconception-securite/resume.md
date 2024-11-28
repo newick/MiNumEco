@@ -1,5 +1,5 @@
 ---
-layout: layouts/ecoconception-securite.njk
+layout: layouts/page.njk
 title: Résumé des synergies entre écoconception, cybersécurité et protection des données
 date: 2022-07-06
 image: /img/publications/ecoconception-securite/ecoconception-securite.webp

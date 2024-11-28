@@ -1,6 +1,6 @@
 ---
 tags: collectivitesOutils
-layout: layouts/outil-collectivites.njk
+layout: layouts/page.njk
 title: L'éco-clic
 description: Outil de pilotage conçu pour accompagner les différentes étapes de mise en œuvre d'une démarche responsable au sein des collectivités territoriales.
 date: 2023-07-13

@@ -1,5 +1,5 @@
 ---
-layout: layouts/ecoconception-securite.njk
+layout: layouts/page.njk
 title: Synergies et divergences
 date: 2022-07-01
 image: /img/publications/ecoconception-securite/ecoconception-securite.webp
@@ -68,7 +68,7 @@ Principe qui fait référence à la protection de la vie privée dès la concept
 - ***Green by design***
 Plus rarement utilisée qu’écoconception, cette expression a une signification similaire, la prise en compte de l’environnement dès la conception et avant même la conception, puisque cela peut amener à faire différemment voire à ne pas numériser.
 
-Il s’agit d’être dans l’anticipation : la cybersécurité est l’anticipation des menaces possibles, l’écoconception l’anticipation des impacts. Autres exemples d’anticipation : l’anticipation des accroissements de volumes dans le temps, l’anticipation des pertes de valeurs par obsolescence des informations ou par perte de connaissance, l’anticipation des dettes techniques, ... 
+Il s’agit d’être dans l’anticipation : la cybersécurité est l’anticipation des menaces possibles, l’écoconception l’anticipation des impacts. Autres exemples d’anticipation : l’anticipation des accroissements de volumes dans le temps, l’anticipation des pertes de valeurs par obsolescence des informations ou par perte de connaissance, l’anticipation des dettes techniques, ...
 
 
 <h3 id="minimisation">Minimisation</h3>
@@ -180,7 +180,7 @@ Le décommissionnement est un arrêt du service numérique, accompagné d’une 
 <h3 id="cycle-de-vie">Cycle de vie</h3>
 
 L’approche cycle de vie permet d’appliquer les bonnes pratiques à chaque phase d’un projet (conception, usage, fin d’usage), quel que soit le domaine. Elle s’applique à chacun des trois domaines : écoconception, protection des données et cybersécurité.
- 
+
 Par exemple, les règles du RGPD s’appliquent à la fin de vie des données qui doivent faire l’objet d’un archivage intermédiaire ou de suppression au bout d’une durée donnée en fonction de la finalité du traitement. Dans certains cas, le responsable s’appuiera sur des obligations légales ou sur des recommandations de la CNIL. Dans les autres cas, il devra définir une durée légitime et la documenter.
 
 <h3 id="amelioration-continue">Amélioration continue</h3>

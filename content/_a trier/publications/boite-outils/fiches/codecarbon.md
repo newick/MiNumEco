@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: Code Carbon
 description: Mesure de l'impact carbone des algorithmes d'intelligence artificielle
 tags: tool

@@ -1,6 +1,6 @@
 ---
 tags: collectivitesOutils
-layout: layouts/outil-collectivites.njk
+layout: layouts/page.njk
 title: Outil d’aide à l’auto-évaluation de l’impact environnemental du numérique pour les collectivités
 description: Tableur de mesure de l'empreinte numérique d'une collectivité
 date: 2023-07-13
@@ -16,7 +16,7 @@ retoursExperienceDeCollectivites: non
 accompagnement: Documentaire (guide d'utilisation de l'outil mis à disposition)
 openSourceOpenData: oui
 disponibilite: en ligne
-url: https://www.interconnectes.com/guide-outilsnr/  
+url: https://www.interconnectes.com/guide-outilsnr/
 ---
 
 Tableur de mesure de l'empreinte numérique d'une collectivité

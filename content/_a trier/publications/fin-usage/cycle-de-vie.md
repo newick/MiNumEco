@@ -1,5 +1,5 @@
 ---
-layout: layouts/fin-usage.njk
+layout: layouts/page.njk
 title: Cycle de vie de l’équipement numérique
 date: 2022-04-20
 image: /img/publications/fin-usage/atelier-fin-usage.webp
@@ -20,7 +20,7 @@ Il y a trois états dans la vie d’un produit
 
 ## Un équipement neuf ou d’occasion peut faire l’objet d’un réemploi
 
-Ce réemploi peut prendre les formes suivantes. 
+Ce réemploi peut prendre les formes suivantes.
 
 ### 1. Remise en état
 

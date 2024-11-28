@@ -1,5 +1,5 @@
 ---
-layout: layouts/referentiel-ecoconception.njk
+layout: layouts/page.njk
 title: Journal des modifications
 image: /img/publications/referentiel-general-ecoconception/referentiel-ecoconception.webp
 date: 2023-01-11

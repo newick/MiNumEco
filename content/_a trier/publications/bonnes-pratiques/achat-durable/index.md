@@ -1,5 +1,5 @@
 ---
-layout: layouts/bonne-pratique/thematique.njk
+layout: layouts/page.njk
 title: Achat durable et responsable
 tags: guideBpNrThematique
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp

@@ -1,5 +1,5 @@
 ---
-layout: layouts/ecoconception-securite.njk
+layout: layouts/page.njk
 title: Définitions
 date: 2022-07-01
 image: /img/publications/ecoconception-securite/ecoconception-securite.webp
@@ -56,7 +56,7 @@ Le cycle de vie :
 </div>
 </section>
 
-#### Afin de réduire ces impacts environnementaux, les bonnes pratiques sont : 
+#### Afin de réduire ces impacts environnementaux, les bonnes pratiques sont :
 
 - Réduire le nombre d’équipements et la taille des écrans
 - Allonger la durée de vie des équipements
@@ -74,7 +74,7 @@ L’écoconception est une démarche d’amélioration continue visant à rédui
 **Les principaux objectifs de l’écoconception d’un service numérique sont :**
 
 - Réduire la consommation de ressources informatiques
-- Réduire la contribution à l’obsolescence des équipements, en particulier ceux des utilisateurs. 
+- Réduire la contribution à l’obsolescence des équipements, en particulier ceux des utilisateurs.
 
 **L’écoconception de service numérique :**
 
@@ -99,7 +99,7 @@ _« La cybersécurité et la protection des données est une approche globale q
 
 ### Focus sur la cybersécurité
 
-**La cybersécurité** est à la fois un état et un ensemble de domaines visant cet état : 
+**La cybersécurité** est à la fois un état et un ensemble de domaines visant cet état :
 - « état recherché pour un système d’information lui permettant de résister à la menace cyber susceptible de compromettre la **disponibilité**, l’**intégrité** ou la **confidentialité** des données ou des services connexes. »
 La cybersécurité répond à 4 types de besoins résumés sous les sigles **DICP** ou **DICT**
   **D**isponibilité
@@ -108,18 +108,18 @@ La cybersécurité répond à 4 types de besoins résumés sous les sigles **DI
   **P**reuve ou **T**raçabilité
 - Ensemble de méthodologies, technologies, règlements, lois, métiers, … visant à **protéger** dans le cyberespace **ce qui doit l’être** (actifs essentiels), **au bon niveau** et **au meilleur coût**, (l’analyse de risques cybersécurité permet aussi de faire de l’optimisation financière).
 
-**Organisation de la cybersécurité** 
+**Organisation de la cybersécurité**
 
 - **Organisation, installation :**
-  - Que faut-il protéger ? Pourquoi ? 
+  - Que faut-il protéger ? Pourquoi ?
     - Des processus : facturation, R&D (Recherche et développement), fabrication, …
     - Des données : clients, RH (Ressources Humaines), R&D …
-  - Recensement des actifs à protéger puis classification 
+  - Recensement des actifs à protéger puis classification
     - cartographie des données à protéger dans un processus d’amélioration continue
     - Quel niveau de sécurité ? Gravité d’une atteinte aux actifs ciblés ?
     - Quelle est la vraisemblance d’un scénario de risque ?
   - Politique de sécurité du SI
-- **Sécurité opérationnelle :** 
+- **Sécurité opérationnelle :**
   - Surveillance et déclenchement d’incidents de sécurité
   - Réponse à incident : plan de continuité et de reprise d’activité
   - Veille sur les vulnérabilités pour les maîtriser (le SI et les techniques d’attaque évoluent. exemple : détecter des mises à jour de sécurité à déployer, réaliser des audits de sécurité)
@@ -135,12 +135,12 @@ _« La cybersécurité ce n’est pas seulement les services que l’on possèd
 
 ### Liens entre cybersécurité et protection des données
 
-Il existe un lien très fort entre la cybersécurité et la protection des données. La sécurité est un axe majeur de la protection des données. En effet, la protection des données implique la formalisation d’une politique de sécurité et de confidentialité des données faisant l’objet d’un traitement, afin d’éviter leur communication à des tiers voire leur transfert hors Union Européenne ou dans un pays n’ayant pas le niveau de protection adéquat. 
+Il existe un lien très fort entre la cybersécurité et la protection des données. La sécurité est un axe majeur de la protection des données. En effet, la protection des données implique la formalisation d’une politique de sécurité et de confidentialité des données faisant l’objet d’un traitement, afin d’éviter leur communication à des tiers voire leur transfert hors Union Européenne ou dans un pays n’ayant pas le niveau de protection adéquat.
 
-La mise en œuvre de la sécurité du traitement des données à caractère personnel est décrite à l’article 32 du RGPD, qui liste les mesures techniques et organisationnelles appropriées devant être prises par le responsable de traitement afin de garantir un niveau de sécurité adapté au risque : 
+La mise en œuvre de la sécurité du traitement des données à caractère personnel est décrite à l’article 32 du RGPD, qui liste les mesures techniques et organisationnelles appropriées devant être prises par le responsable de traitement afin de garantir un niveau de sécurité adapté au risque :
 
 *	Pseudonymisation et chiffrement des données
-* Moyens 
+* Moyens
   * de garantir la confidentialité, l'intégrité, la disponibilité et la résilience constantes des systèmes et des services de traitement
   * permettant de rétablir la disponibilité des données à caractère personnel et l'accès à celles-ci dans des délais appropriés en cas d'incident physique ou technique
 * Procédure visant à tester, à analyser et à évaluer régulièrement l'efficacité des mesures techniques et organisationnelles pour assurer la sécurité du traitement

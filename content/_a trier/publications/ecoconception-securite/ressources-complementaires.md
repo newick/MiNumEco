@@ -1,5 +1,5 @@
 ---
-layout: layouts/ecoconception-securite.njk
+layout: layouts/page.njk
 title: Ressources complémentaires
 date: 2022-07-01
 image: /img/publications/ecoconception-securite/ecoconception-securite.webp

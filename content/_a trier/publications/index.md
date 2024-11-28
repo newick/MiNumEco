@@ -1,5 +1,5 @@
 ---
 title: Ressources
-layout: layouts/publications.njk
+layout: layouts/page.njk
 permalink: /ressources2/
 ---

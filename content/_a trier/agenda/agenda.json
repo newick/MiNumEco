@@ -1,5 +1,5 @@
 {
   "tags": ["agenda"],
   "type": "agenda",
-  "layout": "layouts/agenda-detail.njk"
+  "layout": "layouts/page.njk"
 }

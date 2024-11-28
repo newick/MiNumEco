@@ -1,5 +1,5 @@
 ---
-layout: layouts/guide-achats.njk
+layout: layouts/page.njk
 title: Logiciels
 date: 2023-02-20
 image: /img/publications/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
@@ -24,7 +24,7 @@ Si vous avez expérimenté des pratiques responsables sur l’achat de logiciels
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/prestations-intellectuelles/">Page précédente :<br />Prestations Intellectuelles (P2i)</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/guide-pratique-achats-numeriques-responsables/glossaire/">Page suivante :<br />Webo-bibliographie et glossaire</a>
   </div>

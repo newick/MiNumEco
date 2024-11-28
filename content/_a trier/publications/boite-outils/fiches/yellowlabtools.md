@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: Yellow Lab Tools
 description: Mesure des performances d'une page web
 tags: tool

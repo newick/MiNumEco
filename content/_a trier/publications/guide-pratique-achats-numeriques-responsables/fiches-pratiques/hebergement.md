@@ -1,5 +1,5 @@
 ---
-layout: layouts/guide-achats.njk
+layout: layouts/page.njk
 title: Matériels d’infrastructures informatiques et services d’hébergement / solutions hébergées
 date: 2021-04-29
 image: /img/publications/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
@@ -61,8 +61,8 @@ Cette fiche sera complétée et actualisée pour la V1 du Guide.
 **Loi AGEC** (Loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l’économie circulaire ; Cf « [Que prévoit la loi](/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/que-prevoit-la-loi/) »)
 
 * définition du caractère « reconditionné » (article 37) – dès parution du décret
-* À partir du 1er janvier 2021 : obligation d’achat de produits reconditionnés ou incorporant des matières recyclées dans une proportion annuelle minimale de 20%. Décret n° 2021-254 du 9 mars 2021 relatif à [l’obligation d’acquisition par la commande publique de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043231546)). Les obligations de ce décret s’appliquent aux seuls marchés de fourniture.  
-* À partir du 1er janvier 2022 : 
+* À partir du 1er janvier 2021 : obligation d’achat de produits reconditionnés ou incorporant des matières recyclées dans une proportion annuelle minimale de 20%. Décret n° 2021-254 du 9 mars 2021 relatif à [l’obligation d’acquisition par la commande publique de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043231546)). Les obligations de ce décret s’appliquent aux seuls marchés de fourniture.
+* À partir du 1er janvier 2022 :
     * obligations d’affichage environnemental et d’information du consommateur, dont l’[indice de réparabilité](https://www.ecologie.gouv.fr/indice-reparabilite) et part de matériaux recyclés le cas échéant (articles 13 et 16 ; parution du décret d’application et des arrêtés d’application de l’article 16 le 29 décembre 2020)
     * durée minimale de disponibilité des pièces détachées de 5 ans (article 19)
     * information obligatoire du vendeur professionnel par le producteur de la disponibilité ou non de pièces détachées et de la durée de leur disponibilité. Si aucune information : pièces détachées réputées non disponibles (article 19).
@@ -96,10 +96,10 @@ Ce paragraphe présente de manière synthétique les exemples de questions à po
 
 - Avez-vous déjà répondu à des appels d’offres publics/privés très engagés dans  la démarche achats responsables ?
 - Quel en est votre retour d’expérience ?
-- Pourriez-vous nous donner des contacts de benchmark ? 
+- Pourriez-vous nous donner des contacts de benchmark ?
 - Certains éléments d’appels d’offres sont-ils déjà été bloquants au point de ne pas répondre ? Lesquels et pourquoi ?
 
-#### Démarche générale de l’entreprise ; Responsabilité environnementale et sociale de l’entreprise, attachée aux prestations objets du marché	
+#### Démarche générale de l’entreprise ; Responsabilité environnementale et sociale de l’entreprise, attachée aux prestations objets du marché
 
 - Votre entreprise prend-elle en considération les impacts environnementaux de ses activités périphériques à la construction des matériels ? Emballages, transport ? Si oui les décrire.
 - Quelle est votre politique en matière de gestion des DEEE ? Adhésion à un éco-organisme ou système individuel ?
@@ -122,18 +122,18 @@ Si oui, pouvez-vous la décrire ? Disposez-vous d'informations sur l'origine des
 #### Préoccupations environnementales ; Qualité environnementale des matériels d’infrastructure
 
 - Les matériels sont-ils éco-labellisés ? Si oui, dans quelle proportion ? Quel label et quel niveau de labellisation ?Par exemple : label TCO, label 2018 EPEAT niveau Gold. Attention, le niveau d’exigences minimales du label EPEAT a été revu en 2018.
-- Dégagement calorifique : Quelle température maximale émise par les équipements proposés avec une base de température d’entrée à 17 degrés ? Quel BTU / Heure des équipements ? 
+- Dégagement calorifique : Quelle température maximale émise par les équipements proposés avec une base de température d’entrée à 17 degrés ? Quel BTU / Heure des équipements ?
 - Performance des alimentations électriques : quel niveau de rendement des alimentations par rapport au niveau de performance (taux de charge) ? Les alimentations sont-elles certifiées (80+ ou équivalent) ?
 - Les produits sont-ils recyclables ? A quel taux ? (pièces et matériaux facilement séparables, réutilisables, marquage des plastiques, absence de vernis…)
 - Nature des matériaux composant les produits : caractéristiques des matériels ou évolutions prévues pour l’utilisation de ressources recyclées, la réduction des prélèvements de ressources (poids des matériels par exemple), l’innocuité des matériaux ?
 - Si matériaux recyclés : quels matériaux et quel taux de matériaux recyclés (en poids par rapport au poids total du matériau considéré) ? Quelles parties des produits sont visées (y a-t-il des parties qui ne peuvent pas être composées de matériaux recyclés ?)
 - Quelles caractéristiques des produits pouvant favoriser un allongement de leur durée de vie ?
 - Quel est le niveau sonore des produits ?
-- Pour toutes ces questions, quels éléments peuvent-ils être fournis en tant que moyen de preuve ? 
+- Pour toutes ces questions, quels éléments peuvent-ils être fournis en tant que moyen de preuve ?
 
 #### Préoccupations sociales ; Traçabilité sociale des chaînes d’approvisionnement
 
-- Description des chaînes d’approvisionnement : étapes de production et lieux d’implantation, nombre de fournisseurs (rangs 1 et inférieurs)… 
+- Description des chaînes d’approvisionnement : étapes de production et lieux d’implantation, nombre de fournisseurs (rangs 1 et inférieurs)…
 - Informations détenues sur les conditions sociales et environnementales dans la chaîne de production.
 - Informations détenues sur les lieux d’extraction des matières premières et les conditions d’exploitation (sociales et environnementales, notamment questions des minerais de conflit).
 - Moyens de preuve pouvant être fournis pour la vérification des allégations.
@@ -145,7 +145,7 @@ Si oui, pouvez-vous la décrire ? Disposez-vous d'informations sur l'origine des
 
 - Fonctionnement des services	Quels sont les lieux d'implantation géographique des  services ? (fonctions opérationnelles et fonctions support / administratives)
 - Lieux et conditions de stockage ?
-- Processus de livraison et modes de transport utilisés ? 
+- Processus de livraison et modes de transport utilisés ?
 
 #### Performance environnementale et sociale des produits
 
@@ -153,7 +153,7 @@ Si oui, pouvez-vous la décrire ? Disposez-vous d'informations sur l'origine des
 - Sous quelle forme et via quels canaux d’information ?
 
 Informations sur l’origine des produits et les conditions de production :
-- Etapes de production et lieux d’implantation, nombre de fournisseurs (rangs 1 et inférieurs)… 
+- Etapes de production et lieux d’implantation, nombre de fournisseurs (rangs 1 et inférieurs)…
 - Informations détenues sur les conditions sociales et environnementales dans la chaîne de production
 - Informations détenues sur les lieux d’extraction des matières premières et les conditions d’exploitation (sociales et environnementales, notamment questions des minerais de conflit)
 - Moyens de preuve pouvant être fournis pour la vérification des allégations
@@ -170,15 +170,15 @@ Informations sur l’origine des produits et les conditions de production :
 #### Préoccupations environnementales ; Pratiques environnementales
 
 - Quelle implantation des serveurs et caractéristiques environnementales ? mise en œuvre de pratiques particulières en faveur de l’économie d’énergie dans le fonctionnement des serveurs ?
-- Les services d’hébergement et/ou solutions hébergées sont-ils/elles éco-conçus (écoconception logicielle, sobriété du code…) ? 
-- Quelles en sont les caractéristiques qui permettent de diminuer la consommation énergétique ? 
+- Les services d’hébergement et/ou solutions hébergées sont-ils/elles éco-conçus (écoconception logicielle, sobriété du code…) ?
+- Quelles en sont les caractéristiques qui permettent de diminuer la consommation énergétique ?
 - Quelles informations environnementales sur les solutions d’hébergement et solutions hébergées ? (quantité de données consommées, consommation énergétique associée et équivalent en termes d’émission de GES) – voir obligations loi AGEC à partir de 2022
 - Sous quelle forme ? Via quels canaux d’information ?
 
 En particulier :
-- Quels indicateurs d’efficacité énergétique utilisez-vous ? 
-- Publiez-vous vos PUE ? Pour chacun de vos centres de données ? 
-- Utilisez-vous plusieurs niveaux de mesure des PUE ? Quels sont vos intervalles de mesure ? 
+- Quels indicateurs d’efficacité énergétique utilisez-vous ?
+- Publiez-vous vos PUE ? Pour chacun de vos centres de données ?
+- Utilisez-vous plusieurs niveaux de mesure des PUE ? Quels sont vos intervalles de mesure ?
 - Intégrez-vous la consommation d’eau, l’empreinte carbone et la puissance de calcul générée sur une période donnée combinés au PUE ?
 - Intégrez-vous la typologie, l’âge et l’équipement (densité, armoires, confinement…) du centre de donnée ?  Le niveau de redondance ? Les niveaux de température et d’humidité ? Le type de refroidissement ?
 - Vous faites-vous évaluer par des tiers indépendants sur ces aspects ?
@@ -186,7 +186,7 @@ En particulier :
 
 #### Préoccupations sociales ; Accessibilité des services et solutions
 
-- Les services d’hébergement et/ou solutions hébergées respectent-ils/elles des exigences en matière d’accessibilité pour les personnes porteuses d’un handicap ? 
+- Les services d’hébergement et/ou solutions hébergées respectent-ils/elles des exigences en matière d’accessibilité pour les personnes porteuses d’un handicap ?
 - Pouvez-vous détailler les caractéristiques qui permettent cette accessibilité ? Quelle correspondance avec le référentiel RGAA ou d’autres référentiels d’accessibilité (lesquels) ?
 
 <div class="fr-highlight">
@@ -201,13 +201,13 @@ En particulier :
 ### Limiter l’obsolescence
 
 La réflexion sur l’obsolescence s’article sous trois formes qui la caractérisent :
-- L’obsolescence « culturelle » (phénomène de mode, envie de changer, culte du neuf), 
+- L’obsolescence « culturelle » (phénomène de mode, envie de changer, culte du neuf),
 - L’obsolescence logicielle (place du système d’exploitation, écoconception des applications et des mises à jour),
 - L’obsolescence matérielle (répétabilité, recyclage, adaptabilité aux futures technologies).
 
 En partant de ce constat des pistes d’améliorations peuvent s’articuler sous différentes formes.
 
-L’acheteur doit se poser la question du mode d’approvisionnement le plus adapté à son besoin et ses contraintes : l’achat ou la location. 
+L’acheteur doit se poser la question du mode d’approvisionnement le plus adapté à son besoin et ses contraintes : l’achat ou la location.
 -	Dans le cas de l’obsolescence  « culturelle » le recours à la location permet une optimisation financière dans un contexte de renouvellement des matériels rapide et de contrainte budgétaire. Les formules « tout en un » regroupant l’achat du matériel, les services et le financement sont souvent privilégiés par les acteurs du secteur privé. En matière d’environnement, la location peut avoir un impact favorable sur l’environnement à la condition que le matériel utilisé soit réintroduit dans un cycle de vie prolongé par l’opérateur.
 - 	L’obsolescence matérielle (répétabilité, recyclage, adaptabilité aux futures technologies) se travaille par l’allongement de la durée de vie des équipements. Il est nécessaire d’aborder les thématiques suivantes : la réparabilité des matériels, l’accessibilité des pièces de rechange, la maitrise des coûts des pièces détachés, la génération d’une filière de réparation et de maintenabilité, la maitrise d’une filière de recyclage et la traçabilité des matériels (cf. article 16 loi AGEC et chapitre « La réglementation existante – les obligations minimales des acheteurs et des opérateurs » de la présente fiche).
 - L’obsolescence logicielle avec les thématiques comme la place du système d’exploitation, l’écoconception des applications et des mises à jour doivent être abordées. Les matériels fournis dans le cadre du présent marché doivent offrir la possibilité de réactualiser la version fournie des systèmes d’exploitation et les logiciels sans nécessité de faire évoluer ou de remplacer les équipements.
@@ -224,7 +224,7 @@ Un des moyens pour réduire l’empreinte environnementale des produits et servi
 
 La mise en place d’une politique de consommation en termes de produits et/ou services par profil est un enjeu majeur. Il est ainsi nécessaire de questionner systématiquement le besoin et d’adopter une stratégie d’équipement des services ou des agents en fonction de leur profil et de leurs usages. C’est ce que tout bon acheteur nomme « le juste besoin ».
 
-Une fois ce besoin défini, il est utile de s’intéresser aux possibilités de location et d’achat d’usage (économie de la fonctionnalité) en adoptant une démarche d’équipement des services ou agents en « postes » ou en « fonctionnalités » en lieu et place de l’approche produits / matériels. Par ailleurs, la pertinence de l’achat d’un matériel et les possibilités de partage entre agents ou services peuvent systématiquement être questionnées. Par exemple, l’équipement en smartphone professionnel peut adopter des caractéristiques adaptées à un usage personnel afin de ne pas doubler la consommation de ressources pour un même agent. 
+Une fois ce besoin défini, il est utile de s’intéresser aux possibilités de location et d’achat d’usage (économie de la fonctionnalité) en adoptant une démarche d’équipement des services ou agents en « postes » ou en « fonctionnalités » en lieu et place de l’approche produits / matériels. Par ailleurs, la pertinence de l’achat d’un matériel et les possibilités de partage entre agents ou services peuvent systématiquement être questionnées. Par exemple, l’équipement en smartphone professionnel peut adopter des caractéristiques adaptées à un usage personnel afin de ne pas doubler la consommation de ressources pour un même agent.
 
 </div>
 
@@ -234,9 +234,9 @@ Une fois ce besoin défini, il est utile de s’intéresser aux possibilités de
 ### Les nouveaux modèles de consommation Cloud
 
 Les changements apportés par les nouveaux modèles de consommation Cloud :
-- Mutualisation des ressources : le modèle Cloud repose sur la mise en commun et la mutualisation des services Cloud et des infrastructures sous-jacentes entre plusieurs utilisateurs. En effet, les infrastructures sont généralement sous-utilisées durant la quasi majorité du temps, la mutualisation permet ainsi de rationaliser et d’améliorer les taux d’utilisation des infrastructures. 
--	Facturation à l’usage : le modèle de facturation proposé par le fournisseur joue également un rôle dans la manière avec laquelle les utilisateurs consomment les ressources. En effet, les modèles de facturation « à l’usage » incitent les utilisateurs à ne consommer que les ressources dont ils ont besoins, ce qui évite le gaspillage des ressources (on ne consomme que ce dont on a besoin, et on paie que ce qu’on consomme). 
--	Adaptation dynamique des ressources : en plus du modèle de facturation «  à l’usage », le fournisseur devra également proposer les outils de suivi et de pilotage de la consommation, ainsi que les moyens techniques permettant l’adaptation dynamique des ressources infrastructures en fonction de l’évolution du besoin (élasticité des ressources Cloud) 
+- Mutualisation des ressources : le modèle Cloud repose sur la mise en commun et la mutualisation des services Cloud et des infrastructures sous-jacentes entre plusieurs utilisateurs. En effet, les infrastructures sont généralement sous-utilisées durant la quasi majorité du temps, la mutualisation permet ainsi de rationaliser et d’améliorer les taux d’utilisation des infrastructures.
+-	Facturation à l’usage : le modèle de facturation proposé par le fournisseur joue également un rôle dans la manière avec laquelle les utilisateurs consomment les ressources. En effet, les modèles de facturation « à l’usage » incitent les utilisateurs à ne consommer que les ressources dont ils ont besoins, ce qui évite le gaspillage des ressources (on ne consomme que ce dont on a besoin, et on paie que ce qu’on consomme).
+-	Adaptation dynamique des ressources : en plus du modèle de facturation «  à l’usage », le fournisseur devra également proposer les outils de suivi et de pilotage de la consommation, ainsi que les moyens techniques permettant l’adaptation dynamique des ressources infrastructures en fonction de l’évolution du besoin (élasticité des ressources Cloud)
 -	Démarche FinOps : tout ceci, s’accompagne également de la mise en place coté utilisateur d’une démarche FinOps visant à optimiser l’utilisation des ressources, et à construire des architectures logicielles optimisées.
 
 </div>
@@ -249,7 +249,7 @@ Les changements apportés par les nouveaux modèles de consommation Cloud :
 
 Dans le cadre du présent marché (public), le titulaire fournit les équipements les plus performants du point de vue environnemental, considérant les impacts générés à toutes les étapes du cycle de vie des produits : extraction et transformation des matières premières, fabrication, utilisation, gestion de la fin de vie des équipements.
 
-Ainsi, le titulaire recherche les solutions optimales et priorise les matériels présentant des performances environnementales supérieures : 
+Ainsi, le titulaire recherche les solutions optimales et priorise les matériels présentant des performances environnementales supérieures :
 -	Une longue durée d’utilisation ;
 -	Des possibilités de réparation ;
 -	Une adaptation aux besoins (pas de sur-spécifications) ;
@@ -258,7 +258,7 @@ Ainsi, le titulaire recherche les solutions optimales et priorise les matériels
 -	Une réduction des polluants et des substances toxiques ;
 -	Une exclusion des substances cancérigènes et des métaux lourds ;
 -	Un faible rayonnement électromagnétique ;
--	Durée de vie des matériels 
+-	Durée de vie des matériels
 
 Les exigences spécifiques concernant les caractéristiques des matériels sur ces aspects dont décrites au cahier des charges techniques particulières ainsi que dans les engagements supérieurs du titulaire pris dans son offre le cas échéant.
 
@@ -272,7 +272,7 @@ Lorsque les matériels sont écolabellisés, les titulaires sont tenus de fourni
 
 Ces moyens de preuve doivent être transparents (délivrés par une autorité indépendante), fiables (mention explicite de l’équipement bénéficiant du label) et non échus (certification en cours de validité).
 
-En outre, pour les services d’hébergement internet, le titulaire transmet au bénéficiaire les informations sur la quantité de données consommées dans le cadre de la fourniture d’accès au réseau. 
+En outre, pour les services d’hébergement internet, le titulaire transmet au bénéficiaire les informations sur la quantité de données consommées dans le cadre de la fourniture d’accès au réseau.
 
 ##### X.1.1 Gestion des déchets générés par les prestations et reprise des matériels en fin d’utilisation
 
@@ -313,9 +313,9 @@ Le titulaire enlève ou fait enlever à titre non onéreux et sur simple demande
 -	tout équipement hors d’usage et les déchets qui en sont issus, détenu par l’administration et mis sur le marché après le 13 août 2005, dès lors que celui-ci est équivalent ou assure la même fonction que les équipements fournis dans le cadre du marché ;
 -	tout équipement hors d’usage et les déchets qui en sont issus, détenu par l’administration et mis sur le marché avant le 13 août 2005, dès lors que celui-ci est équivalent ou assure la même fonction que les équipements fournis dans le cadre du marché et que le titulaire le remplace par un équipement équivalent ou assurant la même fonction.
 
-Le titulaire reprend ou fait reprendre à titre non onéreux et sur simple demande de l’administration, tout autre déchet produit dans le cadre de l’exécution des prestations objet du marché. 
+Le titulaire reprend ou fait reprendre à titre non onéreux et sur simple demande de l’administration, tout autre déchet produit dans le cadre de l’exécution des prestations objet du marché.
 
-Le titulaire s’assure du traitement de l’ensemble des déchets pris en charge dans des conditions conformes à la réglementation en vigueur, selon les modes de traitement les plus respectueux de l’environnement et sans mettre en danger la santé humaine. 
+Le titulaire s’assure du traitement de l’ensemble des déchets pris en charge dans des conditions conformes à la réglementation en vigueur, selon les modes de traitement les plus respectueux de l’environnement et sans mettre en danger la santé humaine.
 
 Les modes de traitement doivent notamment respecter la hiérarchie précisée à l’article L. 541-1 du code de l’environnement :
 1.	la préparation en vue de la réutilisation ;
@@ -364,7 +364,7 @@ Plus d’informations sur [le dispositif d’insertion dans les marchés publics
 
 Le dispositif de formation sous statut scolaire de jeunes en situation de décrochage scolaire est développé par le ministère de l’éducation nationale ; il s’adresse à tous les marchés de l’Etat et de ses établissements publics. Il vise à encourager les jeunes en situation de décrochage scolaire à réintégrer le système éducatif ou à les orienter vers un premier emploi.
 
-Ce dispositif est particulièrement adapté aux marchés dont les montants ne sont pas suffisamment importants pour calibrer une clause sociale d’insertion. Durant la préparation de son projet achat, l’acheteur doit choisir un des deux dispositifs à intégrer dans son marché. 
+Ce dispositif est particulièrement adapté aux marchés dont les montants ne sont pas suffisamment importants pour calibrer une clause sociale d’insertion. Durant la préparation de son projet achat, l’acheteur doit choisir un des deux dispositifs à intégrer dans son marché.
 
 Condition d’exécution du marché, la clause de formation engage le titulaire à réaliser une action de formation d’un ou plusieurs jeunes entre 16 et 25 ans, d’un niveau de qualification inférieur à celui mentionné à l'article L. 313-7 du code de l'éducation, tel que modifié par le décret n° 2010-1781 du 31 décembre 2010. Les jeunes sont stagiaires de l’entreprise sur une durée précisée à la clause et calibrée selon le montant du marché. Ils sont accompagnés par les Missions de Lutte contre le Décrochage Scolaire (MLDS) du ministère chargé de l’Education nationale.
 
@@ -393,7 +393,7 @@ Condition d’exécution du marché, la clause de formation engage le titulaire 
   </tbody>
 </table>
 </div>
-	
+
 <div class="fr-highlight">
 
 Les informations sur le dispositif : [La clause sociale de formation sous statut scolaire dans les marchés publics](https://www.education.gouv.fr/la-clause-sociale-de-formation-sous-statut-scolaire-dans-les-marches-publics-41543)
@@ -553,19 +553,19 @@ L'ensemble des équipements doivent disposer des meilleures pratiques en matièr
 
 ### X.6 Emballage
 
-Tout matériel fourni au titre du présent marché spécifique doit pouvoir supporter, sans aucun dommage, le transport entre les locaux du titulaire et les sites de livraison de l’administration. 
+Tout matériel fourni au titre du présent marché spécifique doit pouvoir supporter, sans aucun dommage, le transport entre les locaux du titulaire et les sites de livraison de l’administration.
 
 La qualité des emballages, qui est de la responsabilité du titulaire, doit être appropriée aux conditions et modalités de transport.
 
 Les volumes et poids des emballages doivent être optimisés afin de réduire les prélèvements à la source de matières premières et les surfaces de stockage notamment dans la phase de transport.
 
-La conception des emballages doit permettre leur recyclage et/ou leur réutilisation. 
+La conception des emballages doit permettre leur recyclage et/ou leur réutilisation.
 
-Les mono-matériaux facilement recyclables ainsi que les matériaux biodégradables ou recyclés sont à privilégier. En particulier, les papiers/cartons utilisés dans les emballages doivent contenir des fibres recyclées. 
+Les mono-matériaux facilement recyclables ainsi que les matériaux biodégradables ou recyclés sont à privilégier. En particulier, les papiers/cartons utilisés dans les emballages doivent contenir des fibres recyclées.
 
-Les métaux lourds (plomb, cadmium, mercure et chrome hexavalent) sont exclus. 
+Les métaux lourds (plomb, cadmium, mercure et chrome hexavalent) sont exclus.
 
-Les plastiques contenus dans les emballages sont sans polymères halogénés et marqués selon la norme ISO 11469. Le chlorure de polyvinyle (PVC) doit être exclu des emballages à usage unique. 
+Les plastiques contenus dans les emballages sont sans polymères halogénés et marqués selon la norme ISO 11469. Le chlorure de polyvinyle (PVC) doit être exclu des emballages à usage unique.
 
 A la demande des représentants du service coordonnateur, le titulaire est tenu de fournir les documents attestant de ces caractéristiques dans un délai de dix (10) jours ouvrés.
 
@@ -613,7 +613,7 @@ Elle est analysée au regard des réponses des candidats au questionnaire « Per
 
 Le cadre de réponse du mémoire environnemental du candidat peut comporter deux types d’informations recherchées par l’acheteur :
 -	Les réponses des candidats au critère environnemental et qui feront l’objet d’une notation ; les allégations des candidats doivent impérativement être étayées par des moyens de preuve fournis dans l’offre ;
--	Les pratiques du candidat qui ne seront pas notées mais pour lesquelles l’acheteur souhaite des précisions : en application de la réglementation (ex : gestion des déchets) ou pour exécuter le marché (exemple : modalités de livraison, emballages, etc.). L’absence d’information ne conduira pas nécessairement à l’irrégularité de l’offre. 
+-	Les pratiques du candidat qui ne seront pas notées mais pour lesquelles l’acheteur souhaite des précisions : en application de la réglementation (ex : gestion des déchets) ou pour exécuter le marché (exemple : modalités de livraison, emballages, etc.). L’absence d’information ne conduira pas nécessairement à l’irrégularité de l’offre.
 
 La performance sociale de l’offre du candidat est également définie selon les informations issues du sourcing.
 
@@ -730,7 +730,7 @@ Les candidats sont invités à renseigner le questionnaire ci-dessous.
 
 Les éléments de réponse apportés doivent être clairs, fiables, transparents et documentés.
 
-L'attention des candidats est attirée sur le caractère informatif des réponses mentionnées dans ce document. En cas d’attribution du marché, ce document devient contractuel. 
+L'attention des candidats est attirée sur le caractère informatif des réponses mentionnées dans ce document. En cas d’attribution du marché, ce document devient contractuel.
 
 Les candidats dont les produits comportent un label de performance sociale (TCO certified, SA 8000 ou label équivalent)  doivent  préciser dans la rubrique "moyen  de preuve associé" le label correspondant.
 
@@ -901,7 +901,7 @@ Si autre organisation, préciser</td>
     <tr>
       <td>R1U-EQUI</td>
       <td>3</td>
-      <td>5</td>	
+      <td>5</td>
       <td>290,53 BTU/h</td>
       <td>36.92 °C</td>
       <td>100%</td>
@@ -929,7 +929,7 @@ Si autre organisation, préciser</td>
 </table>
 </div>
 
- 
+
 
 <div class="fr-table fr-table--bordered" id="niveaux-performance-alimentations-serveurs">
 <table>
@@ -1000,7 +1000,7 @@ Si autre organisation, préciser</td>
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/reseaux/">Page précédente :<br />Réseaux et télécoms</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/prestations-intellectuelles/">Page suivante :<br />Prestations Intellectuelles (P2i)</a>
   </div>

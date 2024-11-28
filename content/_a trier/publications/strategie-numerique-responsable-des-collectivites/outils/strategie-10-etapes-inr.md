@@ -1,6 +1,6 @@
 ---
 tags: collectivitesOutils
-layout: layouts/outil-collectivites.njk
+layout: layouts/page.njk
 title: "Guide méthodologique : La stratégie numérique responsable de la collectivité en 10 étapes"
 description: Guide méthodologique - démarche pas à pas détaillée avec accès aux ressources et retours d'expéreinces de collectivités
 date: 2023-07-13

@@ -1,5 +1,5 @@
 ---
-layout: layouts/bonne-pratique/thematique.njk
+layout: layouts/page.njk
 title: Services numériques
 tags: guideBpNrThematique
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
@@ -16,7 +16,7 @@ La [loi de Wirth](https://fr.wikipedia.org/wiki/Loi_de_Wirth) est une loi empiri
 
 De plus, sur certains équipements ou sur certains systèmes d'exploitation, des logiciels préinstallés ne peuvent pas être supprimés ([bloatware](https://fr.wikipedia.org/wiki/Bloatware\))), occupant à la fois les ressources disques et parfois les ressources CPU lorsqu'ils fonctionnent en tâche de fond.
 
-Quelques questions à se poser 
+Quelques questions à se poser
 
 ## À l’achat de logiciels ou d'équipements contenant un logiciel :
 

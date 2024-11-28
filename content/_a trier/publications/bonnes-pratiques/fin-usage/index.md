@@ -1,5 +1,5 @@
 ---
-layout: layouts/bonne-pratique/thematique.njk
+layout: layouts/page.njk
 title: Fin d'usage
 tags: guideBpNrThematique
 date: 2023-06-01

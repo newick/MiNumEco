@@ -1,5 +1,5 @@
 ---
-layout: layouts/bonne-pratique/thematique.njk
+layout: layouts/page.njk
 title: Salle serveur et centre de données
 tags: guideBpNrThematique
 date: 2022-02-17

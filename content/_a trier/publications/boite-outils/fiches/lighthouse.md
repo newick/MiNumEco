@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: Lighthouse
 description: Mesure des performances d'une page web
 tags: tool

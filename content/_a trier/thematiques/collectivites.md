@@ -1,6 +1,6 @@
 ---
 title: Appliquer les bonnes pratiques dans ma collectivité
-layout: layouts/thematiques/thematique.njk
+layout: layouts/page.njk
 type: thematique
 eleventyNavigation:
   parent: thematiques

@@ -1,7 +1,7 @@
 ---
-layout: layouts/video.njk
+layout: layouts/page.njk
 title: "Lettre #1"
-description: Première lettre de la MiNumEco, postée sur LinkedIn le 20/09/2024 
+description: Première lettre de la MiNumEco, postée sur LinkedIn le 20/09/2024
 date: 2024-09-20
 image: /img/publications/lettre-linkedin/lettre-1.webp
 apercu: /img/publications/lettre-linkedin/lettre-1.webp
@@ -32,8 +32,8 @@ type: lettrelinkedinminumeco
 ## Sommaire de la première lettre de la MiNumEco
 
 * 🏆 Challenge : Agents publics, votre mission si vous l'acceptez… #SEDD2024
-* 🎓 Formation : Jouons le sérieux : The Impact Agency ! 
-* 🎓 Formation : Formez-vous à l’écoconception de services numériques, en octobre et décembre ! 
+* 🎓 Formation : Jouons le sérieux : The Impact Agency !
+* 🎓 Formation : Formez-vous à l’écoconception de services numériques, en octobre et décembre !
 * 📚 Ressources : Un podcast pour les gouverner tous 🎙️
 * 📚 Ressources : Nos référents, ces héros 🦸
 * 📰 Article : Les achats durables : les guichets verts accompagnent les collectivités.

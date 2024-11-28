@@ -1,5 +1,5 @@
 ---
-layout: layouts/fin-usage.njk
+layout: layouts/page.njk
 title: "Retour d’expérience : la démarche d’économie circulaire à Pôle Emploi"
 date: 2022-04-20
 image: /img/publications/fin-usage/atelier-fin-usage.webp
@@ -11,11 +11,11 @@ eleventyNavigation:
   order: 30
 ---
 
-La **démarche d’économie circulaire** de Pôle Emploi pour son matériel informatique s’inscrit dans la politique de lutte contre le changement climatique qui est une priorité du plan stratégique de l’organisation et de sa feuille de route RSE (responsabilité sociétale des entreprises). 
+La **démarche d’économie circulaire** de Pôle Emploi pour son matériel informatique s’inscrit dans la politique de lutte contre le changement climatique qui est une priorité du plan stratégique de l’organisation et de sa feuille de route RSE (responsabilité sociétale des entreprises).
 
 La **dimension environnementale** est prise en compte sur l’ensemble de la chaîne de valeur : achat, usage, fin d’usage. La **dimension sociétale** est également prise en compte avec les emplois générés et des conditions de vie améliorées.
 
-La démarche est organisée par la Direction des Systèmes d'Information (DSI) mais avec l’implication de tous les agents qui sont sensibilisés et participent à des événements comme le Cyber World Cleanup Day.  
+La démarche est organisée par la Direction des Systèmes d'Information (DSI) mais avec l’implication de tous les agents qui sont sensibilisés et participent à des événements comme le Cyber World Cleanup Day.
 
 **La stratégie RSE de la direction des Systèmes d’Information porte sur 4 axes :**
 
@@ -53,7 +53,7 @@ La démarche est organisée par la Direction des Systèmes d'Information (DSI) m
 
 ### Réemploi
 
-- Déstockage national 
+- Déstockage national
   - Pour le matériel amorti : 7 ans minimum ou non fonctionnel
 - Vide-grenier
 - Dons
@@ -101,9 +101,9 @@ Exemple de projet ou d'action en cours : réflexion sur la création d’une fi
     * Attribution du lot.
     * Planification et suivi.
     * Mise à jour de la base une fois l’enlèvement réalisé par prestataire DEEE.
-5. Enlèvement du lot 
-    * Catégorisation des matériels (reconditionnement, réemploi, recyclage)  
-    * Traitement et effacement des données 
+5. Enlèvement du lot
+    * Catégorisation des matériels (reconditionnement, réemploi, recyclage)
+    * Traitement et effacement des données
     * Reporting dont bordereau de suivi de déchet
 
 </div>
@@ -119,11 +119,11 @@ Exemple de projet ou d'action en cours : réflexion sur la création d’une fi
 2. Réception du dossier de demande. Vérification de la disponibilité de matériel éligible.
 3. Vérification de la demande de l’association, contrôle de l’opportunité et établissement de l’agrément pour le don.
 4. Inventaire du matériel à donner.
-    * Transmission du dossier complet (demande + statut fichier de suivi et d’inventaire) à Pôle DEEE 
-    * Effacement des données 
-5. Contrôle de l’inventaire 
+    * Transmission du dossier complet (demande + statut fichier de suivi et d’inventaire) à Pôle DEEE
+    * Effacement des données
+5. Contrôle de l’inventaire
     * Sortie comptable des biens
-    * Go pour mise à disposition des biens par le SDP 
+    * Go pour mise à disposition des biens par le SDP
     * Mise à jour de la base de données
 6. Enlèvement du lot par l'association ou l'ONG
 
@@ -148,7 +148,7 @@ Exemple de projet ou d'action en cours : don de 500 PC auprès de l’associati
 - 55 demandes étudiées
 - 1185 matériels donnés aux Restos du Cœur
 - 1041 ordinateurs et écrans donnés via des structures d’insertion dans le cadre du projet « Territoire 0 chômeur »
-- 597 pièces données aux écoles pour réduire la fracture numérique 
+- 597 pièces données aux écoles pour réduire la fracture numérique
 
 ## Coût
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/guide-achats.njk
+layout: layouts/page.njk
 title: Fiches pratiques par segment d’achats
 date: 2021-04-29
 image: /img/publications/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp

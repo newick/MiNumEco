@@ -1,6 +1,6 @@
 ---
 tags: collectivitesOutils
-layout: layouts/outil-collectivites.njk
+layout: layouts/page.njk
 title: Traduction opérationnelle de la loi REEN
 description: Notice d'explication et de traduction opérationnelle de la loi REEN et de ses différents articles
 date: 2023-07-13
@@ -16,7 +16,7 @@ retoursExperienceDeCollectivites: non
 accompagnement: Méthodologique et Documentaire (renvoi vers des ressources mobilisables pour chaque articles)
 openSourceOpenData: oui
 disponibilite: en ligne
-url: /publications/strategie-numerique-responsable-des-collectivites/  
+url: /publications/strategie-numerique-responsable-des-collectivites/
 ---
 
 Notice d'explication et de traduction opérationnelle de la loi REEN et de ses différents articles.

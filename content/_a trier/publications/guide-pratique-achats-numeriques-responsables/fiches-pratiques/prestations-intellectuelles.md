@@ -1,5 +1,5 @@
 ---
-layout: layouts/guide-achats.njk
+layout: layouts/page.njk
 title: Prestations Intellectuelles (P2i)
 date: 2021-04-29
 image: /img/publications/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
@@ -33,15 +33,15 @@ eleventyNavigation:
 
 <h2 id="reglementation" tabindex="-1">1. La réglementation existante</h2>
 
-### 1.1 Réglementation en matière d’accessibilité numérique : 
+### 1.1 Réglementation en matière d’accessibilité numérique :
 
 -	Directive 2016/2102 du 26 octobre 2016 relative à l’accessibilité des sites Internet et des appli¬cations mobiles des organismes du secteur public et la Directive 2019/882 du 17 avril 2019 relative aux exigences en matière d’accessibilité applicables aux produits et services ;
 -	Loi du 7 octobre 2016 pour une République Numérique
--	Loi du 5 septembre 2018 pour la liberté de choisir son avenir professionnel40, 
--	Le décret du 24 juillet 2019 relatif à l’accessibilité aux personnes handicapées des services de communication au public en ligne 
+-	Loi du 5 septembre 2018 pour la liberté de choisir son avenir professionnel40,
+-	Le décret du 24 juillet 2019 relatif à l’accessibilité aux personnes handicapées des services de communication au public en ligne
 -	L’arrêté du 20 septembre 2019 portant référentiel général d’amélioration de l’accessibilité (version 4).
 
-### 1.2 Réglementation en matière d’écoconception : 
+### 1.2 Réglementation en matière d’écoconception :
 
 Loi AGEC (Loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l’économie circulaire) : « Lorsque le bien acquis est un logiciel, les administrations promeuvent le recours à des logiciels dont la conception permet de limiter la consommation énergétique associée à leur utilisation ».
 Si cette obligation ne concerne pas directement les prestations de développement informatique, l’acheteur pourra veiller à la cohérence des actions de développement logiciel avec les caractéristiques d’écoconception qu’il promeut auprès des éditeurs ou fournisseurs de logiciel ([voir fiche logiciels](/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/logiciels/)).
@@ -61,11 +61,11 @@ Pour plus d’information sur la méthode de conduite des entretiens de sourcing
 
 Ce paragraphe présente de manière synthétique les exemples de question à poser lors de ces échanges préalables.
 
-Les prestations intellectuelles informatiques mobilisent par nature un fort taux de compétences humaines et se prêtent tout particulièrement aux questionnements relatifs à l’organisation de l’entreprise vis-à-vis de ses ressources humaines pour la réalisation des prestations objets du projet d’achat. 
+Les prestations intellectuelles informatiques mobilisent par nature un fort taux de compétences humaines et se prêtent tout particulièrement aux questionnements relatifs à l’organisation de l’entreprise vis-à-vis de ses ressources humaines pour la réalisation des prestations objets du projet d’achat.
 
-Les questions sur la performance sociale de ces prestations humaines portent également par nature des enjeux importants et incontournables. Par ailleurs, les acteurs de l’économie sociale et solidaire (ESS - structures d’insertion par l’activité économique et structure du secteur du travail protégé et adapté) sont particulièrement présents dans le paysage économique. Un intérêt tout particulier doit donc leur être porté dans la phase de sourcing, en les y associant directement, au même titre que les entreprises du secteur ordinaire. 
+Les questions sur la performance sociale de ces prestations humaines portent également par nature des enjeux importants et incontournables. Par ailleurs, les acteurs de l’économie sociale et solidaire (ESS - structures d’insertion par l’activité économique et structure du secteur du travail protégé et adapté) sont particulièrement présents dans le paysage économique. Un intérêt tout particulier doit donc leur être porté dans la phase de sourcing, en les y associant directement, au même titre que les entreprises du secteur ordinaire.
 
-Enfin, les enjeux environnementaux pourront être abordés sous l’angle de la prise en compte de la performance sociale lors de la réalisation des prestations intellectuelles : prise en compte des enjeux environnementaux lors des phases d’accompagnement et de conseil, choix des solutions les plus performantes, compétences des salariés dans ce domaine etc… en particulier, le sujet de la conception responsable des services numériques pourra être abordé. 
+Enfin, les enjeux environnementaux pourront être abordés sous l’angle de la prise en compte de la performance sociale lors de la réalisation des prestations intellectuelles : prise en compte des enjeux environnementaux lors des phases d’accompagnement et de conseil, choix des solutions les plus performantes, compétences des salariés dans ce domaine etc… en particulier, le sujet de la conception responsable des services numériques pourra être abordé.
 
 Les questions à poser peuvent être :
 -	Communes au secteur ordinaire et au secteur de l’économie sociale et solidaire (ESS)
@@ -85,7 +85,7 @@ Merci de détailler sur quels aspects et de justifier de vos compétences
 - Pouvez-vous détailler ? (type et sujet des formations, durée, nombre et profil des salariés formés et fréquence de formation, caractère certifiant des formations.)
 - Les salariés affectés à la réalisation des prestations objet du projet d’achat sont-ils formés à l’accessibilité numérique ?
 - Pouvez-vous détailler ? (type et sujet des formations, durée, nombre et profil des salariés formés et fréquence de formation, caractère certifiant des formations.)
-- Mettez-vous en œuvre des bonnes pratiques permettant d’assurer une conception responsable des services numériques objet du projet d’achat ? 
+- Mettez-vous en œuvre des bonnes pratiques permettant d’assurer une conception responsable des services numériques objet du projet d’achat ?
 
 #### Description générale de l’entreprise
 
@@ -100,7 +100,7 @@ Merci de détailler sur quels aspects et de justifier de vos compétences
 #### Performance en matière d’inclusion
 
 - Connaissez-vous le [dispositif d’insertion par l’activité économique](https://www.avise.org/decouvrir-less/achats-socialement-responsables/les-clauses-sociales-dinsertion) ?
-- Si oui, l’avez-vous déjà mis en œuvre, au travers de marchés publics ou en dehors d'une procédure ? Selon quelles modalités (emploi direct, cotraitance, sous-traitance, mise à disposition de publics…) 
+- Si oui, l’avez-vous déjà mis en œuvre, au travers de marchés publics ou en dehors d'une procédure ? Selon quelles modalités (emploi direct, cotraitance, sous-traitance, mise à disposition de publics…)
 Quel en est votre retour d'expérience ?
 - Quelles sont vos capacités et pratiques en matière d’encadrement, accompagnement et formation des personnes bénéficiaires de ces dispositifs ?
 - Seriez-vous prêt à mettre en œuvre une action d'insertion de publics éloignés de l'emploi avec un accompagnement dédié, dans le cadre d'un marché public à venir ? Si non, pour quelles raisons ?
@@ -111,7 +111,7 @@ Quel en est votre retour d'expérience ?
 - Avez-vous déjà mis en œuvre une collaboration avec les acteurs du handicap (EA/ESAT), ou de l’insertion par l’activité économique (EI, ACI, GEIQ, ETTI) notamment au travers de l'exécution de marchés publics ?
 - Si oui, pouvez-vous préciser pour quel objet et selon quel mode de fonctionnement (cotraitance, sous-traitance, mise à disposition de publics, fonctions confiées aux bénéficiaires…) ? Quel en est votre retour d’expérience ?
 - Quelles sont vos capacités et pratiques en matière d’encadrement, accompagnement et formation des personnes issues de ces structures ?
-- Seriez-vous prêt à collaborer avec le secteur de l’ESS dans le cadre des prestations objet du projet d’achat et selon quelles modalités ? 
+- Seriez-vous prêt à collaborer avec le secteur de l’ESS dans le cadre des prestations objet du projet d’achat et selon quelles modalités ?
 
 
 <h3 class="fr-fi-arrow-right-line fr-link--icon-left">Questions spécifiques aux acteurs de l’ESS</h3>
@@ -131,25 +131,25 @@ Avez-vous une stratégie particulière de réponse aux appels d’offre ? si oui
 -	réponse à tous les types de marchés
 -	autre ?
 
-Les structures de l’ESS doivent également être interrogées sur les autres enjeux communs avec les entreprises du secteur ordinaire, notamment sur les aspects techniques et économiques, afin de caractériser leur offre de la manière la plus précise possible et de pouvoir adapter la tactique achat (allotissement en particulier) à leur mode de fonctionnement. 
+Les structures de l’ESS doivent également être interrogées sur les autres enjeux communs avec les entreprises du secteur ordinaire, notamment sur les aspects techniques et économiques, afin de caractériser leur offre de la manière la plus précise possible et de pouvoir adapter la tactique achat (allotissement en particulier) à leur mode de fonctionnement.
 
 **Nota bene** : ce sourcing spécifique aux achats responsables doit être conduit dans le cadre du sourcing général mené par l’acheteur. En particulier, les échanges concernant les dispositifs d’insertion par l’activité économique doivent tenir compte des capacités des opérateurs économiques à supporter une action d’insertion (effectifs de l’entreprise).
 
 
 <h2 id="exemples" tabindex="-1">3. Des exemples de clauses utilisées à adapter en fonction de chaque projet d’achat</h2>
 
-### 3.1 Les bonnes pratiques achats pour adopter une démarche d’inclusion numérique 
+### 3.1 Les bonnes pratiques achats pour adopter une démarche d’inclusion numérique
 
-#### 3.1.1. Intégrer l’axe « accessibilité numérique » dès le début du processus de production ou d’évolution d’un SI 
+#### 3.1.1. Intégrer l’axe « accessibilité numérique » dès le début du processus de production ou d’évolution d’un SI
 
 Dès la conception d’un système d’information dans l’achat de développements informatiques et de tierce maintenance applicative
-- Lors de la phase de définition de besoins et d’élaboration des pièces constitutives du marché : 
+- Lors de la phase de définition de besoins et d’élaboration des pièces constitutives du marché :
     - prévoir des unités d’œuvres spécifiques à la mise en accessibilité numérique des services de communication en ligne dans le Cahier des Clauses Techniques Particulières ;
     - Prévoir une clause spécifique aux opérations de vérification de mise en accessibilité : conditionner la réception au respect du référentiel de mise en conformité au RGAA ;
     - Dans le respect du secret des affaires, se réserver la faculté de faire auditer le service de communication en ligne par un tiers indépendant en cas d’absence d’expertise interne ;
     - Prévoir une phase de test expérience utilisateur en ayant recours à des agents en situation de handicap ;
 - Dans le règlement de la consultation : conférer un poids significatif à l’appréciation de l’acheteur au critère de l’accessibilité numérique dans le choix du prestataire ;
-- Lors de la phase de test avant la mise en production du service de communication en ligne : faire auditer le service de communication en ligne par un tiers indépendant en cas d’absence d’expertise interne ; 
+- Lors de la phase de test avant la mise en production du service de communication en ligne : faire auditer le service de communication en ligne par un tiers indépendant en cas d’absence d’expertise interne ;
 - Tout au long de la vie du service de communication en ligne : systématiser les audits post-production.
 
 
@@ -239,13 +239,13 @@ De nombreuses formations sont disponibles, certaines accessibles gratuitement, p
 
 S’initier à l’accessibilité numérique : « [Mise en œuvre de l’accessibilité numérique](https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique) » (formation gratuite de 14 heures sur WikiUniversité).
 
-Par ailleurs, les auteurs du Livre Blanc Numérique et Environnement (Iddri, FING, WWF France, GreenIT.fr, 2018) proposent de rattacher l’obligation d’accessibilité numérique à une obligation plus générale d’écoconception. 
+Par ailleurs, les auteurs du Livre Blanc Numérique et Environnement (Iddri, FING, WWF France, GreenIT.fr, 2018) proposent de rattacher l’obligation d’accessibilité numérique à une obligation plus générale d’écoconception.
 
 D’ailleurs, plusieurs auditions ont permis de relever que d’importants acteurs institutionnels demandent explicitement à des prestataires de ne pas tenir compte des obligations d’accessibilité. Par exemple : des entreprises d’audits ou de développement web accessible.
 
-La prise en compte de l’accessibilité peut être faites dès le début d’un projet en faisant par exemple appel au Fonds pour l’insertion des personnes handicapées dans la fonction publique (FIPHFP), notamment pour sensibiliser et former des agents à l’accessibilité numérique, faire des diagnostics d’accessibilité pour les sites web semi-publics, financer l’accompagnement à la mise en accessibilité pour les sites semi-publics, notamment ceux à destination des usagers (à hauteur de 50 %). 
+La prise en compte de l’accessibilité peut être faites dès le début d’un projet en faisant par exemple appel au Fonds pour l’insertion des personnes handicapées dans la fonction publique (FIPHFP), notamment pour sensibiliser et former des agents à l’accessibilité numérique, faire des diagnostics d’accessibilité pour les sites web semi-publics, financer l’accompagnement à la mise en accessibilité pour les sites semi-publics, notamment ceux à destination des usagers (à hauteur de 50 %).
 
-60 % de l’accessibilité se joue au moment de l’intégration des contenus et donc au moment de l’implication des équipes de webmestre. D’un point de vue réglementaire, un agent au sein du service sera respon¬sable de la publication de la déclaration de conformité au RGAA et aura pour rôle de préparer la déclaration de conformité. 
+60 % de l’accessibilité se joue au moment de l’intégration des contenus et donc au moment de l’implication des équipes de webmestre. D’un point de vue réglementaire, un agent au sein du service sera respon¬sable de la publication de la déclaration de conformité au RGAA et aura pour rôle de préparer la déclaration de conformité.
 
 Les services publics numériques peuvent également faire une demande pour l’obtention d’un label accessibilité numérique : le [label e-accessible](https://access42.net/Le-label-e-accessible-pour-les-administrations) proposé par la DINUM et le label AccessiWeb proposé par l’association Braillenet.
 
@@ -255,7 +255,7 @@ Les prestations intellectuelles informatiques, de par leur fort taux de main d�
 
 Pour ce faire, l’acheteur peut utiliser :
 -	La clause sociale d’insertion par l’activité économique
--	Le recours à des structures de l’économie sociale et solidaire, via la réservation de marchés ou de lots ou via la cotraitance ou sous-traitance avec un titulaire du secteur ordinaire. 
+-	Le recours à des structures de l’économie sociale et solidaire, via la réservation de marchés ou de lots ou via la cotraitance ou sous-traitance avec un titulaire du secteur ordinaire.
 
 N.B : les structures de l’ESS peuvent également accéder à un marché porteur d’une clause sociale d’insertion via la sous-traitance ou la cotraitance.
 
@@ -263,13 +263,13 @@ Dans le cas de marchés ou de lots réservés, le sourcing amont, suffisamment p
 
 ### 3.2 : Intégrer des clauses de conception responsable des services numériques
 
-La conception responsable des services numériques cherche à réduire la puissance informatique nécessaire au fonctionnement du logiciel, qui est la phase la plus énergivore dans le cycle de vie d’un logiciel. Pour ce faire, la conception des services numériques est pensée de manière à réduire la quantité de ressources informatiques – serveurs, bande passante, puissance des terminaux utilisateurs, etc. – nécessaires. 
+La conception responsable des services numériques cherche à réduire la puissance informatique nécessaire au fonctionnement du logiciel, qui est la phase la plus énergivore dans le cycle de vie d’un logiciel. Pour ce faire, la conception des services numériques est pensée de manière à réduire la quantité de ressources informatiques – serveurs, bande passante, puissance des terminaux utilisateurs, etc. – nécessaires.
 
 D’autres facettes de la conception responsables sont enfin de plus en plus intégrées dans les caractéristiques d’un service numérique comme l’accessibilité aux personnes porteuses d’un handicap, le respect de la vie privée ou la qualité du service.
 
-Les conceptions fonctionnelle, graphique, ergonomique, et technique sont concernées. 
+Les conceptions fonctionnelle, graphique, ergonomique, et technique sont concernées.
 
-Ci-dessous, des exemples de clauses relatives à la conception numérique responsable sont donnés. Néanmoins, le sujet de la conception numérique responsable étant relativement récent et encore en développement au sein du secteur du numérique, ces clauses doivent être adaptées à chaque marché et leur intégration soumise à la condition d’un sourcing suffisamment avancé. 
+Ci-dessous, des exemples de clauses relatives à la conception numérique responsable sont donnés. Néanmoins, le sujet de la conception numérique responsable étant relativement récent et encore en développement au sein du secteur du numérique, ces clauses doivent être adaptées à chaque marché et leur intégration soumise à la condition d’un sourcing suffisamment avancé.
 
 ### A. Cahier des clauses administratives particulières (CCAP) ou CCP
 
@@ -289,7 +289,7 @@ Il n’existe pas encore, au moment où nous publions ce guide, de référentiel
 
 ### C. Règlement de la consultation (RC) et critères d’attribution
 
-Note à l’acheteur : de manière générale, il convient de conditionner l’intégration d’un critère d’attribution à un sourcing suffisamment poussé auprès du secteur économique. Cette orientation est d’autant plus forte sur le sujet de la conception responsable des services numériques, encore récent et pour lequel la maturité du secteur économique est encore peu connue.  
+Note à l’acheteur : de manière générale, il convient de conditionner l’intégration d’un critère d’attribution à un sourcing suffisamment poussé auprès du secteur économique. Cette orientation est d’autant plus forte sur le sujet de la conception responsable des services numériques, encore récent et pour lequel la maturité du secteur économique est encore peu connue.
 
 La rédaction proposée ci-dessous représente un exemple de ce qui pourrait être envisagé ou recherché en tant que critère d’attribution dans le cas où le secteur économique serait suffisamment mature pour y répondre. L’exemple porte sur la conception responsable d’un service web.
 
@@ -333,26 +333,26 @@ La performance en matière de protection de l’environnement est analysée au r
 <h3 id="exemple-annexe-questionnaire">Exemple de questionnaire sur la conception responsable des services numériques</h3>
 
 - L'ensemble des parties prenantes de la conception du projet sont-elles sensibilisées aux impacts environnementaux du numérique et à l'écoconception ?
-- L'évaluation de l'empreinte environnementale du projet est-elle prévue en tenant compte des cycles de vie de l'ensemble des composants du projet ? 
-- Une revue de conception, tout au long du projet, orientée vers une solution sobre (réduction des ressources informatiques nécessaires) est-elle prévue ? 
-- L'application est-elle accessible en faible débit ou à partir d’équipements plus anciens afin de limiter l’obsolescence des terminaux utilisateurs ? 
-- Avez-vous prévu la fin de vie du produit, c'est à dire son décommissionnement ainsi que celui des ressources informatiques liées ? 
+- L'évaluation de l'empreinte environnementale du projet est-elle prévue en tenant compte des cycles de vie de l'ensemble des composants du projet ?
+- Une revue de conception, tout au long du projet, orientée vers une solution sobre (réduction des ressources informatiques nécessaires) est-elle prévue ?
+- L'application est-elle accessible en faible débit ou à partir d’équipements plus anciens afin de limiter l’obsolescence des terminaux utilisateurs ?
+- Avez-vous prévu la fin de vie du produit, c'est à dire son décommissionnement ainsi que celui des ressources informatiques liées ?
 - L'ensemble des parties prenantes de la conception du projet sont-elles formées aux impacts environnementaux du numérique et à l'écoconception ? Oui / Non. Si oui, décrivez le plan de formation :
     - Profils ciblés :
-    - Sujets abordés : 
+    - Sujets abordés :
     - Fréquence des formations :
-    - Durée des formations : 
-    - Caractère certifiant : 
+    - Durée des formations :
+    - Caractère certifiant :
 - Le candidat s’engage-t-il à mettre en œuvre des pratiques de conception responsable des services numériques ? Oui / Non. Si oui, précisez lesquelles (le candidat peut s’appuyer sur un référentiel de bonnes pratiques, des labels et recommandations existantes) sur les sujets suivants (moyens de preuve associés aux réponses) :
-    - Exemple 1 de rubriques : Design, Code serveur, Contenu, Code client, Mesure… 
-    - Exemple 2 de rubriques : Conception fonctionnelle, Ergonomie, Conception technique, Conception graphique, Développement, Hébergement, Contenu 
+    - Exemple 1 de rubriques : Design, Code serveur, Contenu, Code client, Mesure…
+    - Exemple 2 de rubriques : Conception fonctionnelle, Ergonomie, Conception technique, Conception graphique, Développement, Hébergement, Contenu
 
 
 <nav class="fr-grid-row fr-grid-row--gutters fr-py-3w">
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/hebergement/">Page précédente :<br />Infrastructures et cloud</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/logiciels/">Page suivante :<br />Logiciels</a>
   </div>

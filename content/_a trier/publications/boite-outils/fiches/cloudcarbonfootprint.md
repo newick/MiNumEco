@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: Cloud Carbon Footprint
 description: Fournit une visibilité des émissions de carbone induites par les usages du Cloud.
 tags: tool

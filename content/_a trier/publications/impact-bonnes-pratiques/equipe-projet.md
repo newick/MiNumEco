@@ -1,5 +1,5 @@
 ---
-layout: layouts/impact-bonnes-pratiques.njk
+layout: layouts/page.njk
 title: Équipe projet
 date: 2021-11-23
 image: /img/publications/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp

@@ -1,6 +1,6 @@
 ---
-layout: layouts/bonne-pratique/default.njk
-title: Journal des modifications du Guide de bonnes pratiques numérique responsable 
+layout: layouts/page.njk
+title: Journal des modifications du Guide de bonnes pratiques numérique responsable
 date: 2023-06-19
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/video.njk
+layout: layouts/page.njk
 title: "Épisode #4 : Le rôle de la DINUM"
 description: La Mission Interministérielle Numérique Ecoresponsable (MiNumEco) et la DINUM
 date: 2024-09-20
@@ -26,7 +26,7 @@ Ces objectifs portent principalement sur l'allongement de la durée de vie, l'al
 
 Au-delà des formations que nous vous proposons, nous pouvons mettre en place des accompagnements. N'hésitez pas à nous solliciter ou à solliciter votre référent ministériel numérique écoresponsable. si vous avez besoin d'un accompagnement, qu'il soit ponctuel ou sur le long terme.<
 
-Notamment à la DINUM, à la Brigade d'Intervention du Numérique, nous pouvons vous accompagner à la fois sur l'écoconception de votre service numérique, mais aussi sur l'accessibilité, sur le design ou sur une recherche utilisateur. 
+Notamment à la DINUM, à la Brigade d'Intervention du Numérique, nous pouvons vous accompagner à la fois sur l'écoconception de votre service numérique, mais aussi sur l'accessibilité, sur le design ou sur une recherche utilisateur.
 
 **Stéphanie Nazarian, Responsable de la Brigade d'Intervention du Numérique (BIN) :**
 
@@ -34,7 +34,7 @@ La Brigade d'Intervention Numérique, c'est une équipe qui regroupe différente
 
 Elle propose des accompagnements avec trois axes. Le premier axe, ça va être des accompagnements par des experts pour une mission dédiée.
 
-Sur l'écoresponsabilité, c'est Mélanie Raphaël qui peut accompagner, soit sur une mission ponctuelle ou pour accompagner dans une démarche plus longue, à rendre les services écoresponsables. 
+Sur l'écoresponsabilité, c'est Mélanie Raphaël qui peut accompagner, soit sur une mission ponctuelle ou pour accompagner dans une démarche plus longue, à rendre les services écoresponsables.
 
 Le deuxième volet, c'est la formation et la sensibilisation des équipes. Mélanie organise également des sensibilisations et elle peut venir dans vos administrations pour former les équipes.
 

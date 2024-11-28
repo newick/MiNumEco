@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: Carbonalyser
 description: Mesure des impacts environnementaux d'une navigation web
 tags: tool

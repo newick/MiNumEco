@@ -1,5 +1,5 @@
 ---
-layout: layouts/fin-usage.njk
+layout: layouts/page.njk
 title: Autres ressources
 date: 2022-04-20
 image: /img/publications/fin-usage/atelier-fin-usage.webp

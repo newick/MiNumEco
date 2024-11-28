@@ -1,5 +1,5 @@
 ---
-layout: layouts/impact-bonnes-pratiques.njk
+layout: layouts/page.njk
 title: L'impact des bonnes pratiques numériques écoresponsables au sein de votre organisation
 description:  Quel est l’impact réel des éco-gestes individuels dans un cadre professionnel ? Quelles sont les bonnes pratiques à mettre en œuvre à l’échelle de l’organisation ? Comment prioriser les bonnes pratiques ?
 date: 2021-11-23

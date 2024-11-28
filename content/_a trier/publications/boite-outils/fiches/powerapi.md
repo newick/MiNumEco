@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: PowerAPI
 description: Mesurer la consommation énergétique des logiciels
 tags: tool

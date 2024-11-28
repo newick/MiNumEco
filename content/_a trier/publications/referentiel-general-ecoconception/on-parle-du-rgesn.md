@@ -1,5 +1,5 @@
 ---
-layout: layouts/referentiel-ecoconception.njk
+layout: layouts/page.njk
 title: On parle du RGESN
 description: Quelques exemples d'articles qui parlent du RGESN, le référentiel général d'écoconception de service numérique.
 image: /img/publications/referentiel-general-ecoconception/referentiel-ecoconception.webp

@@ -1,5 +1,5 @@
 ---
-layout: layouts/referentiel-ecoconception.njk
+layout: layouts/page.njk
 title: À propos
 date: 2023-02-28
 image: /img/publications/referentiel-general-ecoconception/referentiel-ecoconception.webp

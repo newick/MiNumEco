@@ -1,5 +1,5 @@
 ---
-layout: layouts/guide-achats.njk
+layout: layouts/page.njk
 title: Réseaux et télécoms
 date: 2021-04-29
 image: /img/publications/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
@@ -58,8 +58,8 @@ En matière de qualité environnementale des matériels IT, les principaux texte
 **Loi AGEC** (Loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l’économie circulaire ; Cf « [Que prévoit la loi](/publications/guide-pratique-achats-numeriques-responsables/demarche-numerique-responsable/que-prevoit-la-loi/) »)
 
 * définition du caractère « reconditionné » (article 37) – dès parution du décret
-* À partir du 1er janvier 2021 : obligation d’achat de produits reconditionnés ou incorporant des matières recyclées dans une proportion annuelle minimale de 20%. Décret n° 2021-254 du 9 mars 2021 relatif à [l’obligation d’acquisition par la commande publique de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043231546)). Les obligations de ce décret s’appliquent aux seuls marchés de fourniture.  
-* À partir du 1er janvier 2022 : 
+* À partir du 1er janvier 2021 : obligation d’achat de produits reconditionnés ou incorporant des matières recyclées dans une proportion annuelle minimale de 20%. Décret n° 2021-254 du 9 mars 2021 relatif à [l’obligation d’acquisition par la commande publique de biens issus du réemploi ou de la réutilisation ou intégrant des matières recyclées](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043231546)). Les obligations de ce décret s’appliquent aux seuls marchés de fourniture.
+* À partir du 1er janvier 2022 :
     * obligations d’affichage environnemental et d’information du consommateur, dont l’[indice de réparabilité](https://www.ecologie.gouv.fr/indice-reparabilite) et part de matériaux recyclés le cas échéant (articles 13 et 16 ; parution du décret d’application et des arrêtés d’application de l’article 16 le 29 décembre 2020)
     * durée minimale de disponibilité des pièces détachées de 5 ans (article 19)
 
@@ -100,7 +100,7 @@ Nota bene : le secteur économique de la fourniture de matériels IT est caract�
 
 Nota bene : la garantie est en général délivrée par le distributeur, mais il peut être utile de poser la question aux constructeurs également. La garantie de la batterie et sa durée doivent faire l’objet d’une caractérisation précise dans une optique d’allongement de la durée de vie des matériels.
 
-#### Préoccupations sociales : responsabilité sociale	
+#### Préoccupations sociales : responsabilité sociale
 
 1. Recours au secteur de l'insertion par l’activité économique
     * Avez-vous déjà mis en œuvre dans le cadre de marchés une clause d'insertion par l'activité économique ? Si oui, quel est votre retour d’expérience ?
@@ -111,7 +111,7 @@ Nota bene : la garantie est en général délivrée par le distributeur, mais il
 4. Maîtrise des chaînes d'approvisionnement
     * 4.1. Pouvez-vous décrire vos chaînes d'approvisionnement (décomposition : nb de fournisseurs et sous-traitants, nature des activités, lieux d'implantation géographiques) ?
     * 4.2. Avez-vous engagé, ou prévoyez-vous de le faire, une démarche de maîtrise des risques relatifs aux violations des droits humains fondamentaux dans toute la chaîne d'approvisionnement (filiales, fournisseurs, sous-traitants) ? Si oui, pouvez-vous la décrire ?
-    * 4.3. Disposez-vous d'informations sur l'origine des minerais utilisés dans la fabrication de vos matériels ? Quelles précautions prenez-vous pour garantir le caractère licite des exploitations minières et le non-approvisionnement en « minerais de guerre » ? 
+    * 4.3. Disposez-vous d'informations sur l'origine des minerais utilisés dans la fabrication de vos matériels ? Quelles précautions prenez-vous pour garantir le caractère licite des exploitations minières et le non-approvisionnement en « minerais de guerre » ?
     * 4.4. Etes-vous concerné par la loi sur le devoir de vigilance des sociétés mères et des entreprises donneuses d'ordre de mars 2017 ? Si oui avez-vous publié votre plan de vigilance et le rapport annuel de suivi (le cas échéant merci de nous le communiquer)
     * 4.5. Êtes-vous, d'une manière générale, engagé dans des initiatives sectorielles relatives au management de votre démarche RSE ? Si oui, les citer. Votre entreprise a-t-elle adhéré aux principes directeurs de l'OCDE relatifs au respect des droits de l'Homme au travail ?
 
@@ -128,7 +128,7 @@ Nota bene : la garantie est en général délivrée par le distributeur, mais il
 #### Durée de vie, réparabilité et prévention de la production de déchets
 
 - Durée de la garantie ? Et périmètre
-- Garantie des batteries : quel est le statut de la batterie non amovible (périphérique ou consommable) ? 
+- Garantie des batteries : quel est le statut de la batterie non amovible (périphérique ou consommable) ?
 - Quid de la garantie si on ouvre la machine ?
 - Disponibilité des pièces détachées
 - Durée d’engagement de mise à disposition de mises à jour logiciel au-delà des 2 ans réglementaires (art. 27 Loi AGEC)
@@ -153,7 +153,7 @@ Par exemple : TCO certified, EPEAT-UL, Vitality LEAF…
 
 - Dispositif ou action en faveur de la sauvegarde de l'environnement mis en œuvre par votre société (au niveau des produits par exemple) ?
 - Avez-vous répondu à des marchés publics avec une clause d'exécution environnementale et si oui quels types de clauses ?
-- Pratiques environnementales 
+- Pratiques environnementales
     - Votre entreprise prend-elle en considération les impacts environnementaux de ses activités périphériques à la construction des matériels ? Emballages, transport ? Si oui les décrire.
     - Quelle est votre politique en matière de gestion des D3E? Adhésion à un éco-organisme ou système individuel ?
 - Autre ?
@@ -161,7 +161,7 @@ Par exemple : TCO certified, EPEAT-UL, Vitality LEAF…
 
 <h3 class="fr-fi-arrow-right-line fr-link--icon-left">Avec les opérateurs seulement</h3>
 
-#### Responsabilité environnementale	 
+#### Responsabilité environnementale
 
 1. **Information des consommateurs sur la qualité environnementale des produits**. Quelles informations sont mises à disposition des clients vis-à-vis des performances environnementales des matériels ? De quelle manière ces informations sont-elles communiquées ?
     -	affichage environnemental et d’information du consommateur, dont indice de réparabilité (obligation loi AGEC)
@@ -171,13 +171,13 @@ Par exemple : TCO certified, EPEAT-UL, Vitality LEAF…
 2. **Reconditionnement et recyclage**
     2.1. Pouvez-vous décrire les mesures mis en place dans le recyclage et le reconditionnement des appareils de vos clients.
     2.2.  Pouvez-vous décrire votre feuille de route et vos pratiques actuelles dans la commercialisation des appareils reconditionnés ?
-    2.3.  Etes-vous en mesure d’attester du caractère reconditionné d’un appareil ? par quel moyen ? 
+    2.3.  Etes-vous en mesure d’attester du caractère reconditionné d’un appareil ? par quel moyen ?
 3. **Transport et livraison**
     3.1. Provenance des produits et implantation des principaux centres logistiques
     3.2. Modes de transport utilisés à chaque étape de la chaîne logistique
-    3.3. Avez-vous établi le bilan GES des activités logistiques ? 
+    3.3. Avez-vous établi le bilan GES des activités logistiques ?
     3.4. Sous quelle forme et sur quel périmètre êtes-vous en mesure de communiquer les informations relatives aux émissions de GES liées aux activités de transport ?
-    3.5. Quelle est votre politique vis-à-vis des emballages (volume et nature, réutilisation…) ? 
+    3.5. Quelle est votre politique vis-à-vis des emballages (volume et nature, réutilisation…) ?
 
 Nota bene : ce sourcing spécifique aux achats responsables doit être conduit dans le cadre du sourcing général mené par l’acheteur. En particulier, les échanges concernant les dispositifs d’insertion par l’activité économique doivent tenir compte des capacités des opérateurs économiques à supporter une action d’insertion (effectifs de l’entreprise).
 
@@ -187,19 +187,19 @@ Nota bene : ce sourcing spécifique aux achats responsables doit être conduit d
 ### Limiter l’obsolescence
 
 La réflexion sur l’obsolescence s’article sous trois formes qui la caractérisent :
-- L’obsolescence « culturelle » (phénomène de mode, envie de changer, culte du neuf), 
+- L’obsolescence « culturelle » (phénomène de mode, envie de changer, culte du neuf),
 - L’obsolescence logicielle (place du système d’exploitation, écoconception des applications et des mises à jour),
 - L’obsolescence matérielle (répétabilité, recyclage, adaptabilité aux futures technologies).
 
 En partant de ce constat des pistes d’améliorations peuvent s’articuler sous différentes formes.
 
-L’acheteur doit se poser la question du mode d’approvisionnement le plus adapté à son besoin et ses contraintes : l’achat ou la location. 
+L’acheteur doit se poser la question du mode d’approvisionnement le plus adapté à son besoin et ses contraintes : l’achat ou la location.
 
-Dans le cas de l’obsolescence  « culturelle » le recours à la location permet une optimisation financière dans un contexte de renouvellement des matériels rapide et de contrainte budgétaire. Les formules « tout en un » regroupant l’achat du matériel, les services et le financement sont souvent privilégiés par les acteurs du secteur privé. 
+Dans le cas de l’obsolescence  « culturelle » le recours à la location permet une optimisation financière dans un contexte de renouvellement des matériels rapide et de contrainte budgétaire. Les formules « tout en un » regroupant l’achat du matériel, les services et le financement sont souvent privilégiés par les acteurs du secteur privé.
 
 En matière d’environnement, la location peut avoir un impact favorable sur l’environnement à la condition que le matériel utilisé soit réintroduit dans un cycle de vie prolongé par l’opérateur.
 
-L’obsolescence matérielle (répétabilité, recyclage, adaptabilité aux futures technologies) se travaille par l’allongement de la durée de vie des équipements. 
+L’obsolescence matérielle (répétabilité, recyclage, adaptabilité aux futures technologies) se travaille par l’allongement de la durée de vie des équipements.
 
 Il est nécessaire d’aborder les thématiques suivantes : la réparabilité des matériels, l’accessibilité des pièces de rechange, la maitrise des coûts des pièces détachés, la génération d’une filière de réparation et de maintenabilité, la maitrise d’une filière de recyclage et la traçabilité des matériels (Cf chapitre « La réglementation existante – les obligations minimales des acheteurs et des opérateurs » de la présente fiche).
 
@@ -217,7 +217,7 @@ Un des moyens pour réduire l’empreinte environnementale des produits et servi
 
 La mise en place d’une politique de consommation en termes de produits et/ou services par profil est un enjeu majeur. Il est ainsi nécessaire de questionner systématiquement le besoin et d’adopter une stratégie d’équipement des services ou des agents en fonction de leur profil et de leurs usages. C’est ce que tout bon acheteur nomme « le juste besoin ».
 
-Une fois ce besoin défini, il est utile de s’intéresser aux possibilités de location et d’achat d’usage (économie de la fonctionnalité) en adoptant une démarche d’équipement des services ou agents en « postes » ou en « fonctionnalités » en lieu et place de l’approche produits / matériels. Par ailleurs, la pertinence de l’achat d’un matériel et les possibilités de partage entre agents ou services peuvent systématiquement être questionnées. Par exemple, l’équipement en smartphone professionnel peut adopter des caractéristiques adaptées à un usage personnel afin de ne pas doubler la consommation de ressources pour un même agent. 
+Une fois ce besoin défini, il est utile de s’intéresser aux possibilités de location et d’achat d’usage (économie de la fonctionnalité) en adoptant une démarche d’équipement des services ou agents en « postes » ou en « fonctionnalités » en lieu et place de l’approche produits / matériels. Par ailleurs, la pertinence de l’achat d’un matériel et les possibilités de partage entre agents ou services peuvent systématiquement être questionnées. Par exemple, l’équipement en smartphone professionnel peut adopter des caractéristiques adaptées à un usage personnel afin de ne pas doubler la consommation de ressources pour un même agent.
 
 </div>
 
@@ -270,7 +270,7 @@ Toutefois, la publication du décret sur l’indice de réparabilité et ses arr
 
 L’acheteur précise dans le CCAP, en tant que condition d’exécution, l’obligation pour le titulaire de fournir les équipements les plus performants du point de vue environnemental. Cette performance est appréciée en considérant les impacts générés à toutes les étapes du cycle de vie des produits : extraction et transformation des matières premières, fabrication, utilisation, gestion de la fin de vie des équipements.
 
-L’acheteur illustre son exigence en engageant le titulaire à rechercher les solutions optimales et en priorisant les matériels présentant des performances environnementales supérieures : 
+L’acheteur illustre son exigence en engageant le titulaire à rechercher les solutions optimales et en priorisant les matériels présentant des performances environnementales supérieures :
 -	Une longue durée d’utilisation.
 -	Des possibilités de réparation.
 -	Une adaptation aux besoins (pas de sur-spécifications).
@@ -322,17 +322,17 @@ Dès lors, il est important que l’acheteur intègre dans son marché une oblig
 L’acheteur exige ainsi du titulaire des informations fiables et transparentes sur :
 -	Le caractère reconditionné de l’équipement, la description et l’organisation des filières mobilisées ainsi que les lieux d’implantation des différents sites impliqués ;
 -	La mention de l’écolabellisation du produit le cas échéant ou quand l’offre sera disponible ;
--	le caractère réparable du produit 
+-	le caractère réparable du produit
     - pour les smartphones uniquement : indice de réparabilité du produit et paramètres ayant permis de l’établir dans le respect des dispositions de la loi dite « loi AGEC » (en application de l’article 16).
--	à partir de janvier 2022, dans le respect des dispositions de la loi dite « loi AGEC » : 
-    - affichage environnemental par voie d’étiquetage : incorporation de matière recyclée, composition en matériaux renouvelables, durabilité, possibilités de réemploi, recyclabilité et présence de substances dangereuses, de métaux précieux ou de terres rares 
+-	à partir de janvier 2022, dans le respect des dispositions de la loi dite « loi AGEC » :
+    - affichage environnemental par voie d’étiquetage : incorporation de matière recyclée, composition en matériaux renouvelables, durabilité, possibilités de réemploi, recyclabilité et présence de substances dangereuses, de métaux précieux ou de terres rares
 -	La durée minimale de disponibilité des pièces détachées. Ces informations accompagnent les matériels et sont visibles des utilisateurs.
 
-Durant l’exécution du marché, le titulaire fournit sur simple demande et sans délai les moyens de preuve permettant d’attester de ces allégations. 
+Durant l’exécution du marché, le titulaire fournit sur simple demande et sans délai les moyens de preuve permettant d’attester de ces allégations.
 
 Ces moyens de preuve doivent être transparents (délivrés par une autorité indépendante), fiables (mention explicite de l’équipement bénéficiant du label) et non échus (certification en cours de validité).
 
-En complément, l’acheteur doit demander des informations relatives aux conditions d’extraction de minerais garantis « sans conflits » (préciser les minerais concernés entrant dans la composition des matériels). 
+En complément, l’acheteur doit demander des informations relatives aux conditions d’extraction de minerais garantis « sans conflits » (préciser les minerais concernés entrant dans la composition des matériels).
 
 #### X.4 Clause de progrès
 
@@ -407,7 +407,7 @@ Plus d’informations sur [le dispositif d’insertion dans les marchés publics
 
 Le dispositif de formation sous statut scolaire de jeunes en situation de décrochage scolaire est développé par le ministère de l’éducation nationale ; il s’adresse à tous les marchés de l’Etat et de ses établissements publics. Il vise à encourager les jeunes en situation de décrochage scolaire à réintégrer le système éducatif ou à les orienter vers un premier emploi.
 
-Ce dispositif est particulièrement adapté aux marchés dont les montants ne sont pas suffisamment importants pour calibrer une clause sociale d’insertion. Durant la préparation de son projet achat, l’acheteur doit choisir un des deux dispositifs à intégrer dans son marché. 
+Ce dispositif est particulièrement adapté aux marchés dont les montants ne sont pas suffisamment importants pour calibrer une clause sociale d’insertion. Durant la préparation de son projet achat, l’acheteur doit choisir un des deux dispositifs à intégrer dans son marché.
 
 Condition d’exécution du marché, la clause de formation engage le titulaire à réaliser une action de formation d’un ou plusieurs jeunes entre 16 et 25 ans, d’un niveau de qualification inférieur à celui mentionné à l'article L. 313-7 du code de l'éducation, tel que modifié par le décret n° 2010-1781 du 31 décembre 2010. Les jeunes sont stagiaires de l’entreprise sur une durée précisée à la clause et calibrée selon le montant du marché. Ils sont accompagnés par les Missions de Lutte contre le Décrochage Scolaire (MLDS) du ministère chargé de l’Education nationale.
 
@@ -436,7 +436,7 @@ Condition d’exécution du marché, la clause de formation engage le titulaire 
   </tbody>
 </table>
 </div>
-	
+
 <div class="fr-highlight">
 
 Les informations sur le dispositif : [La clause sociale de formation sous statut scolaire dans les marchés publics](https://www.education.gouv.fr/la-clause-sociale-de-formation-sous-statut-scolaire-dans-les-marches-publics-41543)
@@ -489,7 +489,7 @@ Elle est analysée au regard des réponses des candidats au questionnaire « Per
 
 Le cadre de réponse du mémoire environnemental du candidat peut comporter deux types d’informations recherchées par l’acheteur :
 -	Les réponses des candidats au critère environnemental et qui feront l’objet d’une notation ; les allégations des candidats doivent impérativement être étayées par des moyens de preuve fournis dans l’offre ;
--	Les pratiques du candidat qui ne seront pas notées mais pour lesquelles l’acheteur souhaite des précisions : en application de la réglementation (ex : gestion des déchets) ou pour exécuter le marché (exemple : modalités de livraison, emballages, etc.). L’absence d’information ne conduira pas nécessairement à l’irrégularité de l’offre. 
+-	Les pratiques du candidat qui ne seront pas notées mais pour lesquelles l’acheteur souhaite des précisions : en application de la réglementation (ex : gestion des déchets) ou pour exécuter le marché (exemple : modalités de livraison, emballages, etc.). L’absence d’information ne conduira pas nécessairement à l’irrégularité de l’offre.
 
 La performance sociale de l’offre du candidat est également définie selon les informations issues du sourcing.
 
@@ -623,7 +623,7 @@ Les candidats sont invités à renseigner le questionnaire ci-dessous.
 
 Les éléments de réponse apportés doivent être clairs, fiables, transparents et documentés.
 
-L'attention des candidats est attirée sur le caractère informatif des réponses mentionnées dans ce document. En cas d’attribution du marché, ce document devient contractuel. 
+L'attention des candidats est attirée sur le caractère informatif des réponses mentionnées dans ce document. En cas d’attribution du marché, ce document devient contractuel.
 
 Les candidats dont les produits comportent un label de performance sociale (TCO certified, SA 8000 ou label équivalent)  doivent  préciser dans la rubrique "moyen  de preuve associé" le label correspondant.
 
@@ -749,7 +749,7 @@ Si autre organisation, préciser</td>
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/impression/">Page précédente :<br />Solutions d’impression</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/hebergement/">Page suivante :<br />Infrastructures et cloud</a>
   </div>

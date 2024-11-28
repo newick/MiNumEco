@@ -1,5 +1,5 @@
 ---
-layout: layouts/bonne-pratique/default.njk
+layout: layouts/page.njk
 title: Synthèse
 date: 2023-06-01
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
@@ -23,7 +23,7 @@ Une utilisation plus responsable du numérique consiste à réduire significativ
 
 Un numérique plus responsable c’est aussi un numérique plus éthique, par exemple en prenant en compte les personnes en situation de handicap (accessibilité numérique), les enjeux d’inclusion et de diversité, etc.
 
-Ce guide rassemble des exemples de bonnes pratiques pour un numérique plus responsable sous neuf thématiques 
+Ce guide rassemble des exemples de bonnes pratiques pour un numérique plus responsable sous neuf thématiques
 
 * Stratégie et gouvernance
 * Sensibilisation et formation

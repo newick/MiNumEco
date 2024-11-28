@@ -1,5 +1,5 @@
 ---
-layout: layouts/ecoconception-securite.njk
+layout: layouts/page.njk
 title: Cadre de la cybersécurité, la protection des données et l’écoconception
 date: 2022-07-01
 image: /img/publications/ecoconception-securite/ecoconception-securite.webp
@@ -84,7 +84,7 @@ Comme le souligne un participant, la protection des données à caractère perso
   - Territorialisation des données
 - **Gouvernance**
   - Responsable de traitement
-  - Délégué à la protection des données (DPO) 
+  - Délégué à la protection des données (DPO)
 
 </div>
 </section>

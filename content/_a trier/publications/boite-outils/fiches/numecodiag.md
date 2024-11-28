@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: NumEcoDiag
 description: Diagnostic d'écoconception basé sur le Référentiel Général d’Écoconception de Services Numériques (RGESN).
 tags: tool

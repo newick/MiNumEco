@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: ecoCode
 description: Analyseurs de code statique
 tags: tool

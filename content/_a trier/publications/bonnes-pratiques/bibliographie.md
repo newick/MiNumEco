@@ -1,5 +1,5 @@
 ---
-layout: layouts/bonne-pratique/default.njk
+layout: layouts/page.njk
 title: Bibliographie sélective
 date: 2023-06-01
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
@@ -9,7 +9,7 @@ Cette bibliographie est constituée de ressources imprimées et numériques qui 
 
 <div class="fr-grid-row">
 <div class="fr-col-12 fr-col-md-8">
- 
+
 Ce travail est le fruit d’une collaboration entre la Bibliothèque nationale de France ([centre de ressources et d’information sur le développement durable - CRIDD](https://bnf.libguides.com/developpementdurable) du département Sciences et techniques et la mission responsabilité sociétale) ainsi que la mission interministérielle numérique écoresponsable (Direction interministérielle du numérique).
 
 </div>
@@ -38,7 +38,7 @@ Illich, Ivan
 [La convivialité](http://ark.bnf.fr/ark:/12148/cb43897048t). Paris : Éd. Points, 2014. ([Points. Série Essais](https://catalogue.bnf.fr/ark:/12148/cb342883538), 65). 158 p.
 Magasin – [2014-210112]
 
-Massachusetts institute of technology 
+Massachusetts institute of technology
 [Rapport sur les limites à la croissance](http://ark.bnf.fr/ark:/12148/cb35379465w). Paris : [le Club français du livre], 1972. 314 p.
 Magasin – [8-R-75388]
 
@@ -55,7 +55,7 @@ ADEME (Agence de la transition écologique)
 Flipo, Fabrice
 [La numérisation du monde : un désastre écologique](https://catalogue.bnf.fr/ark:/12148/cb468854777). Paris : L'échappée, 2021. 173 p.
 Impression : 14-Condé-sur-Noireau : Impr. Corlet
-Magasin – [2021-270892] 
+Magasin – [2021-270892]
 
 GreenIT.fr
 «Impacts environnementaux du numérique en France : étude « iNum »/ collectif d’experts, 17 janvier 2021 »
@@ -112,7 +112,7 @@ Pouliquen,  Tanguy Marie
 Magasin : [2020-158933]
 
 Sergerie, Marie-Anne
-[Cyber dépendance : quand l'usage des technologies devient un problème](https://catalogue.bnf.fr/ark:/12148/cb466532986). Montréal (Québec) : les Éditions la Presse, 2020. 239 p. 
+[Cyber dépendance : quand l'usage des technologies devient un problème](https://catalogue.bnf.fr/ark:/12148/cb466532986). Montréal (Québec) : les Éditions la Presse, 2020. 239 p.
 Magasin – [2020-257247]
 
 Suissa, Amnon Jacob
@@ -142,7 +142,7 @@ Mauvilly, Karine
 Magasin – [CR338 MAUV c]
 
 Vinod Kumar, T. M.
-[Smart environment for smart cities](https://catalogue.bnf.fr/ark:/12148/cb45714070q). Singapore : Springer, copyright 2020. ([Advances in 21st century human settlements](https://catalogue.bnf.fr/ark:/12148/cb45650605m)). 530 p. 
+[Smart environment for smart cities](https://catalogue.bnf.fr/ark:/12148/cb45714070q). Singapore : Springer, copyright 2020. ([Advances in 21st century human settlements](https://catalogue.bnf.fr/ark:/12148/cb45650605m)). 530 p.
 Magasin – [2019-159478]
 
 [Rêvons nos villes](https://catalogue.bnf.fr/ark:/12148/cb46727856f)
@@ -152,7 +152,7 @@ Salle D – PRISME – [0 84.75 TRIB r]
 
 ## Vers un numérique plus responsable ?
 
-« Le numérique peut-il être écologique et responsable ? ». Émission *De cause à effets, le magazine de l’environnement* [en ligne] diffusée sur France Culture le 25 mai 2021. 57 min. À écouter sur : 
+« Le numérique peut-il être écologique et responsable ? ». Émission *De cause à effets, le magazine de l’environnement* [en ligne] diffusée sur France Culture le 25 mai 2021. 57 min. À écouter sur :
 [France Culture](https://www.franceculture.fr/emissions/de-cause-a-effets-le-magazine-de-lenvironnement/de-cause-a-effets-le-magazine-de-lenvironnement-du-mardi-25-mai-2021)
 
 Bordage, Frédéric

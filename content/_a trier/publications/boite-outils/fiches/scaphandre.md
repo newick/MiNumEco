@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: Scaphandre
 description: Agent de monitoring dédié aux mesures de consommation d'énergie finale
 tags: tool

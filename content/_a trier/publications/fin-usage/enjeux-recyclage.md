@@ -1,5 +1,5 @@
 ---
-layout: layouts/fin-usage.njk
+layout: layouts/page.njk
 title: Acteurs et enjeux du recyclage
 date: 2022-04-20
 image: /img/publications/fin-usage/atelier-fin-usage.webp
@@ -52,7 +52,7 @@ On distingue différents types de valorisation des déchets, dont les définitio
 
 ![](/img/publications/fin-usage/taux-de-performance.webp)
 
-Selon les chiffres 2020 de l'ADEME : 
+Selon les chiffres 2020 de l'ADEME :
 
 * Taux de réutilisation et recyclage : 76 %
 * Taux de valorisation: 87 %
@@ -62,7 +62,7 @@ Selon les chiffres 2020 de l'ADEME :
 Les obligations sont inscrites dans le Code de l’environnement :
 
 *	[Article L541-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023268608/) : responsabilité du déchet jusqu’à sa valorisation ou élimination finale, même en cas de transfert à un tiers.
-* [Article L541-10](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041599099/) : responsabilité du producteur en système individuel de collecte ou de l’éco-organisme agréé de gérer la fin de vie des déchets. 
+* [Article L541-10](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041599099/) : responsabilité du producteur en système individuel de collecte ou de l’éco-organisme agréé de gérer la fin de vie des déchets.
 * [Article R541-45](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043308106) : obligation de remettre un bordereau de suivi des déchets en cas de transfert à un tiers si le producteur n’est pas connu, sauf pour les piles et accumulateurs usagers et les DEEE ou fluides frigorigènes usagés dont la reprise est obligatoire « par les fabricants ou leurs éco-organismes ».
 
 ## Qu’est-ce qu’un éco-organisme ?
@@ -78,7 +78,7 @@ Les obligations sont inscrites dans le Code de l’environnement :
   * S’engager pour le compte des producteurs sur des résultats
   * Être garant d’une filière saine
 
-### Caractéristiques 
+### Caractéristiques
 
 * Répond à un cahier des charges strict
 * Soumet sa candidature à toutes les parties prenantes de la filière

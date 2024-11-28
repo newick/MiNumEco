@@ -1,5 +1,5 @@
 ---
-layout: layouts/outil.njk
+layout: layouts/page.njk
 title: eleventy-dsfr
 description: Générateur de sites statiques institutionnels
 tags: tool
