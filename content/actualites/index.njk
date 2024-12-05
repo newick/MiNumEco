@@ -1,0 +1,28 @@
+---js
+{
+  title: "Actualités",
+  pagination: {
+    data: "collections.posts",
+    size: 10,
+    reverse: true,
+  },
+  layout: "layouts/page.njk",
+  permalink: "/actualites/{% if pagination.pageNumber %}{{ pagePrefix }}{{ pagination.pageNumber + 1 }}/{% endif %}",
+  eleventyNavigation: {
+    key: "Actualités",
+    order: 2
+  }
+}
+---
+
+plop
+<h2 class="fr-h4">{{ "filter_by_tag" | i18n }}</h2>
+<div class="fr-mt-6v fr-mb-6w">
+  {% set tags = collections.posts | getAllTags %}
+  {% include "components/taggroup.njk" %}
+</div>
+
+{% set postslist = collections.posts %}
+
+{% include "postslist.njk" %}
+{% include "templates/pagination.njk" %}

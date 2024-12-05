@@ -1,0 +1,7 @@
+---
+title: Tags
+layout: layouts/page.njk
+permalink: "/actualites/tags/"
+---
+{% set tags = collections.posts | getAllTags %}
+{% include "components/taggroup.njk" %}
