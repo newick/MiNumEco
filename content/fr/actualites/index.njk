@@ -5,24 +5,23 @@
     data: "collections.posts",
     size: 10,
     reverse: true,
+    before: function(paginationData, fullData) {
+      return this.filterCollectionLang(paginationData, fullData.lang);
+    }
   },
   layout: "layouts/page.njk",
-  permalink: "/actualites/{% if pagination.pageNumber %}{{ pagePrefix }}{{ pagination.pageNumber + 1 }}/{% endif %}",
+  permalink: "/{{ lang }}/actualites/{% if pagination.pageNumber %}{{ pagePrefix }}{{ pagination.pageNumber + 1 }}/{% endif %}",
   eleventyNavigation: {
     key: "Actualités",
-    order: 2
+    order: 5
   }
 }
 ---
-
-plop
 <h2 class="fr-h4">{{ "filter_by_tag" | i18n }}</h2>
 <div class="fr-mt-6v fr-mb-6w">
-  {% set tags = collections.posts | getAllTags %}
+  {% set tags = collections.posts | filterCollectionLang | getAllTags %}
   {% include "components/taggroup.njk" %}
 </div>
-
-{% set postslist = collections.posts %}
-
+{% set postslist = pagination.items %}
 {% include "postslist.njk" %}
 {% include "templates/pagination.njk" %}
