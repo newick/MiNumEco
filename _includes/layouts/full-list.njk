@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+---
+
+{% set postslist = collections.all | reverse %}
+{% set tags = collections.all | getAllTags %}
+
+<div class="fr-container fr-py-6w">
+  {% include "components/breadcrumb.njk" %}
+
+  <h1>{{ title }}</h1>
+
+  <div class="fr-mt-6v fr-mb-6w">
+		<h2>Tags</h2>
+    {% include "components/taggroup-disabled.njk" %}
+  </div>
+
+  <div class="fr-mt-6v fr-mb-6w">
+		<h2>Contenus</h2>
+	  <strong>Nombre de pages existantes : </strong>{{postslist.length}}
+  	{% include "postslist.njk" %}
+</div>

@@ -1,6 +1,6 @@
 ---
 title: Autres formations et ressources
-layout: layouts/landing.njk
+layout: layouts/page.njk
 eleventyNavigation:
   parent: formations
   title: Autres formations et ressources

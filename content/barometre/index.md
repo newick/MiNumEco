@@ -1,6 +1,6 @@
 ---
 title: Baromètre
-layout: layouts/landing.njk
+layout: layouts/page.njk
 permalink: /barometre/
 eleventyNavigation:
   key: barometre

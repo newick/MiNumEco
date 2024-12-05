@@ -8,6 +8,12 @@ permalink: /actualites/
 
   <h1>{{ title }}</h1>
 
+	<div class="fr-mt-6v fr-mb-6w">
+  	{% set tags = collections.posts | getAllTags %}
+  	{% include "components/taggroup.njk" %}
+		{{ tags}}
+	</div>
+
 	<h2>Études et mesures</h2>
 
 
@@ -22,8 +28,8 @@ permalink: /actualites/
 
 	<h2>Data Center</h2>
 
-{#
+
   {% set postslist = collections.posts | reverse %}
 
-  {% include "postslist.njk" %} #}
+  {% include "postslist.njk" %}
 </div>

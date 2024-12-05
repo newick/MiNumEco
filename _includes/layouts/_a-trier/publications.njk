@@ -60,7 +60,7 @@ layout: layouts/base.njk
 
 {% for post in postslist | reverse %}
 
-  {# Un second bloc conditionnel s'assure que seules les publications
+  {# Un second bconditionnel s'assure que seules les publications
   sans la propriété focus et sans la catégorie "autres" sont affichées
   dans cette 2e section. #}
   {% if post.data.focus == false and post.data.category != "autres" %}
@@ -101,7 +101,7 @@ layout: layouts/base.njk
 
 {% for post in postslist | reverse %}
 
-{# Un troisième bloc conditionnel s'assure que seules les publications
+{# Un troisième bconditionnel s'assure que seules les publications
   sans la propriété focus et avec la catégorie "autres" sont affichées
   dans cette 3e section. #}
 {% if post.data.category == "autres" %}

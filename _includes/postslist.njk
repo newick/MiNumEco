@@ -7,6 +7,10 @@
       title: post.data.title,
       description: post.data.description | safe,
       tags: post.data.tags,
+      type: post.data.type,
+			layout: post.data.layout,
+			permalink: post.data.permalink,
+			parent: post.data.eleventyNavigation.parent,
       date: post.date,
       badges: post.data.badges,
       image: {

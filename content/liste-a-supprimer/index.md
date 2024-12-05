@@ -1,9 +1,9 @@
 ---
-layout: layouts/page.njk
-title: "Réglementation"
+layout: layouts/full-list.njk
+title: "Liste complète - à supprimer"
 eleventyNavigation:
-  key: Réglementation
-  order: 6
+  key: Liste à supprimer
+  order: 7
 ---
 
 <div class="fr-highlight">

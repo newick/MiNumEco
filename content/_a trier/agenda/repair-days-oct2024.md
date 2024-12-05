@@ -5,7 +5,8 @@ date: 2024-10-18
 dateLabel: du 18 au 20 octobre 2024
 location: France
 image: /img/posts/repair-days-2024/repair-days-2024.webp
-type: event
+type: news
+tag: agenda
 ---
 
 ![]({{ image }})
