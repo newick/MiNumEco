@@ -3,8 +3,9 @@ layout: layouts/page.njk
 title: "Épisode #1 : Les enjeux environnementaux de l'innovation"
 description: Table ronde du 3 juin 2024, avec Virginie Rozière, Juliette Froppier, Bastien Guerry et animée par Mélanie Raphaël. Quels sont les défis environnementaux de l'innovation numérique ? Avec des contraintes de cybersécurité ? Dans l'IA ? Quels sont les apports des logiciels libres ?
 date: 2024-07-15
-image: /img/podcast/podcast-minumechos-episode1.webp
-apercu: /img/podcast/podcast-minumechos-episode1.webp
+image:
+    path: ./podcast-minumechos-episode1.webp
+    alt: ""
 tags:
   - 'Podcast'
 ---

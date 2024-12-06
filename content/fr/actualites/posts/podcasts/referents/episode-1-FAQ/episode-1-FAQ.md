@@ -3,8 +3,9 @@ layout: layouts/page.njk
 title: "Épisode #1 FAQ : Les questions des référents numérique responsable"
 description: Questions à l'issue de la table ronde du 3 juin 2024, avec Virginie Rozière, Juliette Froppier, Bastien Guerry et animée par Mélanie Raphaël. Quels sont les défis environnementaux de l'innovation numérique ?
 date: 2024-07-16
-image: /img/podcast/podcast-minumechos-episode1.webp
-apercu: /img/podcast/podcast-minumechos-episode1.webp
+image:
+    path: ./podcast-minumechos-episode1.webp
+    alt: ""
 tags:
   - 'Podcast'
 ---
