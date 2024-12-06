@@ -137,6 +137,10 @@ module.exports = function (eleventyConfig) {
             .indexOf(tag) === -1);
     });
 
+		eleventyConfig.addFilter("hasTag", (tags, tag) => {
+			return (tags || []).includes(tag);
+		});
+
     eleventyConfig.addFilter("findBySlug", function find(collection = [], slug = "") {
         return collection.find(post => post.fileSlug === slug);
     });
