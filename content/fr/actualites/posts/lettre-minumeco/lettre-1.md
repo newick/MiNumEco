@@ -5,8 +5,8 @@ description: Première lettre de la MiNumEco, postée sur LinkedIn le 20/09/2024
 date: 2024-09-20
 image: /img/publications/lettre-linkedin/lettre-1.webp
 apercu: /img/publications/lettre-linkedin/lettre-1.webp
-tags: ["lettrelinkedinminumeco"]
-type: lettrelinkedinminumeco
+tags:
+	- 'Newsletter'
 ---
 <!-- bouton d'inscription sur linkedIn -->
 
