@@ -5,8 +5,9 @@ description: Présentation du Guichet Numérique Responsable du Fonds de transfo
 date: 2024-09-25
 image: /img/videos/miniserie/vignette-miniserie-episode5.webp
 apercu: /img/videos/miniserie/vignette-miniserie-episode5.webp
-tags: vidéo
-type: miniserie
+tags:
+  - 'Vidéo'
+  - 'MiNumEco'
 ---
 
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM EN ATTENTE DU LIEN-->

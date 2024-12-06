@@ -4,8 +4,6 @@ description: "Ce guide a pour objectif de fournir des lignes directrices et des 
 image:
     path: ../img/afnor-spec-ecoconception.png
     alt: Image d'illustration
-type: news
-tags: plop
 date: 2022-04-29
 ---
 

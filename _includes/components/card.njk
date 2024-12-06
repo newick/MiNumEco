@@ -18,41 +18,12 @@
 			{% endif %}
 
       <div class="fr-card__start">
-        <b>tags:</b> {% if card.tags %}
+        {% if card.tags %}
 				<div>
           {% set tags = card.tags %}
           {% include "components/taggroup-disabled.njk" %}
 				</div>
         {% endif %}
-
-				{% if card.type %}
-				<div>
-					<b>type:</b> {{card.type}}
-				</div>
-				{% endif %}
-
-				{% if card.layout %}
-				<div>
-					<b>layout:</b>
-						{{card.layout}}
-				</div>
-				{% endif %}
-
-				{% if card.permalink %}
-				<div>
-					<b>permalink:</b>
-						{{card.permalink}}
-				</div>
-				{% endif %}
-
-				{{card.url}}
-
-				{% if card.parent %}
-				<div>
-					<b>parent:</b>
-						{{card.parent}}
-				</div>
-				{% endif %}
 
         {% if card.date %}
           <p class="fr-card__detail fr-icon-time-fill fr-mt-3w">

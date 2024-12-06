@@ -5,8 +5,9 @@ description: Quelles sont les actions des ministères ? Réponse des référents
 date: 2024-07-21
 image: /img/videos/miniserie/vignette-miniserie-episode3.webp
 apercu: /img/videos/miniserie/vignette-miniserie-episode3.webp
-tags: vidéo
-type: miniserie
+tags:
+  - 'Vidéo'
+  - 'MiNumEco'
 ---
 
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM EN ATTENTE DU LIEN-->

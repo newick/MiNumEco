@@ -18,6 +18,12 @@ layout: layouts/base.njk
 
     <strong>Nombre de pages existantes :</strong> {{ postslist.length }}
 
+{% for tag in tags %}
+{% for post in collections.tag %}
+  {{ post.data.title }}
+{% endfor %}
+{% endfor %}
+
     {% include "postslist.njk" %}
   </div>
 </div>

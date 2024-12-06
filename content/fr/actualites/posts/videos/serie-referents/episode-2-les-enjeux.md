@@ -5,8 +5,9 @@ description: Quels sont les enjeux d'un numérique plus responsable ? Réponse d
 date: 2024-07-21
 image: /img/videos/miniserie/vignette-miniserie-episode2.webp
 apercu: /img/videos/miniserie/vignette-miniserie-episode2.webp
-tags: vidéo
-type: miniserie
+tags:
+  - 'Vidéo'
+  - 'MiNumEco'
 ---
 
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM -->

@@ -5,8 +5,9 @@ description: La Mission Interministérielle Numérique Ecoresponsable (MiNumEco)
 date: 2024-09-20
 image: /img/videos/miniserie/vignette-miniserie-episode4.webp
 apercu: /img/videos/miniserie/vignette-miniserie-episode4.webp
-tags: vidéo
-type: miniserie
+tags:
+  - 'Vidéo'
+  - 'MiNumEco'
 ---
 
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM EN ATTENTE DU LIEN-->

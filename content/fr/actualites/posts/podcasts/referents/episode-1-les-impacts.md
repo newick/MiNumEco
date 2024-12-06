@@ -5,8 +5,8 @@ description: Table ronde du 3 juin 2024, avec Virginie Rozière, Juliette Froppi
 date: 2024-07-15
 image: /img/podcast/podcast-minumechos-episode1.webp
 apercu: /img/podcast/podcast-minumechos-episode1.webp
-tags: ["podcastminumechos"]
-type: podcastminumechos
+tags:
+  - 'Podcast'
 ---
 <!-- intégration Acast -->
 

@@ -5,8 +5,9 @@ description: Comment les ministères agissent pour réduire leur empreinte envir
 date: 2024-07-20
 image: /img/videos/miniserie/vignette-miniserie-episode1.webp
 apercu: /img/videos/miniserie/vignette-miniserie-episode1.webp
-tags: vidéo
-type: miniserie
+tags:
+  - 'Vidéo'
+  - 'MiNumEco'
 ---
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM -->
 

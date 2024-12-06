@@ -5,8 +5,8 @@ description: Questions à l'issue de la table ronde du 3 juin 2024, avec Virgini
 date: 2024-07-16
 image: /img/podcast/podcast-minumechos-episode1.webp
 apercu: /img/podcast/podcast-minumechos-episode1.webp
-tags: ["podcastminumechos"]
-type: podcastminumechos
+tags:
+  - 'Podcast'
 ---
 <!-- intégration Acast -->
 

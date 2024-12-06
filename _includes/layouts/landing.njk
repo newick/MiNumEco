@@ -7,9 +7,5 @@ layout: layouts/base.njk
 
   <h1>{{ title }}</h1>
 
-	intro
-
-  {# {% set postslist = collections.all | eleventyNavigationByKeys(items) %} #}
-
-  {% include "postslist.njk" %}
+	{{ content | safe }}
 </div>
