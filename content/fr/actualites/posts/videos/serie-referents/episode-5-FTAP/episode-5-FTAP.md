@@ -3,8 +3,9 @@ layout: layouts/page.njk
 title: "Épisode #5 : Administrations, comment financer votre projet numérique responsable"
 description: Présentation du Guichet Numérique Responsable du Fonds de transformation de l'action publique (FTAP)
 date: 2024-09-25
-image: /img/videos/miniserie/vignette-miniserie-episode5.webp
-apercu: /img/videos/miniserie/vignette-miniserie-episode5.webp
+image:
+    path: ./vignette-miniserie-episode5.webp
+    alt: ""
 tags:
   - 'Vidéo'
   - 'MiNumEco'

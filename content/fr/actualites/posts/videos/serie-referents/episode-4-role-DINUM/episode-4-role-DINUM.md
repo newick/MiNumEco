@@ -3,8 +3,9 @@ layout: layouts/page.njk
 title: "Épisode #4 : Le rôle de la DINUM"
 description: La Mission Interministérielle Numérique Ecoresponsable (MiNumEco) et la DINUM
 date: 2024-09-20
-image: /img/videos/miniserie/vignette-miniserie-episode4.webp
-apercu: /img/videos/miniserie/vignette-miniserie-episode4.webp
+image:
+    path: ./vignette-miniserie-episode4.webp
+    alt: ""
 tags:
   - 'Vidéo'
   - 'MiNumEco'

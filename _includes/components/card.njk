@@ -8,25 +8,19 @@
           <a href="{{ cardUrl }}">
             {{ card.title }}
           </a>
-        {% else %}
-					{{ card.title }}
+        {% else %}{{ card.title }}
         {% endif %}
       </h3>
-
-			{% if card.description %}
+			{% if card.description%}
       	<p class="fr-card__desc">{{ card.description }}</p>
 			{% endif %}
-
       <div class="fr-card__start">
         {% if card.tags %}
-				<div>
           {% set tags = card.tags %}
           {% include "components/taggroup-disabled.njk" %}
-				</div>
         {% endif %}
-
         {% if card.date %}
-          <p class="fr-card__detail fr-icon-time-fill fr-mt-3w">
+          <p class="fr-card__detail fr-icon-time-fill">
             <time class="postlist-date" datetime="{{ card.date | htmlDateString }}">
               {{ card.date | readableDate }}
             </time>
@@ -35,26 +29,21 @@
           <p class="fr-card__detail">{{ card.detail }}</p>
         {% endif %}
       </div>
-
       {% if card.detailEnd %}
-        <div class="fr-card__end">
-          <p class="fr-card__detail">{{ card.detailEnd }}</p>
-        </div>
+      <div class="fr-card__end">
+        <p class="fr-card__detail">{{ card.detailEnd }}</p>
+      </div>
       {% endif %}
     </div>
-
- 		{% if card.externalUrl %}
     <div class="fr-card__footer">
       {% if card.externalUrl %}
         <a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="{{ card.externalUrl }}"
-           title="{{ card.title }} - Nouvelle fenêtre" target="_blank" rel="noopener">
+           title="{{ card.title }} - {{ "new_window" | i18n }}" target="_blank" rel="noopener">
           {{ card.urlDescription or "see_more" | i18n }}
         </a>
       {% endif %}
     </div>
-		{% endif %}
   </div>
-
   {% if card.badges or card.image %}
     <div class="fr-card__header">
       {% if card.badges %}

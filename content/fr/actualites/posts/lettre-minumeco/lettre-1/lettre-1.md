@@ -3,31 +3,15 @@ layout: layouts/page.njk
 title: "Lettre #1"
 description: Première lettre de la MiNumEco, postée sur LinkedIn le 20/09/2024
 date: 2024-09-20
-image: /img/publications/lettre-linkedin/lettre-1.webp
-apercu: /img/publications/lettre-linkedin/lettre-1.webp
+image:
+    path: ./lettre-1.webp
+    alt: ""
 tags:
-	- 'Newsletter'
+	- 'Lettre-information'
 ---
 <!-- bouton d'inscription sur linkedIn -->
 
-<style>
-      .libutton {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 7px;
-        text-align: center;
-        outline: none;
-        text-decoration: none !important;
-        color: #ffffff !important;
-        width: 200px;
-        height: 32px;
-        border-radius: 16px;
-        background-color: #0A66C2;
-        font-family: "SF Pro Text", Helvetica, sans-serif;
-      }
-    </style>
-<a class="libutton" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7242864226900279296" target="_blank">S’abonner sur LinkedIn</a>
+<a href="https://www.linkedin.com/newsletters/7242864226900279296/?displayConfirmation=true" target="_blank" class="fr-btn" title="S‘abonner à notre lettre d’information">S'abonner</a>
 
 ## Sommaire de la première lettre de la MiNumEco
 
