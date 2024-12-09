@@ -3,7 +3,7 @@
   <div class="fr-tile__body">
     <div class="fr-tile__content">
       {% set tileUrl = tile.url | locale_url or tile.externalUrl %}
-      {% set urlDescription %}{{ tile.title }}{% if tile.externalUrl %} - Nouvelle fenêtre{% endif %}{% endset %}
+      {% set urlDescription %}{{ tile.title }}{% if tile.externalUrl %} - {{ "new_window" | i18n }}{% endif %}{% endset %}
       <h4 class="fr-tile__title">
         <a class="fr-tile__link" href="{{ tileUrl }}"
            title="{{ urlDescription }}"{% if tile.externalUrl %} target="_blank" rel="noopener"{% endif %}>
