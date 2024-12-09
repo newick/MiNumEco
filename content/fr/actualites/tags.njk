@@ -6,7 +6,7 @@
     size: 1,
     alias: "tag",
     before: function(paginationData, fullData) {
-      return this.paginateCollectionTags(this.filterCollectionLang(paginationData, fullData.lang), 10);
+      return this.paginateCollectionTags(this.filterCollectionLang(paginationData, fullData.lang), 6);
     }
   },
   layout: "layouts/page.njk",
@@ -18,12 +18,15 @@
     {{ tag.tagName }}
   </a>
 </h2>
+
 <div class="fr-mt-6v fr-mb-6w">
   {% set tags = collections.posts | filterCollectionLang | getAllTags | filterTagList([tag.tagName]) %}
   {% include "components/taggroup.njk" %}
 </div>
+
 {% set postslist = tag.pageData %}
 {% include "postslist.njk" %}
+
 {% set tagUrl %}{{ "/actualites/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
 {% set pagination = pagination | buildPagination(tagUrl) %}
 {% include "templates/pagination.njk" %}
