@@ -1,6 +1,9 @@
 const {DateTime} = require("luxon");
 const {nanoid} = require ("nanoid");
 
+const fs = require("fs");
+const path = require("path");
+
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
@@ -203,6 +206,38 @@ module.exports = function (eleventyConfig) {
     // https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
     // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+		const redirects = require("./redirects.json");
+
+		eleventyConfig.on("eleventy.after", () => {
+			Object.entries(redirects).forEach(([from, to]) => {
+				// Construire le chemin de sortie
+				const outputPath = path.join("_site", from, "index.html");
+
+				// Générer le contenu HTML pour la redirection
+				const redirectHtml = `
+					<!DOCTYPE html>
+					<html lang="en">
+					<head>
+						<meta charset="UTF-8">
+						<meta http-equiv="refresh" content="0;url=${to}">
+						<link rel="canonical" href="${to}">
+						<title>Redirection</title>
+					</head>
+					<body>
+						<p>Cette page a été déplacée. Si vous n'êtes pas redirigé automatiquement, cliquez <a href="${to}">ici</a>.</p>
+					</body>
+					</html>
+				`;
+
+				// Créer les dossiers nécessaires et écrire le fichier
+				const dir = path.dirname(outputPath);
+				if (!fs.existsSync(dir)) {
+					fs.mkdirSync(dir, { recursive: true });
+				}
+				fs.writeFileSync(outputPath, redirectHtml, "utf8");
+			});
+		});
 
     return {
         // Control which files Eleventy will process
