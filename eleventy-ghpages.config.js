@@ -208,9 +208,13 @@ module.exports = function (eleventyConfig) {
     // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
 		const redirects = require("./redirects.json");
+		const pathPrefix = "/MiNumEco";
 
 		eleventyConfig.on("eleventy.after", () => {
 			Object.entries(redirects).forEach(([from, to]) => {
+				const fullFrom = `${pathPrefix}${from}`;
+				const fullTo = `${pathPrefix}${to}`;
+
 				// Construire le chemin de sortie
 				const outputPath = path.join("_site", from, "index.html");
 
@@ -220,12 +224,12 @@ module.exports = function (eleventyConfig) {
 					<html lang="en">
 					<head>
 						<meta charset="UTF-8">
-						<meta http-equiv="refresh" content="0;url=${to}">
-						<link rel="canonical" href="${to}">
+						<meta http-equiv="refresh" content="0;url=${fullTo}">
+						<link rel="canonical" href="${fullTo}">
 						<title>Redirection</title>
 					</head>
 					<body>
-						<p>Cette page a été déplacée. Si vous n'êtes pas redirigé automatiquement, cliquez <a href="${to}">ici</a>.</p>
+						<p>Cette page a été déplacée. Si vous n'êtes pas redirigé automatiquement, cliquez <a href="${fullTo}">ici</a>.</p>
 					</body>
 					</html>
 				`;
