@@ -14,7 +14,7 @@ permalink: "actualites/{{ title | slugify }}"
 							{% include "components/taggroup.njk" %}
 						{% endif %}
 						{% if serie %}
-							{{serie}}
+							<p class="fr-mb-1w">Série : {{serie}}</p>
 						{% endif %}
 						<p class="fr-text--xs">
               {{ "published_on" | i18n }}

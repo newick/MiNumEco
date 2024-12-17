@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/post.njk
 title: "Épisode #2 : les actions possibles sur le cycle de vie du matériel"
 description: Table ronde du 3 juin 2024, Les actions possibles sur le cycle de vie du matériel avec Laura De Oliveira, Mathilde Chevalier, Claire Dorville et Alain Caumeil.
 date: 2024-09-14

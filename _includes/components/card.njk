@@ -20,9 +20,7 @@
           {% include "components/taggroup-disabled.njk" %}
         {% endif %}
 				{% if card.serie %}
-					<div class="fr-tags-group">
-						<p class="fr-tag">{{card.serie}}</p>
-					</div>
+						<p>Série : {{card.serie}}</p>
         {% endif %}
         {% if card.date %}
           <p class="fr-card__detail fr-icon-time-fill">
