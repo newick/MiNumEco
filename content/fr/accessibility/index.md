@@ -1,7 +1,7 @@
 ---
-title: Exemple de déclaration d’accessibilité
+title: Déclaration d’accessibilité
 layout: layouts/post.njk
-description: Déclaration d’accessibilité à compléter
+description: Déclaration d’accessibilité
 slugOverride: accessibilite
 showBreadcrumb: true
 ---
@@ -87,7 +87,7 @@ Les vérifications de restitution de contenus ont été réalisées sur la base 
 
 ## Retour d’information et contact
 
-Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable de <span class="aModifier">[nom du site]</span> pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
+Si vous n’arrivez pas à accéder à un contenu ou à un service, vous pouvez contacter le responsable de `ecoresponsable.numerique.gouv.fr` pour être orienté vers une alternative accessible ou obtenir le contenu sous une autre forme.
 
 - Envoyer un message <span class="aModifier">[url du formulaire en ligne]</span> ;
 - Contacter <span class="aModifier">[Nom de l’entité responsable du service en ligne et coordonnées]</span>.
@@ -98,7 +98,7 @@ Si vous constatez un défaut d’accessibilité vous empêchant d’accéder à 
 
 Plusieurs moyens sont à votre disposition :
 
-- Écrire un message au Défenseur des droits
+- Écrire un message au Défenseur des droits via un [formulaire de contact](https://www.defenseurdesdroits.fr/nous-contacter),
 - Contacter le délégué du Défenseur des droits dans votre région
 - Envoyer un courrier par la poste (gratuit, ne pas mettre de timbre)
   Défenseur des droits
