@@ -144,3 +144,43 @@ div.fr-callout__text p {
 .text-center {
     text-align: center;
 }
+
+p:empty {
+	display: none;
+}
+
+.responsive-video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Ratio 16:9 */
+  background-color: #000;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Style pour le bouton de lecture */
+.dailymotion-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.play-button {
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.play-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}

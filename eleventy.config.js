@@ -207,14 +207,14 @@ module.exports = function (eleventyConfig) {
 
     // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
+		// list of redirected pages
 		const redirects = require("./redirects.json");
-
+		// allows to redirect pages
 		eleventyConfig.on("eleventy.after", () => {
 			Object.entries(redirects).forEach(([from, to]) => {
-				// Construire le chemin de sortie
 				const outputPath = path.join("_site", from, "index.html");
 
-				// Générer le contenu HTML pour la redirection
+				// Generation HTML to redirect
 				const redirectHtml = `
 					<!DOCTYPE html>
 					<html lang="en">
@@ -230,7 +230,7 @@ module.exports = function (eleventyConfig) {
 					</html>
 				`;
 
-				// Créer les dossiers nécessaires et écrire le fichier
+				// Create folder and write file
 				const dir = path.dirname(outputPath);
 				if (!fs.existsSync(dir)) {
 					fs.mkdirSync(dir, { recursive: true });
@@ -239,6 +239,35 @@ module.exports = function (eleventyConfig) {
 			});
 		});
 
+		// Shortcode to display accordion for transcription
+		eleventyConfig.addPairedShortcode("transcription", function(content, title){
+			return `
+			<section class="fr-accordion">
+				<h2 class="fr-accordion__title">
+					<button
+						class="fr-accordion__btn"
+						aria-expanded="false"
+						aria-controls="accordion-114"
+					>
+						${title}
+					</button>
+				</h2>
+				<div class="fr-collapse" id="accordion-114">
+					${content}
+				</div>
+			</section>
+			`;
+		});
+
+		eleventyConfig.addShortcode("dailymotion", function (videoId) {
+			return `
+				<div class="responsive-video-container" data-video-id="${videoId}">
+					<div class="dailymotion-placeholder">
+						<span class="play-button">▶ Cliquez pour lire la vidéo</span>
+					</div>
+				</div>
+			`;
+		});
 
     return {
         // Control which files Eleventy will process

@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/post.njk
 title: "Épisode #1 : Présentation du réseau des référents"
 description: Comment les ministères agissent pour réduire leur empreinte environnementale ? Présentation de l'action de la MinumEco et des référents ministériels numérique écoresponsable.
 date: 2024-07-20
@@ -11,22 +11,19 @@ tags:
   - 'MiNumEco'
 ---
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM -->
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-	<iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x92eo5e" width="100%" height="100%" allowfullscreen  allow="fullscreen; picture-in-picture; web-share" title="Dailymotion Video Player" > </iframe>
-</div>
+{%- dailymotion "x92eo5e" -%}
 
 <!-- légende de la vidéo-->
-
 **Présentation du réseau des référents ministériels numérique responsable par Mélanie Raphaël**
 
 <!-- description-->
-
 Comment les ministères agissent pour réduire leur empreinte environnementale ? Présentation de l'action de la MinumEco et des référents ministériels numérique écoresponsable.
 
 <!-- transcription-->
+{% transcription 'Transcription de la vidéo' %}
+## Titre
 
-*Transcription*
+paragraphe de **contenu** un peu plus long
 
-A venir
-
+- élément de liste
+{% endtranscription %}
