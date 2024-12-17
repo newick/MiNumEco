@@ -5,7 +5,7 @@ image:
     path: ../img/afnorspecIAfrugale.webp
     alt: ""
 tags:
-	- 'Documents de référence'
+	- 'Document de référence'
  	- 'IA et Data'
 date: 2024-07-01
 ---

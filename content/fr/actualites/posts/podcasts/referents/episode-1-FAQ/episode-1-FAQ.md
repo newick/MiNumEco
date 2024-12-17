@@ -11,7 +11,7 @@ tags:
   - 'Ecoconception'
   - 'Ministères'
   - 'IA et Data'
-  - 'Événements'
+  - 'Événement'
 type: serie
 serie: 'Saison 1'
 ---

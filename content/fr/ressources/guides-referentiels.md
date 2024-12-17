@@ -1,8 +1,8 @@
 ---
-title: Guides et référentiels
+title: Documents de référence
 layout: layouts/landing.njk
 eleventyNavigation:
   parent: ressources
-  title: Guides et référentiels
+  title: Documents de référence
   order: 1
 ---
