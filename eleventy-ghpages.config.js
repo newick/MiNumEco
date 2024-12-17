@@ -207,40 +207,70 @@ module.exports = function (eleventyConfig) {
 
     // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
 
+		// list of redirected pages
 		const redirects = require("./redirects.json");
-		const pathPrefix = "/MiNumEco";
-
+		// allows to redirect pages
 		eleventyConfig.on("eleventy.after", () => {
 			Object.entries(redirects).forEach(([from, to]) => {
-				const fullFrom = `${pathPrefix}${from}`;
-				const fullTo = `${pathPrefix}${to}`;
-
-				// Construire le chemin de sortie
 				const outputPath = path.join("_site", from, "index.html");
 
-				// Générer le contenu HTML pour la redirection
+				// Generation HTML to redirect
 				const redirectHtml = `
 					<!DOCTYPE html>
 					<html lang="en">
 					<head>
 						<meta charset="UTF-8">
-						<meta http-equiv="refresh" content="0;url=${fullTo}">
-						<link rel="canonical" href="${fullTo}">
+						<meta http-equiv="refresh" content="0;url=${to}">
+						<link rel="canonical" href="${to}">
 						<title>Redirection</title>
 					</head>
 					<body>
-						<p>Cette page a été déplacée. Si vous n'êtes pas redirigé automatiquement, cliquez <a href="${fullTo}">ici</a>.</p>
+						<p>Cette page a été déplacée. Si vous n'êtes pas redirigé automatiquement, cliquez <a href="${to}">ici</a>.</p>
 					</body>
 					</html>
 				`;
 
-				// Créer les dossiers nécessaires et écrire le fichier
+				// Create folder and write file
 				const dir = path.dirname(outputPath);
 				if (!fs.existsSync(dir)) {
 					fs.mkdirSync(dir, { recursive: true });
 				}
 				fs.writeFileSync(outputPath, redirectHtml, "utf8");
 			});
+		});
+
+		// Shortcode to display accordion for transcription
+		eleventyConfig.addPairedShortcode("transcription", function(content, title){
+			return `
+			<section class="fr-accordion">
+				<h2 class="fr-accordion__title">
+					<button
+						class="fr-accordion__btn"
+						aria-expanded="false"
+						aria-controls="accordion-114"
+					>
+						${title}
+					</button>
+				</h2>
+				<div class="fr-collapse" id="accordion-114">
+					${content}
+				</div>
+			</section>
+			`;
+		});
+
+		eleventyConfig.addShortcode("dailymotion", function (videoId) {
+			const thumbnailUrl = `https://www.dailymotion.com/thumbnail/video/${videoId}`;
+			return `
+				<div
+					class="responsive-video-container"
+					data-video-id="${videoId}"
+					style="background-image: url('${thumbnailUrl}'); background-size: cover; background-position: center; cursor: pointer;">
+					<div class="dailymotion-placeholder">
+						<span class="play-button">▶ Cliquez pour lire la vidéo</span>
+					</div>
+				</div>
+			`;
 		});
 
     return {

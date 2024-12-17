@@ -260,8 +260,12 @@ module.exports = function (eleventyConfig) {
 		});
 
 		eleventyConfig.addShortcode("dailymotion", function (videoId) {
+			const thumbnailUrl = `https://www.dailymotion.com/thumbnail/video/${videoId}`;
 			return `
-				<div class="responsive-video-container" data-video-id="${videoId}">
+				<div
+					class="responsive-video-container"
+					data-video-id="${videoId}"
+					style="background-image: url('${thumbnailUrl}'); background-size: cover; background-position: center; cursor: pointer;">
 					<div class="dailymotion-placeholder">
 						<span class="play-button">▶ Cliquez pour lire la vidéo</span>
 					</div>
