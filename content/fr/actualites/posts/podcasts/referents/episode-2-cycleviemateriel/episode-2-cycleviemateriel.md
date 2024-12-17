@@ -8,6 +8,8 @@ image:
     alt: ""
 tags:
   - 'Podcast'
+type: serie
+serie: 'Saison 1'
 ---
 <!-- intégration Acast -->
 

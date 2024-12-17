@@ -273,6 +273,23 @@ module.exports = function (eleventyConfig) {
 			`;
 		});
 
+		// Create a collection called "series"
+		eleventyConfig.addCollection("series", function (collectionApi) {
+			return collectionApi.getAll().filter((item) => {
+				return item.data.type === "serie";
+			});
+		});
+		// Create a filter for series
+		eleventyConfig.addFilter("serieFilter", function(collection, type) {
+			return collection.filter(item => item.data.serie === type);
+		});
+
+		// create podcast collections
+		eleventyConfig.addCollection("podcasts", function(collectionApi) {
+			// Récupérer tous les posts avec le tag "podcast"
+			return collectionApi.getAll().filter(item => item.data.tags && item.data.tags.includes("Podcast"));
+		});
+
     return {
         // Control which files Eleventy will process
         // e.g.: *.md, *.njk, *.html, *.liquid
