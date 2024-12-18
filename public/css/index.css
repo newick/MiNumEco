@@ -149,19 +149,17 @@ p:empty {
 	display: none;
 }
 
-/* Conteneur principal pour le ratio 16:9 */
 .responsive-video-container {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* Ratio 16:9 */
-  background-color: #000; /* Fond par défaut */
-  background-size: cover; /* Ajuste l'image */
-  background-position: center; /* Centre l'image */
+  padding-top: 56.25%;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
   overflow: hidden;
   cursor: pointer;
 }
 
-/* Placeholder du bouton */
 .dailymotion-placeholder {
   position: absolute;
   top: 0;
@@ -171,7 +169,7 @@ p:empty {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Assombrit légèrement l'image */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .play-button {
@@ -185,4 +183,8 @@ p:empty {
 
 .play-button:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fr-grid-row .fr-card.fr-enlarge-link.fr-card--download {
+	height: fit-content;
 }

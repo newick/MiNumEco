@@ -4,7 +4,7 @@ description: Les journées de la réparation
 date: 2024-10-18
 image:
     path: ../img/repair-days-2024.webp
-    alt: Image d'illustration
+    alt: ""
 type: news
 ---
 

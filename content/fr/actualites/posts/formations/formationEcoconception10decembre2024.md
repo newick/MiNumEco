@@ -7,7 +7,7 @@ location: En présentiel au 20 avenue de Ségur 75007
 link: https://ecoresponsable.numerique.gouv.fr/posts/formulaireinscriptionformations/
 linkTitle: Inscription
 image:
-    path: ./formation-ecoconception.webp
+    path: ../img/formation-ecoconception.webp
     alt: ""
 tags:
   - 'Formation'
