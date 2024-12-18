@@ -6,10 +6,6 @@ eleventyNavigation:
   title: Podcasts
   order: 3
 ---
-
-
-On enregistre des podcasts et ils sont cools !
-
-<h2>Tous les podcasts</h2>
+## Tous les podcasts
 {% set postslist = collections.Podcast | reverse %}
 {% include "postslist.njk" %}
