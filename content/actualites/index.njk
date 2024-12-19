@@ -5,9 +5,6 @@
     data: "collections.posts",
     size: 6,
     reverse: true,
-    before: function(paginationData, fullData) {
-      return this.filterCollectionLang(paginationData, fullData.lang);
-    }
   },
   layout: "layouts/page.njk",
   permalink: "/{{ lang }}/actualites/{% if pagination.pageNumber %}{{ pagePrefix }}{{ pagination.pageNumber + 1 }}/{% endif %}",
