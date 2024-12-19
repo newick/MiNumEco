@@ -11,16 +11,11 @@
         {% else %}{{ card.title }}
         {% endif %}
       </h3>
-			{% if card.description%}
-      	<p class="fr-card__desc">{{ card.description }}</p>
-			{% endif %}
+      <p class="fr-card__desc">{{ card.description }}</p>
       <div class="fr-card__start">
         {% if card.tags %}
           {% set tags = card.tags %}
           {% include "components/taggroup-disabled.njk" %}
-        {% endif %}
-				{% if card.serie %}
-						<p>Série : {{card.serie}}</p>
         {% endif %}
         {% if card.date %}
           <p class="fr-card__detail fr-icon-time-fill">
@@ -33,9 +28,9 @@
         {% endif %}
       </div>
       {% if card.detailEnd %}
-      <div class="fr-card__end">
-        <p class="fr-card__detail">{{ card.detailEnd }}</p>
-      </div>
+        <div class="fr-card__end">
+          <p class="fr-card__detail">{{ card.detailEnd }}</p>
+        </div>
       {% endif %}
     </div>
     <div class="fr-card__footer">

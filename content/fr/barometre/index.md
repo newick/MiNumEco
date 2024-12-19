@@ -1,8 +1,8 @@
 ---
 title: Baromètre
 permalink: /barometre/
-eleventyNavigation:
+---
+<!-- eleventyNavigation:
   key: barometre
   title: Baromètre
-  order: 5
----
+  order: 5 -->

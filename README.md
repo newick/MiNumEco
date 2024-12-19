@@ -32,7 +32,7 @@ Pour d'autres exemples de réutilisation, cf. [Démonstration et réutilisations
     - Plan du site et `sitemap.xml`
     - Page non trouvée (404)
     - Les pages obligatoires liées aux obligations légales : “accessibilité : non/partiellement/totalement conforme”, mentions légales, données personnelles et gestion des cookies.
-
+    
 ## Prise en main
 ### Installation
 

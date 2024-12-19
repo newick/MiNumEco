@@ -11,6 +11,9 @@ module.exports = {
         url: "https://url_du_service.gouv.fr/"
     },
     service: "Nom de l’entité (ministère, secrétariat d‘état, gouvernement)",
+		newsletter: {
+				url: "https://www.linkedin.com/newsletters/7242864226900279296/?displayConfirmation=true",
+		},
 		// Réseaux sociaux
 		linkedin_url:"https://www.linkedin.com/company/mission-interministerielle-numerique-ecoresponsable",
 		// twitter_url:"https://twitter.com/Mi_NumEco_Gouv",

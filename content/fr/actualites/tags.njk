@@ -1,6 +1,6 @@
 ---js
 {
-  title: "Actualités",
+  title: "Documentation",
   pagination: {
     data: "collections.posts",
     size: 1,
@@ -18,15 +18,12 @@
     {{ tag.tagName }}
   </a>
 </h2>
-
 <div class="fr-mt-6v fr-mb-6w">
   {% set tags = collections.posts | filterCollectionLang | getAllTags | filterTagList([tag.tagName]) %}
   {% include "components/taggroup.njk" %}
 </div>
-
 {% set postslist = tag.pageData %}
 {% include "postslist.njk" %}
-
 {% set tagUrl %}{{ "/actualites/tags/"| locale_url }}{{ tag.tagName | slugify }}/{% endset %}
 {% set pagination = pagination | buildPagination(tagUrl) %}
 {% include "templates/pagination.njk" %}

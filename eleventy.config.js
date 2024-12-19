@@ -1,9 +1,8 @@
-const {DateTime} = require("luxon");
-const {nanoid} = require ("nanoid");
+const { DateTime } = require("luxon");
+const { nanoid } = require("nanoid");
 
-const fs = require("fs");
-const path = require("path");
-
+const markdownIt = require("markdown-it");
+const markdown = require('markdown-it')({ html: true })
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
@@ -12,318 +11,339 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginNavigation = require("@11ty/eleventy-navigation");
-const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
-const {EleventyI18nPlugin} = require("@11ty/eleventy");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const { EleventyI18nPlugin } = require("@11ty/eleventy");
 const i18n = require("@codegouvfr/eleventy-plugin-i18n");
 const pluginCalendar = require("@codegouvfr/eleventy-plugin-calendar");
 
 const customMarkdownContainers = require("./markdown-custom-containers");
 
-const {translations} = require("./_data/i18n");
+const { translations } = require("./_data/i18n");
 
 module.exports = function (eleventyConfig) {
-    // Copy the contents of the `public` folder to the output folder
-    // For example, `./public/css/` ends up in `_site/css/`
-    eleventyConfig.addPassthroughCopy({
-        "./public/": "/",
-        "./node_modules/@gouvfr/dsfr/dist/favicon": "/favicon",
-        "./node_modules/@gouvfr/dsfr/dist/fonts": "/css/fonts",
-        "./node_modules/@gouvfr/dsfr/dist/icons": "/css/icons",
-        "./node_modules/@gouvfr/dsfr/dist/dsfr.min.css": "/css/dsfr.min.css",
-        "./node_modules/@gouvfr/dsfr/dist/utility/utility.min.css": "/css/utility/utility.min.css",
-        "./node_modules/@gouvfr/dsfr/dist/dsfr.module.min.js": "/js/dsfr.module.min.js",
-        "./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js": "/js/dsfr.nomodule.min.js",
-        "./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork"
-    });
+	// Copy the contents of the `public` folder to the output folder
+	// For example, `./public/css/` ends up in `_site/css/`
+	eleventyConfig.addPassthroughCopy({
+		"./public/": "/",
+		"./node_modules/@gouvfr/dsfr/dist/favicon": "/favicon",
+		"./node_modules/@gouvfr/dsfr/dist/fonts": "/css/fonts",
+		"./node_modules/@gouvfr/dsfr/dist/icons": "/css/icons",
+		"./node_modules/@gouvfr/dsfr/dist/dsfr.min.css": "/css/dsfr.min.css",
+		"./node_modules/@gouvfr/dsfr/dist/utility/utility.min.css":
+			"/css/utility/utility.min.css",
+		"./node_modules/@gouvfr/dsfr/dist/dsfr.module.min.js":
+			"/js/dsfr.module.min.js",
+		"./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js":
+			"/js/dsfr.nomodule.min.js",
+		"./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork",
+	});
 
-    // Run Eleventy when these files change:
-    // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
+	// Run Eleventy when these files change:
+	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
-    // Watch content images for the image pipeline.
-    eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
+	// Watch content images for the image pipeline.
+	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
-    // App plugins
-    eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
-    eleventyConfig.addPlugin(require("./eleventy.config.i18n.js"));
-    eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
-    eleventyConfig.addPlugin(require("./eleventy.config.pagination.js"));
+	// App plugins
+	eleventyConfig.addPlugin(require("./eleventy.config.drafts.js"));
+	eleventyConfig.addPlugin(require("./eleventy.config.i18n.js"));
+	eleventyConfig.addPlugin(require("./eleventy.config.images.js"));
+	eleventyConfig.addPlugin(require("./eleventy.config.pagination.js"));
 
-    // Official plugins
-    eleventyConfig.addPlugin(pluginRss);
-    eleventyConfig.addPlugin(pluginSyntaxHighlight, {
-        preAttributes: {tabindex: 0}
-    });
-    eleventyConfig.addPlugin(pluginNavigation);
-    eleventyConfig.addPlugin(pluginBundle);
-    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-    eleventyConfig.addPlugin(EleventyI18nPlugin, {
-        defaultLanguage: "fr",
-        errorMode: "allow-fallback"
-    });
-    eleventyConfig.addPlugin(i18n, {
-        translations,
-        fallbackLocales: {
-            "en": "fr"
-        }
-    });
-    eleventyConfig.addPlugin(pluginCalendar);
+	// Official plugins
+	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
+		preAttributes: { tabindex: 0 },
+	});
+	eleventyConfig.addPlugin(pluginNavigation);
+	eleventyConfig.addPlugin(pluginBundle);
+	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+	eleventyConfig.addPlugin(EleventyI18nPlugin, {
+		defaultLanguage: "fr",
+		errorMode: "allow-fallback",
+	});
+	eleventyConfig.addPlugin(i18n, {
+		translations,
+		fallbackLocales: {
+			en: "fr",
+		},
+	});
+	eleventyConfig.addPlugin(pluginCalendar);
 
-    // Custom collections
-    eleventyConfig.addCollection("allSortedByPathAsc", function(collectionApi) {
-        return collectionApi.getAll().sort((a, b) => {
-            return a.inputPath.localeCompare(b.inputPath);
-        });
-    });
-
-    // Filters
-    eleventyConfig.addFilter("jsDateObject", function jsDateObject(dateStr, format, zone) {
-        return DateTime.fromFormat(dateStr, format || "yyyy-LL-dd", {zone: zone || "utc"}).toJSDate();
-    });
-
-    eleventyConfig.addFilter("readableDate", function readableDate(dateObj, format, zone) {
-        // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-        return DateTime.fromJSDate(dateObj, {zone: zone || "utc"})
-            .setLocale(this.page.lang)
-            .toFormat(format || "dd LLLL yyyy");
-    });
-
-    eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-        // dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-        return DateTime.fromJSDate(dateObj, {zone: "utc"}).toFormat("yyyy-LL-dd");
-    });
-
-    eleventyConfig.addFilter("getYear", (dateObj) => {
-        return DateTime.fromJSDate(dateObj, {zone: "utc"}).year;
-    });
-    eleventyConfig.addFilter("getMonth", (dateObj) => {
-        return DateTime.fromJSDate(dateObj, {zone: "utc"}).month;
-    });
-    eleventyConfig.addFilter("getDay", (dateObj) => {
-        return DateTime.fromJSDate(dateObj, {zone: "utc"}).day;
-    });
-    eleventyConfig.addFilter("getHour", (dateObj) => {
-        return DateTime.fromJSDate(dateObj, {zone: "utc"}).hour;
-    });
-    eleventyConfig.addFilter("getMinute", (dateObj) => {
-        return DateTime.fromJSDate(dateObj, {zone: "utc"}).minute;
-    });
-
-    // Get the first `n` elements of a collection.
-    eleventyConfig.addFilter("head", (array, n) => {
-        if (!Array.isArray(array) || array.length === 0) {
-            return [];
-        }
-        if (n < 0) {
-            return array.slice(n);
-        }
-
-        return array.slice(0, n);
-    });
-
-    // Return the smallest number argument
-    eleventyConfig.addFilter("min", (...numbers) => {
-        return Math.min.apply(null, numbers);
-    });
-
-    // Return all the tags used in a collection
-    eleventyConfig.addFilter("getAllTags", collection => {
-        let tagSet = new Set();
-        for (let item of collection) {
-            (item.data.tags || []).forEach(tag => tagSet.add(tag));
-        }
-        return Array.from(tagSet);
-    });
-
-    eleventyConfig.addFilter("filterTagList", function filterTagList(tags, addTags = []) {
-        return (tags || []).filter(tag => ["all", "nav", "post", "posts", "events"]
-            .concat(addTags)
-            .indexOf(tag) === -1);
-    });
-
-		eleventyConfig.addFilter("hasTag", (tags, tag) => {
-			return (tags || []).includes(tag);
+	eleventyConfig.addCollection("allSortedByPathAsc", function (collectionApi) {
+		return collectionApi.getAll().sort((a, b) => {
+			return a.inputPath.localeCompare(b.inputPath);
 		});
+	});
 
-    eleventyConfig.addFilter("findBySlug", function find(collection = [], slug = "") {
-        return collection.find(post => post.fileSlug === slug);
-    });
+	// Filters
+	eleventyConfig.addFilter(
+		"jsDateObject",
+		function jsDateObject(dateStr, format, zone) {
+			return DateTime.fromFormat(dateStr, format || "yyyy-LL-dd", {
+				zone: zone || "utc",
+			}).toJSDate();
+		}
+	);
 
-    // Customize Markdown library settings:
-    eleventyConfig.amendLibrary("md", mdLib => {
-        mdLib.use(markdownItAnchor, {
-            permalink: markdownItAnchor.permalink.ariaHidden({
-                placement: "after",
-                class: "header-anchor",
-                symbol: "#",
-                ariaHidden: false,
-            }),
-            level: [1, 2, 3, 4],
-            slugify: eleventyConfig.getFilter("slugify")
-        });
-    });
+	eleventyConfig.addFilter(
+		"readableDate",
+		function readableDate(dateObj, format, zone) {
+			// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+			return DateTime.fromJSDate(dateObj, { zone: zone || "utc" })
+				.setLocale(this.page.lang)
+				.toFormat(format || "dd LLLL yyyy");
+		}
+	);
 
-    eleventyConfig.amendLibrary("md", mdLib => {
-        mdLib.renderer.rules.table_open = function(tokens, idx) {
-            return '<table class="fr-table">';
-        };
-    });
+	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+	});
 
-    eleventyConfig.amendLibrary("md", mdLib => {
-        mdLib.use(markdownItAttrs);
-    });
+	eleventyConfig.addFilter("getYear", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).year;
+	});
+	eleventyConfig.addFilter("getMonth", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).month;
+	});
+	eleventyConfig.addFilter("getDay", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).day;
+	});
+	eleventyConfig.addFilter("getHour", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).hour;
+	});
+	eleventyConfig.addFilter("getMinute", (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: "utc" }).minute;
+	});
 
-    eleventyConfig.amendLibrary("md", mdLib => {
-        mdLib.use(markdownItContainer, 'callout', customMarkdownContainers.callout(mdLib));
-    });
+	// Get the first `n` elements of a collection.
+	eleventyConfig.addFilter("head", (array, n) => {
+		if (!Array.isArray(array) || array.length === 0) {
+			return [];
+		}
+		if (n < 0) {
+			return array.slice(n);
+		}
 
-    eleventyConfig.amendLibrary("md", mdLib => {
-        mdLib.use(markdownItContainer, 'quote', customMarkdownContainers.quote(mdLib));
-    });
+		return array.slice(0, n);
+	});
 
-    eleventyConfig.amendLibrary("md", mdLib => {
-        mdLib.use(markdownItContainer, 'alert', customMarkdownContainers.alert(mdLib));
-    });
+	// Return the smallest number argument
+	eleventyConfig.addFilter("min", (...numbers) => {
+		return Math.min.apply(null, numbers);
+	});
 
-    eleventyConfig.amendLibrary("md", mdLib => {
-        mdLib.use(markdownItContainer, 'accordion', customMarkdownContainers.accordion(mdLib));
-    });
+	// Return all the tags used in a collection
+	eleventyConfig.addFilter("getAllTags", (collection) => {
+		let tagSet = new Set();
+		for (let item of collection) {
+			(item.data.tags || []).forEach((tag) => tagSet.add(tag));
+		}
+		return Array.from(tagSet);
+	});
 
-    // Automatically strip all leading or trailing whitespace
-    // to prevent Markdown lib from rendering with wrapping into paragraphs
-    // instead of using Nunjucks special syntax. Learn more:
-    // https://mozilla.github.io/nunjucks/templating.html#whitespace-control
-    eleventyConfig.setNunjucksEnvironmentOptions({
-        trimBlocks: true,
-        lstripBlocks: true,
-    });
+	eleventyConfig.addFilter(
+		"filterTagList",
+		function filterTagList(tags, addTags = []) {
+			return (tags || []).filter(
+				(tag) =>
+					["all", "nav", "post", "posts", "events"]
+						.concat(addTags)
+						.indexOf(tag) === -1
+			);
+		}
+	);
 
-    eleventyConfig.addNunjucksGlobal("nanoid", () => nanoid());
+	eleventyConfig.addFilter(
+		"findBySlug",
+		function find(collection = [], slug = "") {
+			return collection.find((post) => post.fileSlug === slug);
+		}
+	);
 
-    // Features to make your build faster (when you need them)
-
-    // If your passthrough copy gets heavy and cumbersome, add this line
-    // to emulate the file copy on the dev server. Learn more:
-    // https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
-
-    // eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
-
-		// list of redirected pages
-		const redirects = require("./redirects.json");
-		// allows to redirect pages
-		eleventyConfig.on("eleventy.after", () => {
-			Object.entries(redirects).forEach(([from, to]) => {
-				const outputPath = path.join("_site", from, "index.html");
-
-				// Generation HTML to redirect
-				const redirectHtml = `
-					<!DOCTYPE html>
-					<html lang="en">
-					<head>
-						<meta charset="UTF-8">
-						<meta http-equiv="refresh" content="0;url=${to}">
-						<link rel="canonical" href="${to}">
-						<title>Redirection</title>
-					</head>
-					<body>
-						<p>Cette page a été déplacée. Si vous n'êtes pas redirigé automatiquement, cliquez <a href="${to}">ici</a>.</p>
-					</body>
-					</html>
-				`;
-
-				// Create folder and write file
-				const dir = path.dirname(outputPath);
-				if (!fs.existsSync(dir)) {
-					fs.mkdirSync(dir, { recursive: true });
-				}
-				fs.writeFileSync(outputPath, redirectHtml, "utf8");
-			});
+	// Customize Markdown library settings:
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.use(markdownItAnchor, {
+			permalink: markdownItAnchor.permalink.ariaHidden({
+				placement: "after",
+				class: "header-anchor",
+				symbol: "#",
+				ariaHidden: false,
+			}),
+			level: [1, 2, 3, 4],
+			slugify: eleventyConfig.getFilter("slugify"),
 		});
+	});
 
-		// Shortcode to display accordion for transcription
-		eleventyConfig.addPairedShortcode("transcription", function(content, title){
-			return `
-			<section class="fr-accordion">
-				<h2 class="fr-accordion__title">
-					<button
-						class="fr-accordion__btn"
-						aria-expanded="false"
-						aria-controls="accordion-114"
-					>
-						${title}
-					</button>
-				</h2>
-				<div class="fr-collapse" id="accordion-114">
-					${content}
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.renderer.rules.table_open = function (tokens, idx) {
+			return '<table class="fr-table">';
+		};
+	});
+
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.use(markdownItAttrs);
+	});
+
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.use(
+			markdownItContainer,
+			"callout",
+			customMarkdownContainers.callout(mdLib)
+		);
+	});
+
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.use(
+			markdownItContainer,
+			"quote",
+			customMarkdownContainers.quote(mdLib)
+		);
+	});
+
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.use(
+			markdownItContainer,
+			"alert",
+			customMarkdownContainers.alert(mdLib)
+		);
+	});
+
+	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.use(
+			markdownItContainer,
+			"accordion",
+			customMarkdownContainers.accordion(mdLib)
+		);
+	});
+
+	// Automatically strip all leading or trailing whitespace
+	// to prevent Markdown lib from rendering with wrapping into paragraphs
+	// instead of using Nunjucks special syntax. Learn more:
+	// https://mozilla.github.io/nunjucks/templating.html#whitespace-control
+	eleventyConfig.setNunjucksEnvironmentOptions({
+		trimBlocks: true,
+		lstripBlocks: true,
+	});
+
+	eleventyConfig.addNunjucksGlobal("nanoid", () => nanoid());
+
+	// Features to make your build faster (when you need them)
+
+	// If your passthrough copy gets heavy and cumbersome, add this line
+	// to emulate the file copy on the dev server. Learn more:
+	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
+
+	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+	eleventyConfig.addShortcode("dailymotion", function (videoId) {
+		const thumbnailUrl = `https://www.dailymotion.com/thumbnail/video/${videoId}`;
+		return `
+			<div
+				class="responsive-video-container"
+				data-video-id="${videoId}"
+				style="background-image: url('${thumbnailUrl}'); background-size: cover; background-position: center; cursor: pointer;">
+				<div class="dailymotion-placeholder">
+					<span class="play-button">▶ Cliquez pour lire la vidéo</span>
 				</div>
-			</section>
-			`;
-		});
+			</div>
+		`;
+	});
 
-		eleventyConfig.addShortcode("dailymotion", function (videoId) {
-			const thumbnailUrl = `https://www.dailymotion.com/thumbnail/video/${videoId}`;
-			return `
-				<div
-					class="responsive-video-container"
-					data-video-id="${videoId}"
-					style="background-image: url('${thumbnailUrl}'); background-size: cover; background-position: center; cursor: pointer;">
-					<div class="dailymotion-placeholder">
-						<span class="play-button">▶ Cliquez pour lire la vidéo</span>
-					</div>
-				</div>
-			`;
-		});
+	// OLD CODE
+	function findNavigationEntriesExtended(nodes = [], key = '') {
+    let pages = [];
+    for(let entry of nodes) {
+      if(entry.data && entry.data.eleventyNavigation) {
+        let nav = entry.data.eleventyNavigation;
+        if(!key && !nav.parent || nav.parent === key) {
+          pages.push(Object.assign({}, nav, {
+            url: nav.url || entry.data.page.url,
+            data: entry.data,
+            pluginType: 'eleventy-navigation'
+          }, key ? { parentKey: key } : {}));
+        }
+      }
+    }
 
-		// Create a collection called "series"
-		eleventyConfig.addCollection("series", function (collectionApi) {
-			return collectionApi.getAll().filter((item) => {
-				return item.data.type === "serie";
-			});
-		});
-		// Create a filter for series
-		eleventyConfig.addFilter("serieFilter", function(collection, type) {
-			return collection.filter(item => item.data.serie === type);
-		});
+    return pages.sort(function(a, b) {
+      return (a.order || 0) - (b.order || 0);
+    }).map(function(entry) {
+      if(!entry.title) {
+        entry.title = entry.key;
+      }
+      if(entry.key) {
+        entry.children = findNavigationEntriesExtended(nodes, entry.key);
+      }
+      return entry;
+    });
+  }
 
-		// create podcast collections
-		eleventyConfig.addCollection("podcasts", function(collectionApi) {
-			// Récupérer tous les posts avec le tag "podcast"
-			return collectionApi.getAll().filter(item => item.data.tags && item.data.tags.includes("Podcast"));
-		});
+	//Old filter
+	eleventyConfig.addNunjucksFilter('eleventyNavigationExtended', findNavigationEntriesExtended);
 
-    return {
-        // Control which files Eleventy will process
-        // e.g.: *.md, *.njk, *.html, *.liquid
-        templateFormats: [
-            "md",
-            "njk",
-            "html",
-            "liquid"
-        ],
+	function findNavigationEntryByKeys(nodes = [], keys = []) {
+    let pages = [];
 
-        // Pre-process *.md files with: (default: `liquid`)
-        markdownTemplateEngine: "njk",
+    for (let key of keys) {
+      for (let entry of nodes) {
+        if (entry.data && entry.data.eleventyNavigation && entry.data.eleventyNavigation.key) {
+          let entryKey = entry.data.eleventyNavigation.key;
 
-        // Pre-process *.html files with: (default: `liquid`)
-        htmlTemplateEngine: "njk",
+          if (entryKey === key) {
+            pages.push({
+              title: entry.data.title,
+              url: entry.url || entry.data.page.url,
+              data: entry.data,
+              pluginType: 'eleventy-navigation'
+            });
 
-        // These are all optional:
-        dir: {
-            input: "content",         // default: "."
-            includes: "../_includes",  // default: "_includes"
-            data: "../_data",          // default: "_data"
-            output: "_site"
-        },
+            break;
+          }
+        }
+      }
+    }
 
-        // -----------------------------------------------------------------
-        // Optional items:
-        // -----------------------------------------------------------------
+    return pages;
+  }
 
-        // If your site deploys to a subdirectory, change `pathPrefix`.
-        // Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
+	eleventyConfig.addNunjucksFilter('eleventyNavigationByKeys', findNavigationEntryByKeys);
 
-        // When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
-        // it will transform any absolute URLs in your HTML to include this
-        // folder name and does **not** affect where things go in the output folder.
-        pathPrefix: "/",
-    };
+	// Parse markdown
+  eleventyConfig.addFilter('markdown', value => {
+    return markdown.render(value);
+  })
+
+	return {
+		// Control which files Eleventy will process
+		// e.g.: *.md, *.njk, *.html, *.liquid
+		templateFormats: ["md", "njk", "html", "liquid"],
+
+		// Pre-process *.md files with: (default: `liquid`)
+		markdownTemplateEngine: "njk",
+
+		// Pre-process *.html files with: (default: `liquid`)
+		htmlTemplateEngine: "njk",
+
+		// These are all optional:
+		dir: {
+			input: "content", // default: "."
+			includes: "../_includes", // default: "_includes"
+			data: "../_data", // default: "_data"
+			output: "_site",
+		},
+
+		// -----------------------------------------------------------------
+		// Optional items:
+		// -----------------------------------------------------------------
+
+		// If your site deploys to a subdirectory, change `pathPrefix`.
+		// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
+
+		// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
+		// it will transform any absolute URLs in your HTML to include this
+		// folder name and does **not** affect where things go in the output folder.
+		pathPrefix: "/",
+	};
 };

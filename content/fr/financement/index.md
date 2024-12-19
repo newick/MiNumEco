@@ -3,7 +3,6 @@ layout: layouts/post.njk
 title: Financement
 description: Vous êtes une administration d’État ou un opérateur de l’État ? Obtenez un cofinancement pour votre projet en faveur d’un numérique écoresponsable, grâce à ce guichet piloté par la DINUM dans le cadre du Fonds pour la transformation de l’action publique.
 date: 2024-03-22
-image: /img/financements/guichet-ftap.webp
 ---
 
 ## Guichet Numérique Ecoresponsable

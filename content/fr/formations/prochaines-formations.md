@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Dans le cadre de la Brigade d'Intervention du Numérique (BIN), la MiNumEco propose des accompagnements à l'écoconception de services numériques et des formations aux enjeux du numérique responsable pour les administrations et agents publics.
 
-[Nous contacter](/contact).
+[Nous contacter](/fr/contact).
 
 </div>
 

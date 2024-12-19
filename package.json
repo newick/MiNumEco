@@ -1,23 +1,24 @@
 {
-  "name": "mission-numerique-ecoresponsable",
+  "name": "eleventy-dsfr",
   "version": "1.1.0",
-  "description": "Mission interministérielle numérique écoresponsable",
+  "description": "Une base de code pour déployer un site/blog statique avec Eleventy et le DSFR.",
   "scripts": {
     "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/MiNumEco-test/",
     "postbuild": "npx pagefind --site _site/ --output-subdir \"_pagefind\"",
     "start": "npx @11ty/eleventy --serve --quiet",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-    "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-		"build-ghpages":"npx @11ty/eleventy --config=eleventy-ghpages.config.js"
+    "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:codegouvfr/eleventy-dsfr.git"
   },
   "author": {
-    "name": "Mélanie RAPHAËL",
-    "email": "melanie.raphael@modernisation.gouv.fr"
+    "name": "Mission logiciels libres (DINUM)",
+    "email": "contact@code.gouv.fr",
+    "url": "https://code.gouv.fr/mission/"
   },
   "license": "MIT",
   "engines": {
@@ -40,5 +41,8 @@
     "markdown-it-attrs": "^4.2.0",
     "markdown-it-container": "^4.0.0",
     "pagefind": "^1.2.0"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0"
   }
 }
