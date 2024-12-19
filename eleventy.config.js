@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
 		"./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js":
 			"/js/dsfr.nomodule.min.js",
 		"./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork",
+		"./content/fr/docs":"/docs",
 	});
 
 	// Run Eleventy when these files change:

@@ -69,7 +69,7 @@ Recensés pour 56 du numérique du [RMFP (Répertoires des métiers de la foncti
 	<div class="fr-card__body">
 		<div class="fr-card__content">
 			<h3 class="fr-card__title">
-					<a download href="/data/ReferentielCompetencesNumEco-Beta.xlsx">
+					<a download href="/docs/ReferentielCompetencesNumEco-Beta.xlsx">
 							Télécharger le référentiel de compétences numérique écoresponsable
 					</a>
 			</h3>
