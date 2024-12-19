@@ -63,13 +63,15 @@ Sur 5 niveaux d'expertises :
 </ul>
 </div>
 
-Recensés pour 56 du numérique du [RMFP (Répertoires des métiers de la fonction publique) de la DGAFP - Direction Générale des Agents de la Fonction Publique](https://www.fonction-publique.gouv.fr/files/files/actualites/rmfp-v1-complet.pdf)
+<div class="fr-highlight fr-mt-3w fr-mb-4w">
+Recensés pour 56 du numérique du <a href="https://www.fonction-publique.gouv.fr/files/files/actualites/rmfp-v1-complet.pdf">RMFP (Répertoires des métiers de la fonction publique) de la DGAFP - Direction Générale des Agents de la Fonction Publique</a>
+</div>
 
 <div class="fr-card fr-enlarge-link fr-card--download">
 	<div class="fr-card__body">
 		<div class="fr-card__content">
 			<h3 class="fr-card__title">
-					<a download href="/docs/ReferentielCompetencesNumEco-Beta.xlsx">
+					<a download href="/docs/2024/ReferentielCompetencesNumEco-Beta.xlsx">
 							Télécharger le référentiel de compétences numérique écoresponsable
 					</a>
 			</h3>
