@@ -11,12 +11,12 @@ layout: layouts/base.njk
           <a class="fr-breadcrumb__link" href="/">Accueil</a>
         </li>
         <li>
-          <a class="fr-breadcrumb__link" href="/publications/">Publications</a>
+          <a class="fr-breadcrumb__link" href="{{ "/publications" | locale_url }}">Publications</a>
         </li>
         {% if page.url == '/publications/referentiel-general-ecoconception/' %}
           <li>
-            <a class="fr-breadcrumb__link" aria-current="page" href="/publications/referentiel-general-ecoconception/">Référentiel
-              général d'écoconception de services numériques</a>
+            <a class="fr-breadcrumb__link" aria-current="page" href="{{ "/publications/referentiel-general-ecoconception/" | locale_url }}">Référentiel
+                                          général d'écoconception de services numériques</a>
           </li>
         {% else %}
           <li>
@@ -41,15 +41,18 @@ layout: layouts/base.njk
         <button class="fr-sidemenu__btn" aria-controls="fr-sidemenu-wrapper" aria-expanded="false">Sommaire</button>
         <div class="fr-collapse" id="fr-sidemenu-wrapper">
           <ul class="fr-sidemenu__list">
-            <li class="fr-sidemenu__item {% if 'fr/publications/referentiel-general-ecoconception/' == page.url
-                %}fr-sidemenu__item--active{% endif %}">
-              <a class="fr-sidemenu__link" href="/fr/publications/referentiel-general-ecoconception/" {% if '/fr/publications/referentiel-general-ecoconception/' == page.url %} aria-current="page" {% endif %}>Le référentiel</a>
+            <li class="fr-sidemenu__item {% if "/publications/referentiel-general-ecoconception" == page.url %}fr-sidemenu__item--active{% endif %}">
+              <a class="fr-sidemenu__link" href="{{ "/publications/referentiel-general-ecoconception" | locale_url }}" {% if "/publications/referentiel-general-ecoconception" == page.url %} aria-current="page" {% endif %}>
+                Le référentiel
+              </a>
             </li>
+
             {% for item in collections.all | eleventyNavigation("referentiel-ecoconception") %}
               <li class="fr-sidemenu__item {% if item.url == page.url %}fr-sidemenu__item--active{% endif %}">
                 <a class="fr-sidemenu__link" href="{{ item.url | url }}" {% if item.url == page.url %} aria-current="page" {% endif %}>{{ item.title }}</a>
               </li>
             {% endfor %}
+
             <li class="fr-sidemenu__item">
               <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-autres">Autres ressources</button>
               <div class="fr-collapse" id="sidemenu-autres">
@@ -63,9 +66,9 @@ layout: layouts/base.njk
                     </a>
                   </li>
                   {# <li class="fr-sidemenu__item">
-                                    <a class="fr-sidemenu__link" href="/fr/{{ metadata.referentielEcoconception.consultationUrl }}" target="_blank" title="Consultation publique - Nouvelle fenêtre">Consultation publique
-                                    </a>
-                                  </li> #}
+										<a class="fr-sidemenu__link" href="/fr/{{ metadata.referentielEcoconception.consultationUrl }}" target="_blank" title="Consultation publique - Nouvelle fenêtre">Consultation publique
+										</a>
+									</li> #}
                   <li class="fr-sidemenu__item">
                     <a
                       class="fr-sidemenu__link"
@@ -82,7 +85,6 @@ layout: layouts/base.njk
         </div>
       </div>
     </nav>
-
     <div class="fr-col-12 fr-col-md-8">
       <h1>{{ title }}</h1>
       <p class="fr-py-2w fr-text--sm">Version {{ metadata.referentielEcoconception.versionTitle }}. Dernière mise à jour le
