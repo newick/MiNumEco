@@ -65,9 +65,10 @@ module.exports = function (eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(i18n, {
 		translations,
-		fallbackLocales: {
-			en: "fr",
-		},
+		defaultLanguage: "fr",
+		// fallbackLocales: {
+		// 	en: "fr",
+		// },
 	});
 	eleventyConfig.addPlugin(pluginCalendar);
 
