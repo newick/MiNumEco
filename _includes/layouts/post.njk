@@ -11,8 +11,11 @@ layout: layouts/base.njk
         <div class="fr-col-12 fr-col-md-9">
           <hgroup>
             <h1>{{ title }}</h1>
-						 {% include "components/taggroup.njk" %}
             <p class="fr-text--xs">
+							{% if tags %}
+								{% include "components/taggroup.njk" %}
+							{% endif %}
+							{{page.serie}}
               {{ "published_on" | i18n }}
               <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
             </p>
@@ -22,10 +25,6 @@ layout: layouts/base.njk
           {% include "templates/share.njk" %}
         </div>
       </div>
-
-      {% if image %}
-        {% imageContent image.path, image.alt %}
-      {% endif %}
 
       {{ content | safe }}
     </div>
