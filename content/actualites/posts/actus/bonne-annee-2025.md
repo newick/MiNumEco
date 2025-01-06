@@ -8,18 +8,16 @@ image:
     alt: ""
 tags:
   - 'MiNumEco'
-showBreadcrumb: true
 ---
 <p class="fr-badge fr-badge--success fr-badge--no-icon">Nouveau</p>
 
 <!-- chapô-->
-Montée de version, mise en conformité DSFR et maintenance du site, du 19 décembre 2024 au 20 janvier 2025.
+
+La MiNumEco et les référents numérique responsable des ministères vous souhaitent une belle année 2025.
 
 <!-- texte-->
 
 ## Bonne année 2025
-
-La MiNumEco et les référents numérique responsable des ministères vous souhaitent une belle année 2025.
 
 En 2025 intensifions nos efforts, pour réduire ensemble l’empreinte environnementale du numérique public.
 
