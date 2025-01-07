@@ -247,7 +247,7 @@ module.exports = function (eleventyConfig) {
 				data-video-id="${videoId}"
 				style="background-image: url('${thumbnailUrl}'); background-size: cover; background-position: center; cursor: pointer;">
 				<div class="dailymotion-placeholder">
-					<span class="play-button">▶ Cliquez pour lire la vidéo</span>
+					<button class="play-button">▶ Cliquez pour lire la vidéo</button>
 				</div>
 			</div>
 		`;
