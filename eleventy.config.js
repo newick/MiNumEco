@@ -78,6 +78,25 @@ module.exports = function (eleventyConfig) {
 		});
 	});
 
+	eleventyConfig.addCollection("parSeries", function (collectionApi) {
+    let series = {};
+
+    // Parcourt tous les contenus, pas uniquement les vidéos
+    collectionApi.getAll().forEach((item) => {
+      let serie = item.data.series;
+
+      // Si le contenu a une serie, on l'ajoute à l'objet series
+      if (serie) {
+        if (!series[serie]) {
+          series[serie] = [];
+        }
+        series[serie].push(item);
+      }
+    });
+
+    return series;
+  });
+
 	// Filters
 	eleventyConfig.addFilter(
 		"jsDateObject",

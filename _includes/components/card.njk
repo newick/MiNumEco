@@ -17,6 +17,9 @@
           {% set tags = card.tags %}
           {% include "components/taggroup-disabled.njk" %}
         {% endif %}
+				{% if card.serie %}
+					<p class="fr-mb-1w">Série : {{card.serie}}</p>
+				{% endif %}
         {% if card.date %}
           <p class="fr-card__detail fr-icon-time-fill">
             <time class="postlist-date" datetime="{{ card.date | htmlDateString }}">
