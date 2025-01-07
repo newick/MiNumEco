@@ -32,6 +32,16 @@
 <body id="top">
 {% getBundle "js", "top" %}
 
+<div class="fr-skiplinks">
+	<nav role="navigation" aria-label="Accès rapide" class="fr-container">
+		<ul class="fr-skiplinks__list">
+			<li><a id="skiplink__contenu" href="#content" class="fr-link">Contenu</a></li>
+			<li><a id="skiplink__menu" href="#header-navigation" class="fr-link">Menu</a></li>
+			<li><a id="skiplink__pied-de-page" href="#footer" class="fr-link">Pied de page</a></li>
+		</ul>
+	</nav>
+</div>
+
 {% include "templates/header.njk" %}
 
 <main id="content">
