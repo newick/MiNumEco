@@ -44,8 +44,5 @@
   },
   "dependencies": {
     "markdown-it": "^14.1.0"
-  },
-  "scripts": {
-  "start": "eleventy --serve"
-}
+  }
 }
