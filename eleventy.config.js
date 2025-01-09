@@ -2,7 +2,7 @@ const { DateTime } = require("luxon");
 const { nanoid } = require("nanoid");
 
 const markdownIt = require("markdown-it");
-const markdown = require('markdown-it')({ html: true })
+const markdown = require("markdown-it")({ html: true });
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItContainer = require("markdown-it-container");
@@ -21,14 +21,14 @@ const customMarkdownContainers = require("./markdown-custom-containers");
 const { translations } = require("./_data/i18n");
 
 const normalizeString = (str) => {
-  // Normaliser les caractères accentués et spéciaux
-  return str
-    .normalize('NFD') // Décompose les caractères accentués en caractères de base + accent
-    .replace(/[\u0300-\u036f]/g, '') // Retire les accents
-    .replace(/[^a-zA-Z0-9\- ]/g, '') // Supprime tous les caractères non alphanumériques sauf les tirets et espaces
-    .toLowerCase() // Mettre en minuscules
-    .replace(/\s+/g, '-') // Remplacer les espaces par des tirets
-    .replace(/--+/g, '-'); // Remplacer les doubles tirets éventuels par un seul tiret
+	// Normaliser les caractères accentués et spéciaux
+	return str
+		.normalize("NFD") // Décompose les caractères accentués en caractères de base + accent
+		.replace(/[\u0300-\u036f]/g, "") // Retire les accents
+		.replace(/[^a-zA-Z0-9\- ]/g, "") // Supprime tous les caractères non alphanumériques sauf les tirets et espaces
+		.toLowerCase() // Mettre en minuscules
+		.replace(/\s+/g, "-") // Remplacer les espaces par des tirets
+		.replace(/--+/g, "-"); // Remplacer les doubles tirets éventuels par un seul tiret
 };
 
 module.exports = function (eleventyConfig) {
@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
 		"./node_modules/@gouvfr/dsfr/dist/dsfr.nomodule.min.js":
 			"/js/dsfr.nomodule.min.js",
 		"./node_modules/@gouvfr/dsfr/dist/artwork": "/artwork",
-		"./content/fr/docs":"/docs",
+		"./content/fr/docs": "/docs",
 	});
 
 	// Run Eleventy when these files change:
@@ -90,36 +90,47 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addCollection("parSeries", function (collectionApi) {
-    let series = {};
+		let series = {};
 
-    // Parcourt tous les contenus, pas uniquement les vidéos
-    collectionApi.getAll().forEach((item) => {
-      let serie = item.data.series;
+		// Parcourt tous les contenus, pas uniquement les vidéos
+		collectionApi.getAll().forEach((item) => {
+			let serie = item.data.series;
 
-      // Si le contenu a une serie, on l'ajoute à l'objet series
-      if (serie) {
-        if (!series[serie]) {
-          series[serie] = [];
-        }
-        series[serie].push(item);
-      }
-    });
+			// Si le contenu a une serie, on l'ajoute à l'objet series
+			if (serie) {
+				if (!series[serie]) {
+					series[serie] = [];
+				}
+				series[serie].push(item);
+			}
+		});
 
-    return series;
-  });
+		return series;
+	});
 
 	eleventyConfig.addTransform("addAnchorsToHeadings", (content, outputPath) => {
-    if (outputPath && outputPath.endsWith(".html")) {
-      return content.replace(/<h2(.*?)>(.*?)<\/h2>/g, (match, attrs, text) => {
-        const id = normalizeString(text); // Appliquer la normalisation du texte
-        if (!attrs.includes('id="')) {
-          return `<h2 id="${id}"${attrs}>${text}</h2>`; // Ajouter un id basé sur le texte du titre
-        }
-        return match; // Si l'élément a déjà un id, ne rien changer
-      });
-    }
-    return content;
-  });
+		if (outputPath && outputPath.endsWith(".html")) {
+			const layoutMatch = content.match(
+				/<script type="application\/json" id="layout-data">\s*({.*?})\s*<\/script>/
+			);
+			const layout = layoutMatch ? JSON.parse(layoutMatch[1]).layout : null;
+
+			// Appliquer la transformation si le layout correspond
+			if (layout === "layouts/page-with-summary.njk") {
+				return content.replace(
+					/<h2(.*?)>(.*?)<\/h2>/g,
+					(match, attrs, text) => {
+						const id = normalizeString(text); // Appliquer la normalisation du texte
+						if (!attrs.includes('id="')) {
+							return `<h2 id="${id}"${attrs}>${text}</h2>`; // Ajouter un id basé sur le texte du titre
+						}
+						return match; // Si l'élément a déjà un id, ne rien changer
+					}
+				);
+			}
+		}
+		return content;
+	});
 
 	// Filters
 	eleventyConfig.addFilter(
@@ -208,29 +219,23 @@ module.exports = function (eleventyConfig) {
 	);
 
 	eleventyConfig.addFilter("series", function (posts, series) {
-    return posts.filter((post) => post.data.series === series);
-  });
+		return posts.filter((post) => post.data.series === series);
+	});
 
 	eleventyConfig.addFilter("extractHeadings", (content) => {
-    // Trouver tous les <h2> dans le contenu HTML
-    const regex = /<h2.*?>(.*?)<\/h2>/g;
-    let match;
-    let menuItems = [];
+		const regex = /<h2.*?>(.*?)<\/h2>/g;
+		let match;
+		let menuItems = [];
 
-    while ((match = regex.exec(content)) !== null) {
-      // Récupérer le texte de l'en-tête
-      const title = match[1];
-
-      // Appliquer normalizeString pour transformer le texte en ID valide
-      const id = normalizeString(title);
-
-      // Générer l'élément de menu avec le lien
-      menuItems.push(`<li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="#${id}">${title}</a></li>`);
-    }
-
-    // Retourner la liste complète du menu
-    return `<ul class="fr-sidemenu__list">${menuItems.join("")}</ul>`;
-  });
+		while ((match = regex.exec(content)) !== null) {
+			const title = match[1];
+			const id = normalizeString(title);
+			menuItems.push(
+				`<li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="#${id}">${title}</a></li>`
+			);
+		}
+		return `<ul class="fr-sidemenu__list">${menuItems.join("")}</ul>`;
+	});
 
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", (mdLib) => {
@@ -322,68 +327,87 @@ module.exports = function (eleventyConfig) {
 	});
 
 	// OLD CODE
-	function findNavigationEntriesExtended(nodes = [], key = '') {
-    let pages = [];
-    for(let entry of nodes) {
-      if(entry.data && entry.data.eleventyNavigation) {
-        let nav = entry.data.eleventyNavigation;
-        if(!key && !nav.parent || nav.parent === key) {
-          pages.push(Object.assign({}, nav, {
-            url: nav.url || entry.data.page.url,
-            data: entry.data,
-            pluginType: 'eleventy-navigation'
-          }, key ? { parentKey: key } : {}));
-        }
-      }
-    }
+	function findNavigationEntriesExtended(nodes = [], key = "") {
+		let pages = [];
+		for (let entry of nodes) {
+			if (entry.data && entry.data.eleventyNavigation) {
+				let nav = entry.data.eleventyNavigation;
+				if ((!key && !nav.parent) || nav.parent === key) {
+					pages.push(
+						Object.assign(
+							{},
+							nav,
+							{
+								url: nav.url || entry.data.page.url,
+								data: entry.data,
+								pluginType: "eleventy-navigation",
+							},
+							key ? { parentKey: key } : {}
+						)
+					);
+				}
+			}
+		}
 
-    return pages.sort(function(a, b) {
-      return (a.order || 0) - (b.order || 0);
-    }).map(function(entry) {
-      if(!entry.title) {
-        entry.title = entry.key;
-      }
-      if(entry.key) {
-        entry.children = findNavigationEntriesExtended(nodes, entry.key);
-      }
-      return entry;
-    });
-  }
+		return pages
+			.sort(function (a, b) {
+				return (a.order || 0) - (b.order || 0);
+			})
+			.map(function (entry) {
+				if (!entry.title) {
+					entry.title = entry.key;
+				}
+				if (entry.key) {
+					entry.children = findNavigationEntriesExtended(nodes, entry.key);
+				}
+				return entry;
+			});
+	}
 
 	//Old filter
-	eleventyConfig.addNunjucksFilter('eleventyNavigationExtended', findNavigationEntriesExtended);
+	eleventyConfig.addNunjucksFilter(
+		"eleventyNavigationExtended",
+		findNavigationEntriesExtended
+	);
 
 	function findNavigationEntryByKeys(nodes = [], keys = []) {
-    let pages = [];
+		let pages = [];
 
-    for (let key of keys) {
-      for (let entry of nodes) {
-        if (entry.data && entry.data.eleventyNavigation && entry.data.eleventyNavigation.key) {
-          let entryKey = entry.data.eleventyNavigation.key;
+		for (let key of keys) {
+			for (let entry of nodes) {
+				if (
+					entry.data &&
+					entry.data.eleventyNavigation &&
+					entry.data.eleventyNavigation.key
+				) {
+					let entryKey = entry.data.eleventyNavigation.key;
 
-          if (entryKey === key) {
-            pages.push({
-              title: entry.data.title,
-              url: entry.url || entry.data.page.url,
-              data: entry.data,
-              pluginType: 'eleventy-navigation'
-            });
+					if (entryKey === key) {
+						pages.push({
+							title: entry.data.title,
+							url: entry.url || entry.data.page.url,
+							data: entry.data,
+							pluginType: "eleventy-navigation",
+						});
 
-            break;
-          }
-        }
-      }
-    }
+						break;
+					}
+				}
+			}
+		}
 
-    return pages;
-  }
+		return pages;
+	}
 
-	eleventyConfig.addNunjucksFilter('eleventyNavigationByKeys', findNavigationEntryByKeys);
+	eleventyConfig.addNunjucksFilter(
+		"eleventyNavigationByKeys",
+		findNavigationEntryByKeys
+	);
 
 	// Parse markdown
-  eleventyConfig.addFilter('markdown', value => {
-    return markdown.render(value);
-  })
+	eleventyConfig.addFilter("markdown", (value) => {
+		return markdown.render(value);
+	});
 
 	return {
 		// Control which files Eleventy will process
