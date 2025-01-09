@@ -12,8 +12,7 @@ tags:
   - 'Ministères'
   - 'IA et Data'
   - 'Événement'
-type: serie
-serie: 'Saison 1'
+series: 'Saison 1'
 ---
 <!-- intégration Acast -->
 <iframe src="https://embed.acast.com/$/669e18c83847f8c1a590bc69/66a250f88f24d109f2186db2?" frameBorder="0" width="100%" height="220px" allow="autoplay"></iframe>
