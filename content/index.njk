@@ -41,32 +41,19 @@ numberOfLatestPostsToShow: 3
   <section>
     <h2>Les dernières actualités</h2>
     <div class="fr-grid-row fr-grid-row--gutters fr-py-3w">
-      {% for post in collections.posts | head(-3) | reverse %}
-        <div class="fr-col-12 fr-col-md-4">
-          {% from "components/component.njk" import component with context %}
-          {{ component("card", {
-						url: post.url,
-						title: post.data.title,
-						description: post.data.description | safe,
-						tags: post.data.tags,
-						date: post.date,
-						badges: post.data.badges,
-						image: {
-							path: post.data.image.path | resolvePath(post),
-							alt: post.data.image.alt
-						}
-					}) }}
-        </div>
-      {% endfor %}
+			{% set postslist = collections.posts| head(-3) | reverse %}
+			{% include "postslist.njk" %}
     </div>
     <p>
       <a href="/actualites/" class="fr-link fr-fi-arrow-right-line fr-link--icon-right">Voir plus d'actualités</a>
     </p>
   </section>
-  {# <section class="fr-mt-8w">
+  <section class="fr-mt-8w">
     <h2>Ressources multimédias</h2>
   </section>
   <section class="fr-mt-8w">
     <h2>S'inscrire aux prochaines formations</h2>
-  </section> #}
+		{% set postslist = collections['Formation']| head(-3) | reverse %}
+			{% include "postslist.njk" %}
+  </section>
 </div>
