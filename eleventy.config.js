@@ -183,6 +183,10 @@ module.exports = function (eleventyConfig) {
 		}
 	);
 
+	eleventyConfig.addFilter("series", function (posts, series) {
+    return posts.filter((post) => post.data.series === series);
+  });
+
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", (mdLib) => {
 		mdLib.use(markdownItAnchor, {

@@ -9,6 +9,7 @@ image:
 tags:
   - 'Vidéo'
   - 'MiNumEco'
+series: "Référents"
 ---
 
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM -->

@@ -7,6 +7,8 @@ eleventyNavigation:
   order: 2
 ---
 <h2>Série Référents</h2>
+{% set postslist = collections['Vidéo'] | series("Référents") %}
+{% include "postslist.njk" %}
 
 <h2>Toutes les vidéos</h2>
 {% set postslist = collections['Vidéo'] | reverse %}
