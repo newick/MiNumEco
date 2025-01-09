@@ -1,9 +1,9 @@
 ---
 title: À propos
-layout: layouts/page.njk
+layout: layouts/page-with-summary.njk
 ---
 
-<h2 id="mission">La MiNumEco, la mission interministérielle numérique écoresponsable</h2>
+<h2>La MiNumEco, la mission interministérielle numérique écoresponsable</h2>
 
 Le numérique représente aujourd'hui de 2 à 4% des émissions mondiales de gaz à effet de serre.
 
@@ -60,7 +60,7 @@ Le périmètre de la mission ne s'arrête pas à ces livrables. De nombreux chan
 
 Si vous êtes une administration, une direction ou une collectivité territoriale et que vous souhaitez contribuer aux travaux de la mission, [contactez-nous](/contact/).
 
-<h2 id="pilotes">Les pilotes de la mission</h2>
+<h2>Les pilotes de la mission</h2>
 
 ### La Direction Interministérielle du Numérique (DINUM)
 
@@ -76,7 +76,7 @@ Le Ministère de la Transition écologique et de la Cohésion des territoires me
 
 Le CGDD est chargé de l’élaboration, de l’animation et du suivi de la stratégie nationale de développement durable, qui doit être mise en œuvre au travers de l’ensemble des politiques publiques, notamment celle des achats publics, ainsi qu’au travers des actions de tous les acteurs socio-économiques.
 
-<h2 id="equipe">L’équipe</h2>
+<h2>L’équipe</h2>
 
 <div class="fr-grid-row fr-grid-row--gutters team">
   <div class="fr-col-12 fr-col-md-3">

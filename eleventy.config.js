@@ -20,6 +20,17 @@ const customMarkdownContainers = require("./markdown-custom-containers");
 
 const { translations } = require("./_data/i18n");
 
+const normalizeString = (str) => {
+  // Normaliser les caractères accentués et spéciaux
+  return str
+    .normalize('NFD') // Décompose les caractères accentués en caractères de base + accent
+    .replace(/[\u0300-\u036f]/g, '') // Retire les accents
+    .replace(/[^a-zA-Z0-9\- ]/g, '') // Supprime tous les caractères non alphanumériques sauf les tirets et espaces
+    .toLowerCase() // Mettre en minuscules
+    .replace(/\s+/g, '-') // Remplacer les espaces par des tirets
+    .replace(/--+/g, '-'); // Remplacer les doubles tirets éventuels par un seul tiret
+};
+
 module.exports = function (eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
@@ -95,6 +106,19 @@ module.exports = function (eleventyConfig) {
     });
 
     return series;
+  });
+
+	eleventyConfig.addTransform("addAnchorsToHeadings", (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      return content.replace(/<h2(.*?)>(.*?)<\/h2>/g, (match, attrs, text) => {
+        const id = normalizeString(text); // Appliquer la normalisation du texte
+        if (!attrs.includes('id="')) {
+          return `<h2 id="${id}"${attrs}>${text}</h2>`; // Ajouter un id basé sur le texte du titre
+        }
+        return match; // Si l'élément a déjà un id, ne rien changer
+      });
+    }
+    return content;
   });
 
 	// Filters
@@ -185,6 +209,27 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("series", function (posts, series) {
     return posts.filter((post) => post.data.series === series);
+  });
+
+	eleventyConfig.addFilter("extractHeadings", (content) => {
+    // Trouver tous les <h2> dans le contenu HTML
+    const regex = /<h2.*?>(.*?)<\/h2>/g;
+    let match;
+    let menuItems = [];
+
+    while ((match = regex.exec(content)) !== null) {
+      // Récupérer le texte de l'en-tête
+      const title = match[1];
+
+      // Appliquer normalizeString pour transformer le texte en ID valide
+      const id = normalizeString(title);
+
+      // Générer l'élément de menu avec le lien
+      menuItems.push(`<li class="fr-sidemenu__item"><a class="fr-sidemenu__link" href="#${id}">${title}</a></li>`);
+    }
+
+    // Retourner la liste complète du menu
+    return `<ul class="fr-sidemenu__list">${menuItems.join("")}</ul>`;
   });
 
 	// Customize Markdown library settings:
