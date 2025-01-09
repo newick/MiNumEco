@@ -21,14 +21,13 @@ const customMarkdownContainers = require("./markdown-custom-containers");
 const { translations } = require("./_data/i18n");
 
 const normalizeString = (str) => {
-	// Normaliser les caractères accentués et spéciaux
 	return str
-		.normalize("NFD") // Décompose les caractères accentués en caractères de base + accent
-		.replace(/[\u0300-\u036f]/g, "") // Retire les accents
-		.replace(/[^a-zA-Z0-9\- ]/g, "") // Supprime tous les caractères non alphanumériques sauf les tirets et espaces
-		.toLowerCase() // Mettre en minuscules
-		.replace(/\s+/g, "-") // Remplacer les espaces par des tirets
-		.replace(/--+/g, "-"); // Remplacer les doubles tirets éventuels par un seul tiret
+		.normalize("NFD")
+		.replace(/[\u0300-\u036f]/g, "")
+		.replace(/[^a-zA-Z0-9\- ]/g, "")
+		.toLowerCase()
+		.replace(/\s+/g, "-")
+		.replace(/--+/g, "-");
 };
 
 module.exports = function (eleventyConfig) {
@@ -92,11 +91,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection("parSeries", function (collectionApi) {
 		let series = {};
 
-		// Parcourt tous les contenus, pas uniquement les vidéos
 		collectionApi.getAll().forEach((item) => {
 			let serie = item.data.series;
 
-			// Si le contenu a une serie, on l'ajoute à l'objet series
 			if (serie) {
 				if (!series[serie]) {
 					series[serie] = [];
@@ -115,16 +112,15 @@ module.exports = function (eleventyConfig) {
 			);
 			const layout = layoutMatch ? JSON.parse(layoutMatch[1]).layout : null;
 
-			// Appliquer la transformation si le layout correspond
 			if (layout === "layouts/page-with-summary.njk") {
 				return content.replace(
 					/<h2(.*?)>(.*?)<\/h2>/g,
 					(match, attrs, text) => {
-						const id = normalizeString(text); // Appliquer la normalisation du texte
+						const id = normalizeString(text);
 						if (!attrs.includes('id="')) {
-							return `<h2 id="${id}"${attrs}>${text}</h2>`; // Ajouter un id basé sur le texte du titre
+							return `<h2 id="${id}"${attrs}>${text}</h2>`;
 						}
-						return match; // Si l'élément a déjà un id, ne rien changer
+						return match;
 					}
 				);
 			}
