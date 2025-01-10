@@ -1,5 +1,6 @@
 ---
-title: Référentiel de compétenceslayout: layouts/page-with-summary.njk
+title: Référentiel de compétences
+layout: layouts/page-with-summary.njk
 eleventyNavigation:
   parent: formations
   title: Référentiel de compétences
