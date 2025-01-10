@@ -1,30 +1,76 @@
 ---
-title: Référentiel de compétences
-layout: layouts/landing.njk
+title: Référentiel de compétenceslayout: layouts/page-with-summary.njk
 eleventyNavigation:
   parent: formations
   title: Référentiel de compétences
   order: 2
 ---
 
-## Téléchargement
+<!-- chapô-->
+Afin d'identifier les compétences numériques écoresponsable attendues pour les agents du numérique publique, la DINUM publie son guide en version beta.
+
+<!-- texte-->
+
+## Outil pour les futures formations
+
+Ce référentiel a permis notamment d'identifier les besoins en formation pour l'ensemble des agents et pour les agents du numérique. 
+C'est un préalable pour l'élaboration du parcours de formation réalisé par la MiNumEco, dont [le premier module est sorti le 17 décembre](https://mentor.gouv.fr/local/catalog/pages/training.php?trainingid=3087) et les 2 suivants sortiront au premier trimestre 2025.
+
+## Valoriser les compétences des agents publics
+
+Ce référentiel permet également de valoriser les compétences des agents publics pour des métiers en tension, responsable Green IT et responsable RSE. Il permettra de valoriser l'expertise des agents du numérique public.
+
+## Mieux guider les parcours de formation et les recrutements
+
+De même, les connaissances et compétences en numérique responsable doivent être adaptées aux différents métiers du numérique public, ce référentiel basé sur le celui des métiers de la fonction publique de la DGAFP, permet d'ajouter dans les fiches de postes la prise en compte dans les pratiques professionnelles de l'impact environnemental du numérique.
+
+## Version Beta
+
+Cette première version sera consolidée au 1er trimestre 2025 avec les retours des partenaires, pour une publication en version définitive en 2025. La version 2025 sera accompagné d'un guide de lecture, notamment pour les fonctions RH et formation.
+
+## Les compétences
+
+Les compétences sont réparties en 9 blocs :
+
+* usages quotidiens
+* green IT
+* Ecoconception applicative
+* Data et IA
+* Matériel
+* Hébergement
+* Réseaux et télécoms
+* Mesure de l'empreinte environnementale du SI
+* Achats
+
+## Les 5 niveaux d'expertises
+
+* NA - non nécessaire dans la pratique professionnelle
+* Niveau 1 - Bases de compréhension
+* Niveau 2 - Capacité de compréhension et d'échange avec un technicien, expert ou prestataire, exprimer un besoin métier
+* Niveau 3 - Maîtrise des concepts et capacités de mise en oeuvre liée à son métier (dév, design, data, etc)
+* Niveau 4 - Maîtrise des concepts pour l'ensemble des métiers et mise en oeuvre stratégie</* Niveau 5 - Expertise - capacité à proposer une stratégie
+
+## Basé sur le RMFP de la DGAFP
+
+Les compétences sont recensées pour les métiers 56 du numérique du <a href="https://www.fonction-publique.gouv.fr/files/files/actualites/rmfp-v1-complet.pdf">RMFP (Répertoires des métiers de la fonction publique) de la DGAFP - Direction Générale des Agents de la Fonction Publique</a>
+
+## Télécharger le référentiel en version beta
 
 <div class="fr-tile fr-tile--download fr-enlarge-link" id="tile-6735">
 	<div class="fr-tile__body">
 		<div class="fr-tile__content">
 			<h3 class="fr-tile__title">
-				<a href="#" download>Télécharger le document XX</a>
+				<a href="/docs/2024/ReferentielCompetencesNumEco-Beta.xlsx" download>Télécharger le référentiel en version beta</a>
 			</h3>
-			<p class="fr-tile__detail">Détail (optionel)</p>
 		</div>
 	</div>
 
 	<div class="fr-tile__header">
 		<div class="fr-tile__pictogram">
 			<svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
-				<use class="fr-artwork-decorative" href="/img/artwork/pictograms/city-hall.svg#artwork-decorative"></use>
-				<use class="fr-artwork-minor" href="/img/artwork/pictograms/city-hall.svg#artwork-minor"></use>
-				<use class="fr-artwork-major" href="/img/artwork/pictograms/city-hall.svg#artwork-major"></use>
+				<use class="fr-artwork-decorative" href="/img/artwork/pictograms/environment.svg#artwork-decorative"></use>
+				<use class="fr-artwork-minor" href="/img/artwork/pictograms/environment.svg#artwork-minor"></use>
+				<use class="fr-artwork-major" href="/img/artwork/pictograms/environment.svg#artwork-major"></use>
 			</svg>
 		</div>
 	</div>
