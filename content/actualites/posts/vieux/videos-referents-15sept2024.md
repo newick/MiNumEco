@@ -1,7 +1,7 @@
 ---
 title: "Vidéo : présentation des actions des ministères par les référents numérique écoresponsable"
 description: "Vidéo : présentation des actions des ministères par les référents numérique écoresponsable"
-type: news
+
 date: 2024-09-15
 ---
 <!-- image: /img/videos/miniserie/vignette-miniserie-episode3.webp -->

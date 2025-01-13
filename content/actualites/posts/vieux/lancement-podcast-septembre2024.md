@@ -1,7 +1,7 @@
 ---
 title: "Podcast MiNumEchos : épisode 2 enjeux du numérique responsable"
 description: "Podcast MiNumEchos : épisode 2 enjeux du numérique responsable"
-type: news
+
 date: 2024-09-13
 ---
 <!-- image: /img/posts/podcast/banniere-podcast.webp -->

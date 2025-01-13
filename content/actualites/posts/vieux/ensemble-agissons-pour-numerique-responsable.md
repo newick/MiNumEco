@@ -4,7 +4,7 @@ description: Série de visuels réalisés grâce au kit de sensibilisation sur l
 image:
     path: ../img/numerique-plus-responsable/apercu-visuels.webp
     alt: ""
-type: news
+
 date: 2023-08-18
 ---
 

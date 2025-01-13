@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: "Référentiel de compétences"
 description: Sortie du référentiel de compétences numérique écoresponsable, pour les agents publics de l'État, en version beta
 date: 2024-12-18

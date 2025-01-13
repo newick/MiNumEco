@@ -1,7 +1,7 @@
 ---
 title: "Lancement du plan de transformation écologique de l'État"
 description: Lancement par le Premier Ministre, Gabriel Attal et le Ministre de la Fonction Publique, Stanislas Guerini, du plan de transformation écologique de l'État. Pour réduire l'empreinte environnementale de l'Administration et des agents publics. Lancement le 28 mars 2024, au museum d'Histoire Naturelle.
-type: news
+
 date: 2024-03-29
 ---
 <!-- image: /img/posts/lancement-plan-transformation-eco-etat/lancement-plan-transfoeco-museum.webp -->

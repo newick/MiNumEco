@@ -4,7 +4,6 @@ description: "Le référentiel contient une méthodologie pour évaluer l'impact
 image:
     path: ../img/afnorspecIAfrugale.webp
     alt: ""
-type: news
 date: 2024-07-01
 ---
 

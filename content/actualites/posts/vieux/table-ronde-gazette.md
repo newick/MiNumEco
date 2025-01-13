@@ -1,7 +1,7 @@
 ---
 title: Table ronde Sobriété Numérique, la Gazette
 description: Table ronde Sobriété Numérique, lors du forum de la transition numérique 2024 organisé par la Gazette en partenariat avec la DINUM
-type: news
+
 date: 2024-07-12
 ---
 

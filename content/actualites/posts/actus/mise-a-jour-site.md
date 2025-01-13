@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: "Maintenance Site"
 description: Montée de version, mise en conformité DSFR et maintenance du site, du 19 décembre 2024 au 20 janvier 2025.
 date: 2024-12-19

@@ -1,7 +1,7 @@
 ---
 title: "Formations décembre 2024"
 description: "Les prochaines dates de sensibilisation à l'écoconception de services numériques"
-type: news
+
 date: 2024-09-12
 ---
 <!-- image: /img/formations/formation-ecoconception.webp -->

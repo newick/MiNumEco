@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: "Module 1 - Impacts environnementaux du numérique"
 description: MOOC numérique responsable - module 1 enjeux environnementaux
 date: 2024-12-17

@@ -2,7 +2,8 @@
 title: "Les repairs days : Les journées de la réparation"
 description: Les journées de la réparation
 date: 2024-10-18
-type: news
+tags:
+  - 'Événement'
 ---
 <!-- image: /img/posts/repair-days-2024/repair-days-2024.webp -->
 

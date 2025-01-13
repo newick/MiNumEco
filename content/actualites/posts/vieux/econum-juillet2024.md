@@ -4,7 +4,7 @@ description: "France 2030 : 4 projets lauréats pour le soutien au développemen
 image:
     path: ../img/econum-juillet2024.webp
     alt: ""
-type: news
+
 date: 2024-07-11
 ---
 

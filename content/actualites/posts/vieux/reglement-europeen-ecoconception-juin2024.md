@@ -1,7 +1,7 @@
 ---
 title: "Réglement européen Écoconception "
 description: "Le réglement"
-type: news
+
 date: 2024-09-23
 ---
 <!-- image: /img/posts/reg-eu-ecoconception-2024/reg-eu-ecoconception-2024.webp -->

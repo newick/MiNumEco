@@ -1,5 +1,4 @@
 ---
-layout: layouts/post.njk
 title: "Bonne année 2025"
 description: Message de voeux pour l'année 2025
 date: 2025-01-06

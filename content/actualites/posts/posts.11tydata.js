@@ -4,6 +4,6 @@ module.exports = {
     ],
     layout: "layouts/post.njk",
     permalink: function (data) {
-        return `/${data.lang}/actualites/${data.page.fileSlug}/`;
+        return `/actualites/${data.page.fileSlug}/`;
     }
 };
