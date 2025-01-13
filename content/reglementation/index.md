@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/page-with-summary.njk
 title: "Réglementation"
 eleventyNavigation:
   key: Réglementation
@@ -29,7 +29,7 @@ Pour faire converger la transition numérique et la transition écologique, plus
     </ol>
 </nav>
 
-<h2 id="dispositifs-francais">Les dispositifs règlementaires et législatifs français</h2>
+## Les dispositifs règlementaires et législatifs français
 
 ### Dispositif « Services publics écoresponsables »
 
@@ -105,7 +105,7 @@ Le décret d’application de l'article 178 de la loi 3DS ([décret n°2022-1413
 - Appareil multifonctions (impression, scan, copie) : 170 €
 
 
-<h2 id="feuille-de-route">Feuille de route gouvernementale « Numérique et environnement »</h2>
+## Feuille de route gouvernementale « Numérique et environnement »
 
 La mission interministérielle numérique écoresponsable s’inscrit dans le cadre de la [feuille de route gouvernementale « Numérique et environnement »](https://www.ecologie.gouv.fr/numerique-et-environnement-feuille-route). Elle s’articule autour de trois axes :
 
@@ -123,7 +123,7 @@ Elle comporte plusieurs mesures emblématiques :
 -	Soutenir les porteurs de projets de solution innovante au service de la transition écologique notamment en matière de Cloud, et des projets qui mobilisent la 5G au service de l’environnement dans divers secteurs d’activités (axe 3).
 
 
-<h2 id="dispositifs-europeens">Dispositifs réglementaires à l’échelle européenne</h2>
+## Dispositifs réglementaires à l’échelle européenne
 
 Au niveau européen, la directive « écoconception » permet d’établir des exigences d’écoconception sur les produits liés à l’énergie (efficacité énergétique, robustesse, disponibilité des pièces détachées, etc.). Des règlements d’application sectorielle concernent une vingtaine de catégories de produits dont, s’agissant du secteur numérique, les écrans, les ordinateurs, les décodeurs numériques, les serveurs et les produits de stockage de données, etc.   Un nouveau règlement d’application pour l’écoconception des terminaux (smartphones et tablettes) a été adopté par vote le 18 novembre 2022. La publication officielle est prévue dans les 4 mois. Par ailleurs, ce règlement inclura un nouveau critère d’information (appliqué via le règlement « étiquette énergie » connexe): l’indice réparabilité, inspiré du dispositif français.
 
