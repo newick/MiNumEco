@@ -15,8 +15,13 @@ Dans le cadre de la Brigade d'Intervention du Numérique (BIN), la MiNumEco prop
 
 </div>
 
-# Formations à venir
-{% set postslist = collections['Formation'] %}
+## Prochaines dates
+{% set postslist = [] %}
+{% for item in collections['Formation'] %}
+	{% if item.data.tags and 'Événement' in item.data.tags %}
+		{% set postslist = postslist.concat(item) %}
+	{% endif %}
+{% endfor %}
 {% include "postslist.njk" %}
 
 ## Formation : sensibilisation à l'écoconception de services numériques, 1/2 journée pour les agents publics

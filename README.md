@@ -32,7 +32,7 @@ Pour d'autres exemples de réutilisation, cf. [Démonstration et réutilisations
     - Plan du site et `sitemap.xml`
     - Page non trouvée (404)
     - Les pages obligatoires liées aux obligations légales : “accessibilité : non/partiellement/totalement conforme”, mentions légales, données personnelles et gestion des cookies.
-    
+
 ## Prise en main
 ### Installation
 
@@ -133,3 +133,9 @@ Il est maintenu par la [mission logiciels libres](https://code.gouv.fr/) de la D
 ### Crédits images
 
 - [1F3DB.svg](public/icons/1F3DB.svg) par [Martin Wehl](https://openmoji.org/library/#author=Martin%20Wehl) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>).
+
+
+## Contribuer
+
+### Modifier le texte du footer
+Il se trouve dans `_data/data.js`.
