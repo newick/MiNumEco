@@ -233,9 +233,29 @@ module.exports = function (eleventyConfig) {
 		return `<ul class="fr-sidemenu__list">${menuItems.join("")}</ul>`;
 	});
 
-	eleventyConfig.addFilter("combine", (array1, array2) => {
-    return [...array1, ...array2];
+	/////// TEST
+	eleventyConfig.addFilter("getPostsForYear", function(posts, year) {
+    if (!posts) return [];
+    return posts.filter(function(post) {
+      return post.date.getFullYear() === year;
+    });
   });
+
+  // Filter to get unique years from posts
+  eleventyConfig.addFilter("getYears", function(posts) {
+    if (!posts) return [];
+    var years = [];
+    for (var i = 0; i < posts.length; i++) {
+      var year = posts[i].date.getFullYear();
+      if (years.indexOf(year) === -1) {
+        years.push(year);
+      }
+    }
+    return years.sort(function(a, b) {
+      return b - a;
+    });
+  });
+	////
 
 	// Customize Markdown library settings:
 	// eleventyConfig.amendLibrary("md", (mdLib) => {

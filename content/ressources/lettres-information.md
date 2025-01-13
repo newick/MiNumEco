@@ -7,10 +7,18 @@ eleventyNavigation:
   order: 4
 ---
 
-On publie des lettres d'informations sur Linkedin.
+ Les lettre d'information sont publiées sur LinkedIn, retrouvez le sommaire et les liens vers les différentes lettres ci-dessous.
 
 <a href="https://www.linkedin.com/newsletters/7242864226900279296/?displayConfirmation=true" target="_blank" class="fr-btn" title="S‘abonner à notre lettre d’information">S'abonner</a>
 
-<h2>Tous les lettres précédentes</h2>
-{% set postslist = collections['lettre-d-information'] | reverse %}
-{% include "postslist.njk" %}
+## Tous les lettres précédentes
+{%- if collections["Lettre d'information"] -%}
+    {%- set allPosts = collections["Lettre d'information"] | reverse -%}
+    {%- set years = allPosts | getYears -%}
+
+    {% for year in years %}
+        <h2>{{ year }}</h2>
+        {%- set postslist = allPosts | getPostsForYear(year) -%}
+        {% include "postslist.njk" %}
+    {% endfor %}
+{%- endif -%}
