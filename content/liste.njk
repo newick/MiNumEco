@@ -1,0 +1,10 @@
+---
+title: Liste
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Liste
+  order: 6
+---
+
+{% set postslist = collections["Document de référence"] %}
+{% include "postslist.njk" %}

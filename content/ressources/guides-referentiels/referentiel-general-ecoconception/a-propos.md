@@ -3,6 +3,7 @@ layout: layouts/referentiel-ecoconception.njk
 title: À propos
 date: 2023-02-28
 image: /img/publications/referentiel-general-ecoconception/referentiel-ecoconception.webp
+permalink: publications/referentiel-general-ecoconception/a-propos
 eleventyNavigation:
   parent: referentiel-ecoconception
   title: À propos

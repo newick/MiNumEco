@@ -1,6 +1,6 @@
 ---
 title: Prochaines formations
-layout: layouts/landing.njk
+layout: layouts/page-with-summary.njk
 eleventyNavigation:
   parent: formations
   title: Prochaines formations

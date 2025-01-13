@@ -233,6 +233,10 @@ module.exports = function (eleventyConfig) {
 		return `<ul class="fr-sidemenu__list">${menuItems.join("")}</ul>`;
 	});
 
+	eleventyConfig.addFilter("combine", (array1, array2) => {
+    return [...array1, ...array2];
+  });
+
 	// Customize Markdown library settings:
 	// eleventyConfig.amendLibrary("md", (mdLib) => {
 	// 	mdLib.use(markdownItAnchor, {

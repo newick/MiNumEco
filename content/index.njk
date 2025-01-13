@@ -49,11 +49,71 @@ numberOfLatestPostsToShow: 3
     </p>
   </section>
   <section class="fr-mt-8w">
-    <h2>Ressources multimédias</h2>
+    <h2>Documents de référence</h2>
+		<div class="fr-grid-row fr-grid-row--gutters fr-mb-6v">
+			<div class="fr-col-12 fr-col-md-4">
+				{% from "components/component.njk" import component with context %}
+				{{ component("card", {
+					url: "/publications/referentiel-general-ecoconception/",
+					title: "Référentiel général d'écoconception de services numériques (RGESN)",
+					description: ""
+				}) }}
+			</div>
+			<div class="fr-col-12 fr-col-md-4">
+				{% from "components/component.njk" import component with context %}
+				{{ component("card", {
+					url: "/ressources/podcasts/",
+					title: "Podcasts",
+					description: "Écouter nos podcasts"
+				}) }}
+			</div>
+			<div class="fr-col-12 fr-col-md-4">
+				{% from "components/component.njk" import component with context %}
+				{{ component("card", {
+					url: "/ressources/lettres-information/",
+					title: "Lettres d'information",
+					description: "Relire nos lettres d'information"
+				}) }}
+			</div>
+		</div>
   </section>
   <section class="fr-mt-8w">
+    <h2>Ressources multimédias</h2>
+		<div class="fr-grid-row fr-grid-row--gutters fr-mb-6v">
+			<div class="fr-col-12 fr-col-md-4">
+				{% from "components/component.njk" import component with context %}
+				{{ component("card", {
+					url: "/ressources/videos/",
+					title: "Vidéos",
+					description: "Découvrir toutes nos vidéos"
+				}) }}
+			</div>
+			<div class="fr-col-12 fr-col-md-4">
+				{% from "components/component.njk" import component with context %}
+				{{ component("card", {
+					url: "/ressources/podcasts/",
+					title: "Podcasts",
+					description: "Écouter nos podcasts"
+				}) }}
+			</div>
+			<div class="fr-col-12 fr-col-md-4">
+				{% from "components/component.njk" import component with context %}
+				{{ component("card", {
+					url: "/ressources/lettres-information/",
+					title: "Lettres d'information",
+					description: "Relire nos lettres d'information"
+				}) }}
+			</div>
+		</div>
+	</section>
+  <section class="fr-mt-8w">
     <h2>S'inscrire aux prochaines formations</h2>
-		{% set postslist = collections['Formation']| head(-3) | reverse %}
-			{% include "postslist.njk" %}
+		{% set postslist = [] %}
+		{% for item in collections['Formation'] %}
+			{% if item.data.tags and 'Événement' in item.data.tags %}
+				{% set postslist = postslist.concat(item) %}
+			{% endif %}
+		{% endfor %}
+		{% include "postslist.njk" %}
   </section>
 </div>
