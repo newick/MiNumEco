@@ -1,8 +1,9 @@
 ---
 title: Mentions légales
-layout: layouts/page.njk
+layout: layouts/landing.njk
 slugOverride: mentions legales
 showBreadcrumb: true
+permalink: /mentions-legales/
 ---
 
 ## Éditeur
@@ -29,12 +30,12 @@ Le [code source du site est disponible sur Github](https://github.com/DISIC/MiNu
 
 ## Accessibilité
 
-[Voir la déclaration d'accessibilité](/fr/accessibilite/)
+[Voir la déclaration d'accessibilité](/accessibilite/)
 
 ## Données personnelles et cookies
 
-[Voir les informations concernant les cookies utilisées sur ce site](/fr/donnees-personnelles/)
+[Voir les informations concernant les cookies utilisées sur ce site](/donnees-personnelles/)
 
 ## Déclaration d'écoconception
 
-[Voir la déclaration d'écoconception](/fr/declaration-ecoconception/)
+[Voir la déclaration d'écoconception](/declaration-ecoconception/)

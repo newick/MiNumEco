@@ -4,6 +4,7 @@ layout: layouts/post.njk
 description: Déclaration d’accessibilité à compléter
 slugOverride: accessibilite
 showBreadcrumb: true
+permalink: /accessibilite/
 ---
 
 <span class="aModifier">[Nom de l’entité]</span> s’engage à rendre ses sites internet, intranet, extranet et ses progiciels accessibles (et ses applications mobiles et mobilier urbain numérique) conformément à l’article 47 de la loi n°2005-102 du 11 février 2005.
