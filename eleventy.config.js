@@ -233,29 +233,27 @@ module.exports = function (eleventyConfig) {
 		return `<ul class="fr-sidemenu__list">${menuItems.join("")}</ul>`;
 	});
 
-	/////// TEST
-	eleventyConfig.addFilter("getPostsForYear", function(posts, year) {
-    if (!posts) return [];
-    return posts.filter(function(post) {
-      return post.date.getFullYear() === year;
-    });
-  });
+	eleventyConfig.addFilter("getPostsForYear", function (posts, year) {
+		if (!posts) return [];
+		return posts.filter(function (post) {
+			return post.date.getFullYear() === year;
+		});
+	});
 
-  // Filter to get unique years from posts
-  eleventyConfig.addFilter("getYears", function(posts) {
-    if (!posts) return [];
-    var years = [];
-    for (var i = 0; i < posts.length; i++) {
-      var year = posts[i].date.getFullYear();
-      if (years.indexOf(year) === -1) {
-        years.push(year);
-      }
-    }
-    return years.sort(function(a, b) {
-      return b - a;
-    });
-  });
-	////
+	// Filter to get unique years from posts
+	eleventyConfig.addFilter("getYears", function (posts) {
+		if (!posts) return [];
+		var years = [];
+		for (var i = 0; i < posts.length; i++) {
+			var year = posts[i].date.getFullYear();
+			if (years.indexOf(year) === -1) {
+				years.push(year);
+			}
+		}
+		return years.sort(function (a, b) {
+			return b - a;
+		});
+	});
 
 	// Customize Markdown library settings:
 	// eleventyConfig.amendLibrary("md", (mdLib) => {
@@ -344,6 +342,83 @@ module.exports = function (eleventyConfig) {
 				</div>
 			</div>
 		`;
+	});
+
+	eleventyConfig.addPairedShortcode("transcription", function (content, title) {
+		return `
+		<div class="fr-transcription">
+			<button
+				class="fr-transcription__btn"
+				aria-expanded="true"
+				aria-controls="fr-transcription-collapse"
+				data-fr-js-collapse-button="true"
+			>
+				Transcription
+			</button>
+			<div
+				class="fr-collapse fr-collapse--expanded"
+				id="fr-transcription-collapse"
+				data-fr-js-collapse="true"
+				style="--collapse-max-height: none; --collapse: -210px"
+			>
+				<div class="fr-transcription__footer">
+					<div class="fr-transcription__actions-group">
+						<button
+							class="fr-btn--fullscreen fr-btn"
+							aria-controls="fr-transcription-modal"
+							aria-label="Agrandir la transcription"
+							data-fr-opened="false"
+							id="button-2150"
+							data-fr-js-modal-button="true"
+						>
+							Agrandir
+						</button>
+					</div>
+				</div>
+				<div
+					id="fr-transcription-modal"
+					class="fr-modal"
+					aria-labelledby="fr-transcription-modal-title"
+					data-fr-js-modal="true"
+				>
+					<div class="fr-container fr-container--fluid fr-container-md">
+						<div class="fr-grid-row fr-grid-row--center">
+							<div class="fr-col-12 fr-col-md-10 fr-col-lg-8">
+								<div
+									class="fr-modal__body"
+									data-fr-js-modal-body="true"
+									style="--modal-max-height: 719px"
+								>
+									<div class="fr-modal__header">
+										<button
+											class="fr-btn--close fr-btn"
+											aria-controls="fr-transcription-modal"
+											id="button-2151"
+											title="Fermer"
+											data-fr-js-modal-button="true"
+										>
+											Fermer
+										</button>
+									</div>
+									<div class="fr-modal__content">
+										<h1
+											id="fr-transcription-modal-title"
+											class="fr-modal__title"
+										>
+											${title}
+										</h1>
+										<div>
+											${content}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    `;
 	});
 
 	// OLD CODE

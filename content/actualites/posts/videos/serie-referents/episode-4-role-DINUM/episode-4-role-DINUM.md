@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/post.njk
 title: "Épisode #4 : Le rôle de la DINUM"
 description: La Mission Interministérielle Numérique Ecoresponsable (MiNumEco) et la DINUM
 date: 2024-09-20
@@ -13,21 +13,18 @@ series: "Référents"
 ---
 
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM EN ATTENTE DU LIEN-->
+{%- dailymotion "x95qb3s" -%}
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x95qb3s" width="100%" height="100%" allowfullscreen title="Dailymotion Video Player" > </iframe> </div>
+**Quel rôle a la DINUM dans l'accompagnement des ministères vers un numérique plus vertueux ?**
 
-</br>
-
-# Quel rôle a la DINUM dans l'accompagnement des ministères vers un numérique plus vertueux ?
-
-## Transcription
+{% transcription "Quel rôle a la DINUM dans l'accompagnement des ministères vers un numérique plus vertueux ?" %}
 
 **Mélanie RAPHAËL, Experte numérique écoresponsable de la DINUM :**
 
-Les objectifs de réduction de l'empreinte environnementale pour le numérique public sont portés dans la circulaire « Services Publics Ecoresponsables » renforcée par le plan de transition écologique de l'État.
+Les objectifs de réduction de l'empreinte environnementale pour le numérique public sont portés dans la circulaire « Services Publics Ecoresponsables » renforcée par le plan de transition écologique de l'État.<br/>
 Ces objectifs portent principalement sur l'allongement de la durée de vie, l'allongement de la durée de vie d'usage, mais aussi l'analyse du cycle de vie pour avoir du matériel réemployé et enfin pour donner et réemployer en interne ce matériel.
 
-Au-delà des formations que nous vous proposons, nous pouvons mettre en place des accompagnements. N'hésitez pas à nous solliciter ou à solliciter votre référent ministériel numérique écoresponsable. si vous avez besoin d'un accompagnement, qu'il soit ponctuel ou sur le long terme.<
+Au-delà des formations que nous vous proposons, nous pouvons mettre en place des accompagnements. N'hésitez pas à nous solliciter ou à solliciter votre référent ministériel numérique écoresponsable. si vous avez besoin d'un accompagnement, qu'il soit ponctuel ou sur le long terme.
 
 Notamment à la DINUM, à la Brigade d'Intervention du Numérique, nous pouvons vous accompagner à la fois sur l'écoconception de votre service numérique, mais aussi sur l'accessibilité, sur le design ou sur une recherche utilisateur.
 
@@ -51,4 +48,4 @@ La DINUM, avec le Commissariat Général au Développement Durable et le Minist�
 
 Tous les outils, à la fois créés par la MiNumEco et à la fois qu'ils mettent eux-mêmes en oeuvre pour pouvoir déployer ces plans d'action. Si vous avez des questions sur le numérique responsable, n'hésitez pas à les solliciter ou à solliciter la MiNumEco.
 
-
+{% endtranscription %}

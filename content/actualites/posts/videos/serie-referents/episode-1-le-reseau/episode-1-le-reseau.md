@@ -22,14 +22,16 @@ Comment les ministères agissent pour réduire leur empreinte environnementale ?
 
 <!-- transcription-->
 
-## Mélanie RAPHAËL
-Responsable de la MiNumEco
-Experte Numérique Écoresponsable - DINUM
+{% transcription "Mélanie RAPHAËL" %}
+<p>
+  Mélanie RAPHAËL<br>
+  Responsable de la MiNumEco<br>
+  Experte Numérique Écoresponsable - DINUM
+</p>
 
-La MiNumEco, la mission interministérielle numérique écoresponsable, met à disposition tous les outils pour mettre en place les actions nécessaires.
-Et elle crée des formations, des sensibilisations, pour former tous les agents des ministères au numérique responsable.
-La MiNumEco s'appuie sur un réseau de référents il y a un référent numérique écoresponsable dans chaque ministère.
-Il est en charge d'animer le sujet, de répondre aux questions des agents, et aussi de suivre les feuilles de routes.
-Si vous avez des questions sur le numérique responsable, n'hésitez pas à les solliciter ou à solliciter la MiNumEco.
-
-
+<p>La MiNumEco, la mission interministérielle numérique écoresponsable, met à disposition tous les outils pour mettre en place les actions nécessaires.</p>
+<p>Et elle crée des formations, des sensibilisations, pour former tous les agents des ministères au numérique responsable.</p>
+<p>La MiNumEco s'appuie sur un réseau de référents il y a un référent numérique écoresponsable dans chaque ministère.</p>
+<p>Il est en charge d'animer le sujet, de répondre aux questions des agents, et aussi de suivre les feuilles de routes.</p>
+<p>Si vous avez des questions sur le numérique responsable, n'hésitez pas à les solliciter ou à solliciter la MiNumEco.</p>
+{% endtranscription %}

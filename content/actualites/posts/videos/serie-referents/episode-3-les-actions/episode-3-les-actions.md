@@ -1,5 +1,5 @@
 ---
-layout: layouts/page.njk
+layout: layouts/post.njk
 title: "Épisode #3 : Les actions des ministères vers un numérique responsable"
 description: Quelles sont les actions des ministères ? Réponse des référents ministériels numérique responsable
 date: 2024-07-21
@@ -13,8 +13,7 @@ series: "Référents"
 ---
 
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM EN ATTENTE DU LIEN-->
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x95ly1e" width="100%" height="100%" allowfullscreen title="Dailymotion Video Player" > </iframe> </div>
+{%- dailymotion "x95ly1e" -%}
 
 <!-- légende de la vidéo-->
 
@@ -22,7 +21,7 @@ series: "Référents"
 
 <!-- description-->
 
-<!-- transcription->
+<!-- transcription-->
 
 *Transcription*
 
