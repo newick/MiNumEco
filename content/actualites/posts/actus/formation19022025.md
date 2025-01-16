@@ -19,10 +19,8 @@ tags:
 
 ## Objectifs de la formation
 
-* Identifier les impacts environnementaux
-* Connaître les impacts liés au numérique
-* Découvrir les objectifs et le plan d'action de l'État
-* Améliorer mes pratiques quotidiennes
+* Découvrir le RGESN - Référentiel Général d'Ecoconception de services numériques
+* Connaître les ressources utiles
 
 ## Contenu de la formation
 
@@ -49,8 +47,8 @@ Avoir suivi [le module mentor : les impacts environnementaux du numérique.](htt
 
 <div class="fr-callout">
     <h3 class="fr-callout__title">Inscription obligatoire</h3>
-    <a class="fr-btn" href="Lien à venir" target="_blank">
-			Lien à venir
+    <a class="fr-btn" href="https://grist.numerique.gouv.fr/o/docs/forms/1MmRRb9XJUL9CZgmQ9EMsS/55" target="_blank">
+			Formulaire d'inscription
     </a>
 </div>
 
