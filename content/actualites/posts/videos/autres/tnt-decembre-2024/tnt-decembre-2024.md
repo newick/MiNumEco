@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: ""
-description: "Formation des référents ministériels numérique responsable à Econumia : jeu de plateau pour élaborer sa feuille de route NumEco"
+title: "Webinaire collectivités - feuille de route numérique responsable"
+description: "Webinaire sur les feuilles de route numérique responsable des collectivités, en partenariat avec TNT"
 date: 2024-12-05
 image:
     path: ./vignette-tnt-decembre-2024.webp
