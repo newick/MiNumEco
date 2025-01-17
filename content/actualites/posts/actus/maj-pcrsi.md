@@ -3,8 +3,6 @@ title: "Mise à jour RCP SI"
 description: l'Ademe met à jour le Référentiel par Catégorie de Produit (RCP) des Systèmes d'Information
 date: 2024-11-20
 image:
-    path: ../img/
-    alt: ""
 tags:
   - 'MiNumEco'
   - 'Document de référence'
@@ -21,21 +19,18 @@ C’est la méthodologie d’évaluation environnementale des systèmes d’info
 
 C’est sur cette méthodologie qu’est développé l’outil NumEcoEval pour mesurer l’empreinte environnementale des SI de l’État.
 
-<div class="fr-tile fr-tile--download fr-enlarge-link" id="tile-6735">
-<div class="fr-tile__body">
-<div class="fr-tile__content">
-<h3 class="fr-tile__title">
-<a href="/docs/2024/RCP-Systeme-information-2024-FR.pdf" download>Télécharger la version de novembre 2024 de la PCR SI</a></h3>
-<p class="fr-tile__detail">938 Ko</p>
-</div>
-</div>
-<div class="fr-tile__header">
-<div class="fr-tile__pictogram">
-<svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
-<use class="fr-artwork-decorative" href="/img/artwork/pictograms/document.svg#artwork-decorative"></use>
-<use class="fr-artwork-minor" href="/img/artwork/pictograms/city-hall.svg#artwork-minor"></use>
-<use class="fr-artwork-major" href="/img/artwork/pictograms/city-hall.svg#artwork-major"></use>
-</svg>
-</div>
-</div>
+
+<div class="fr-card fr-enlarge-link fr-card--download">
+	<div class="fr-card__body">
+		<div class="fr-card__content">
+			<h3 class="fr-card__title">
+					<a download href="/docs/2024/RCP-Systeme-information-2024-FR.pdf">
+							Télécharger la PCR SI de novembre 2024
+					</a>
+			</h3>
+			<p class="fr-card__desc">Fichier PDF de 938 Ko/p>
+			<div class="fr-card__end">
+			</div>
+		</div>
+	</div>
 </div>
