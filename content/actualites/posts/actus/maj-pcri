@@ -1,0 +1,41 @@
+---
+title: "Mise à jour PCR SI"
+description: l'Ademe met à jour le Référentiel par Catégorie de Produit (RCP) des Systèmes d'Information
+date: 2024-11-20
+image:
+    path: ../img/
+    alt: ""
+tags:
+  - 'MiNumEco'
+  - 'Document de référence'
+---
+
+<!-- chapô-->
+Ce référentiel méthodologique pour l'évaluation environnemental des Systèmes d'Information (SI) fournit la méthode à respecter pour calculer les indicateurs de l'affichage environnemental de ce service numérique.
+Ce document complète et précise les règles sectorielles du RCP « parent » : « Référentiel méthodologique d'évaluation environnementale des services numériques » pour le cas des Systèmes d'Information au sein d'organisation, et doit être lu en parallèle. 
+
+<!-- texte-->
+
+## Qu’est ce que la PCR SI
+C’est la méthodologie d’évaluation environnementale des systèmes d’information, mise en place par l’ADEME en 2023 et mis à jour en novembre 2024 avec l’Inria et le CNRS.
+
+C’est sur cette méthodologie qu’est développé l’outil NumEcoEval pour mesurer l’empreinte environnementale des SI de l’État.
+
+<div class="fr-tile fr-tile--download fr-enlarge-link" id="tile-6735">
+<div class="fr-tile__body">
+<div class="fr-tile__content">
+<h3 class="fr-tile__title">
+<a href="#" download>Télécharger la version de novembre 2024 de la PCR SI</a></h3>
+<p class="fr-tile__detail">938 Ko</p>
+</div>
+</div>
+<div class="fr-tile__header">
+<div class="fr-tile__pictogram">
+<svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+<use class="fr-artwork-decorative" href="/img/artwork/pictograms/document.svg#artwork-decorative"></use>
+<use class="fr-artwork-minor" href="/img/artwork/pictograms/city-hall.svg#artwork-minor"></use>
+<use class="fr-artwork-major" href="/img/artwork/pictograms/city-hall.svg#artwork-major"></use>
+</svg>
+</div>
+</div>
+</div>
