@@ -11,7 +11,7 @@ tags:
   - 'Ministères'
 ---
 <!-- intégraton vidéo peertube -->
-<div style="position: relative; padding-top: 56.25%;"><iframe title="Le futur des services publics numériques face aux enjeux environnementaux - Jeremie Vallet &amp; Virginie Roziere" width="100%" height="100%" src="https://peertube.designersethiques.org/videos/embed/fbd7cf05-ef3a-43fb-8a26-e4db37082b2a?subtitle=fr&amp;peertubeLink=0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" style="position: absolute; inset: 0px;"></iframe></div>
+<iframe title="Le futur des services publics numériques face aux enjeux environnementaux - Jeremie Vallet &amp; Virginie Roziere" width="560" height="315" src="https://peertube.designersethiques.org/videos/embed/fbd7cf05-ef3a-43fb-8a26-e4db37082b2a?subtitle=fr" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 
 <!-- légende de la vidéo-->
 **Intervention de Jérémie Vallet et Virginie Rozière à Ethics by Design 2024**
