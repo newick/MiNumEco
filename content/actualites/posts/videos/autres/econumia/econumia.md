@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "Econumia"
-description: Formation des référents ministériels numérique responsable à Econumia : jeu de plateau pour élaborer sa feuille de route NumEco
+description: "Formation des référents ministériels numérique responsable à Econumia : jeu de plateau pour élaborer sa feuille de route NumEco"
 date: 2025-01-17
 image:
     path: ./vignette-econumia.webp

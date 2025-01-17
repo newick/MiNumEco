@@ -8,7 +8,7 @@ image:
     alt: ""
 tags:
   - 'Vidéo'
-  - 'Materiel'
+  - 'Matériel'
   - 'IA et Data'
   - 'Formation'
 series: "Micro Trottoir"
