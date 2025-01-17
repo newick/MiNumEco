@@ -14,12 +14,12 @@ Ce document complète et précise les règles sectorielles du RCP « parent » :
 
 <!-- texte-->
 
-## Qu’est ce que la PCR SI
+## Qu’est ce que la RCP SI
 C’est la méthodologie d’évaluation environnementale des systèmes d’information, mise en place par l’ADEME en 2023 et mis à jour en novembre 2024 avec l’Inria et le CNRS.
 
 C’est sur cette méthodologie qu’est développé l’outil NumEcoEval pour mesurer l’empreinte environnementale des SI de l’État.
 
-
+## Télécharger le document
 <div class="fr-card fr-enlarge-link fr-card--download">
 	<div class="fr-card__body">
 		<div class="fr-card__content">
