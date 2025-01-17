@@ -1,12 +1,11 @@
 ---
 title: Empreinte environnementale du numérique en France
 description: "L’ADEME et l’Arcep remettent leur premier rapport au gouvernement. Depuis plusieurs années, de nombreux rapports et études nous alertent sur les impacts environnementaux du numérique. En effet, le secteur représenterait aujourd’hui 2,5 % de l’empreinte carbone de la France."
-
 date: 2022-03-07
+image:
+    path: ../img/vieux/rapport-ademe-arcep.webp
+    alt: ""
 ---
-<!-- image: /img/posts/empreinte-environnementale-du-numerique-en-france/rapport-ademe-arcep.webp -->
-
-<!-- ![]({{ image }}) -->
 
 Depuis plusieurs années, de nombreux rapports et études nous alertent sur les impacts environnementaux du numérique. En effet, le secteur représenterait aujourd’hui **2,5 % de l’empreinte carbone de la France**. Si rien n’est fait pour limiter cette empreinte environnementale, elle pourrait augmenter de manière significative d’ici à 2040 (+ 60 % selon [le rapport de la mission d’information sur l’empreinte environnementale du numérique du Sénat](http://www.senat.fr/rap/r19-555/r19-5551.pdf "http://www.senat.fr/rap/r19-555/r19-5551.pdf"))
 

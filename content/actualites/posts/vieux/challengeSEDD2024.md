@@ -4,7 +4,6 @@ description: "Challenge inter-ministères : Serious Game sur le numérique respo
 image:
     path: ../img/SEDD2024/banniere-sedd-2024.webp
     alt: ""
-
 date: 2024-09-18
 ---
 

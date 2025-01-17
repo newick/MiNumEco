@@ -1,10 +1,11 @@
 ---
 title: Bilan d’activité 2021 – 2022 de la MiNumEco
 description: Depuis 2020, la mission interministérielle numérique écoresponsable œuvre pour réduire l’empreinte environnementale du numérique public.
-
 date: 2023-04-06
+image:
+    path: ../img/vieux/bilan-2021-2022/1-1-chiffres-cles.webp
+    alt: ""
 ---
-<!-- image: /img/posts/bilan-activites-2021-2022/1-1-chiffres-cles.webp -->
 
 Depuis 2020, la mission interministérielle numérique écoresponsable œuvre pour réduire l’empreinte environnementale du numérique public. Dans ce cadre, les actions de la mission sont diverses. Il s’agit d’abord d’accompagner les ministères dans l’établissement et la mise en œuvre de plans d’action ambitieux. Pour cela, des documents-cadre ont été établi : guides et référentiels de bonnes pratiques publiés en licence ouverte et qui sont tous produits en concertation avec l’écosystème des acteurs publics et privés.
 
