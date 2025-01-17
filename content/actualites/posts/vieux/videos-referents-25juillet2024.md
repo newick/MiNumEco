@@ -1,13 +1,11 @@
 ---
 title: "Vidéo référents numérique écoresponsable quels sont les enjeux"
 description: "Vidéo des référents numérique écoresponsable sur les enjeux des ministères "
-
 date: 2024-07-25
+image:
+    path: ../videos/serie-referents/episode-2-les-enjeux/vignette-miniserie-episode2.webp
+    alt: ""
 ---
-<!-- image: /img/videos/miniserie/vignette-miniserie-episode2.webp -->
-
-<!-- ![]({{ image }}) -->
-
 ## Quels sont les enjeux des ministères en matière de numérique responsable ?
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x9368gg" width="100%" height="100%" allowfullscreen title="Dailymotion Video Player" > </iframe> </div>

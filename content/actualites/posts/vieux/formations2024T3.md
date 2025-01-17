@@ -1,13 +1,11 @@
 ---
 title: "Formations septembre et octobre 2024"
 description: "Les prochaines dates de sensibilisation à l'écoconception de services numériques"
-
 date: 2024-06-29
+image:
+    path: ../img/formation-ecoconception.webp
+    alt: ""
 ---
-<!-- image: /img/formations/formation-ecoconception.webp -->
-
-<!-- ![]({{ image }}) -->
-
 ## Programme
 Au cours de cette formation, vous comprendrez quels sont les enjeux environnementaux de la conception d’un service numérique.
 A travers des exercices et quizz, vous découvrirez comment mettre en œuvre une démarche d’écoconception et comment prendre en main le référentiel général d’écoconception de service numérique (RGESN) dans votre contexte projet.

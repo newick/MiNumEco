@@ -1,11 +1,11 @@
 ---
 title: "Vidéo : présentation des actions des ministères par les référents numérique écoresponsable"
 description: "Vidéo : présentation des actions des ministères par les référents numérique écoresponsable"
-
 date: 2024-09-15
+image:
+    path: ../videos/serie-referents/episode-3-les-actions/vignette-miniserie-episode3.webp
+    alt: ""
 ---
-<!-- image: /img/videos/miniserie/vignette-miniserie-episode3.webp -->
-
 La MiNumEco lance une mini série pour faire connaître les référents numériques écoresponsables auprès des agents des ministères et pour expliquer le rôle de la MiNumEco et de la DINUM.
 
 <!-- bouton pour accéder à la page ressources où se trouvent la série de vidéos-->

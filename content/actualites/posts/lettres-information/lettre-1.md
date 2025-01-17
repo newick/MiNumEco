@@ -3,8 +3,9 @@ layout: layouts/post.njk
 title: "Lettre #1"
 description: Première lettre de la MiNumEco, postée sur LinkedIn le 20/09/2024
 date: 2024-09-20
-image: /img/publications/lettre-linkedin/lettre-1.webp
-apercu: /img/publications/lettre-linkedin/lettre-1.webp
+image:
+    path: ../img/lettre-1.webp
+    alt: ""
 tags:
   - "Lettre d'information"
 ---

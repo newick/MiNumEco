@@ -4,10 +4,10 @@ description: Les journées de la réparation
 date: 2024-10-18
 tags:
   - 'Événement'
+image:
+    path: ../img/vieux/repair-days-2024.webp
+    alt: ""
 ---
-<!-- image: /img/posts/repair-days-2024/repair-days-2024.webp -->
-
-<!-- ![]({{ image }}) -->
 
 # Les Journées Nationales de la Réparation et l'Achat Public Responsable
 

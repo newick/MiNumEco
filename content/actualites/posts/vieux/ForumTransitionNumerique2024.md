@@ -1,13 +1,11 @@
 ---
 title: "Table ronde Sobriété Numérique au Forum de la transition numérique"
 description: "La DINUM partenaire de la 7e édition du forum de la transition numérique. La Gazette des communes organise, pour la 7ème édition, le forum de la transition numérique afin d’échanger avec divers acteurs sur la question de la conciliation entre la réduction de l’empreinte environnementale du numérique et l’accès à l’utilisation des nouvelles technologies."
-
-
 date: 2024-04-24
+image:
+    path: ../img/vieux/ForumTransitionNumerique2024.webp
+    alt: ""
 ---
-<!-- image: /img/posts/ForumTransitionNumerique2024/ForumTransitionNumerique2024.webp -->
-![Visuel du Forum de la Transition Numérique]({{ image }})
-
 La Gazette des communes organise, pour la 7ème édition, le forum de la transition numérique afin d’échanger avec divers acteurs sur la question de la conciliation entre la réduction de l’empreinte environnementale du numérique et l’accès à l’utilisation des nouvelles technologies.
 
 Evenement en ligne, [Inscription obligatoire](https://forum-transition-numerique.eventmaker.io/fr/inscription).

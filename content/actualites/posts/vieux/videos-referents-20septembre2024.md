@@ -1,12 +1,11 @@
 ---
 title: "Vidéo référents numérique écoresponsable, le rôle de la DINUM"
 description: "Vidéo des référents numérique écoresponsable sur le rôle de la DINUM dans le suivi des feuilles de routes et l'accompagnement des ministère"
-
 date: 2024-09-20
+image:
+    path: ../videos/serie-referents/episode-4-role-DINUM/vignette-miniserie-episode4.webp
+    alt: ""
 ---
-<!-- image: /img/videos/miniserie/vignette-miniserie-episode4.webp -->
-
-<!-- ![]({{ image }}) -->
 
 ## Quels sont les enjeux des ministères en matière de numérique responsable ?
 

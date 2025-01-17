@@ -1,13 +1,11 @@
 ---
 title: Lancement de la "lettre de la MiNumEco sur linkedIn
 description: Lancement de la "lettre de la MiNumEco" sur LinkedIn
-
 date: 2024-09-21
+image:
+    path: ../img/lettre-1.webp
+    alt: ""
 ---
-<!-- image: /img/publications/lettre-linkedin/lettre-1.webp -->
-
-<!-- ![]({{ image }}) -->
-
 ## Lettre de la MiNumEco
 
 Pour suivre les dernières actualités de la MiNumEco, suivez nos actus avec la lettre de la MiNumEco sur linkedIn
