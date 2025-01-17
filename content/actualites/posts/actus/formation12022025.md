@@ -1,7 +1,7 @@
 ---
 title: "Formation du 12 février"
 description: Formation en présentiel le 12 février - Ecoconception de Services Numériques - 3h00
-date: 2025-01-13
+date: 2025-02-12
 image:
     path: ../img/parcours-formation-numeco.webp
     alt: ""
