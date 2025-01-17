@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: "Épisode #9 : Achats numériques responsables"
 description: Comment faire des achats numériques plus responsables ?
-date: 2025-01-02
+date: 2025-01-09
 image:
     path: ./vignette-parolesdexperts-episode9-achatsdurables.webp
     alt: ""
