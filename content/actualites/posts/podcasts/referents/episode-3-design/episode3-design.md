@@ -3,15 +3,15 @@ layout: layouts/post.njk
 title: "Épisode #3 : Le design : levier du numérique responsable"
 description: Dans ce troisième épisode, nous abordons le thème du design comme levier du numérique responsable. Notre invité est Thomas Thibault, chercheur chez Limites numériques et Designer éthiques.
 date: 2024-11-14
-
+image:
+    path: ./vignette-podcast-episode3-design.webp
+    alt: ""
 tags:
   - 'Podcast'
-	- 'Ecoconception'
+  - 'Ecoconception'
 series: 'Saison 1'
 ---
-<!-- image:
-    path: ./podcast-minumechos-episode3.webp
-    alt: "" -->
+
 <!-- intégration Acast -->
 
 <iframe src="https://embed.acast.com/$/669e18c83847f8c1a590bc69/6731d6dd0fa42573920fb6bc?" frameBorder="0" width="100%" height="110px" allow="autoplay"></iframe>
