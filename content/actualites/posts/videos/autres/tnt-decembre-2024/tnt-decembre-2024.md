@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: ""
 description: "Formation des référents ministériels numérique responsable à Econumia : jeu de plateau pour élaborer sa feuille de route NumEco"
-date: 2025-01-17
+date: 2024-12-05
 image:
     path: ./vignette-tnt-decembre-2024.webp
     alt: ""
