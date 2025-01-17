@@ -32,12 +32,10 @@ Quelque soit votre métier : chef de projet ou de produit, MOA, AMOA, UX researc
 * Formatrice : <a href="https://fr.linkedin.com/in/melanieraphael" target="_blank" title="Nouvelle fenêtre : Page Linkedin de Mélanie Raphaël">Mélanie Raphaël, Experte numérique écoresponsable, DINUM</a>
 Lieu de la formation 20 avenue de Ségur 75007 Paris
 
-### Prérequis
-Aucun
-C'est un module de sensibilisation, si vous recherchez une formation plus approfondie ou un accompagnement, contactez-nous.
-
 ### Lieu
 En présentiel au 20 avenue de Ségur 75007
+
+## Accompagnement spécifique
 
 <div class="fr-highlight">
 
