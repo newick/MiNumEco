@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "Épisode #8 : Le don de matériel informatique"
-description: DOnner le matériel informatique décomissionner grâce à la DNID
+description: Donner le matériel informatique décomissionner grâce à la DNID
 date: 2025-01-08
 image:
     path: ./vignette-parolesdexperts-episode8-DNID.webp
