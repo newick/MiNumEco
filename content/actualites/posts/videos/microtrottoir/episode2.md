@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: "Épisode #1 : Micro Trottoir"
+title: "Épisode #2 : Micro Trottoir"
 description: outes numérique responsable ?
 date: 2025-02-10
 image:
