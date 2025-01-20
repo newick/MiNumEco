@@ -13,7 +13,10 @@ eleventyNavigation:
 		{{ component("card", {
 			url: "/publications/referentiel-general-ecoconception/",
 			title: "Référentiel général d'écoconception de services numériques (RGESN)",
-			description: ""
+			image: {
+				src: "/img/referentiel-general-ecoconception/referentiel-ecoconception.webp",
+				alt: ""
+			}
 		}) }}
 	</div>
 	<div class="fr-col-12 fr-col-md-4">
@@ -21,7 +24,10 @@ eleventyNavigation:
 		{{ component("card", {
 			url: "/publications/guide-pratique-achats-numeriques-responsables/",
 			title: "Guide pratique pour des achats numériques responsables",
-			description: ""
+			image: {
+				src: "/img/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp",
+				alt: ""
+			}
 		}) }}
 	</div>
 	<div class="fr-col-12 fr-col-md-4">
@@ -29,7 +35,10 @@ eleventyNavigation:
 		{{ component("card", {
 			url: "/publications/bonnes-pratiques/",
 			title: "Guide de bonnes pratiques numérique responsable pour les organisations",
-			description: ""
+			image: {
+				src: "/img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp",
+				alt: ""
+			}
 		}) }}
 	</div>
 	<div class="fr-col-12 fr-col-md-4">
@@ -37,7 +46,10 @@ eleventyNavigation:
 		{{ component("card", {
 			url: "/publications/referentiel-competences/",
 			title: "Référentiel de compétences",
-			description: ""
+			image: {
+				src: "/img/parcours-formation-numeco.webp",
+				alt: ""
+			}
 		}) }}
 	</div>
 </div>
