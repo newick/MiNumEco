@@ -60,26 +60,37 @@ numberOfLatestPostsToShow: 3
 				{{ component("card", {
 					url: "/publications/referentiel-general-ecoconception/",
 					title: "Référentiel général d'écoconception de services numériques (RGESN)",
-					description: ""
+					image: {
+						src: "/img/referentiel-general-ecoconception/referentiel-ecoconception.webp",
+						alt: ""
+					}
+				}) }}
+			</div>
+
+			<div class="fr-col-12 fr-col-md-4">
+				{% from "components/component.njk" import component with context %}
+				{{ component("card", {
+					url: "/publications/guide-pratique-achats-numeriques-responsables/",
+					title: "Guide pratique pour des achats numériques responsables",
+					image: {
+						src: "/img/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp",
+						alt: ""
+					}
 				}) }}
 			</div>
 			<div class="fr-col-12 fr-col-md-4">
 				{% from "components/component.njk" import component with context %}
 				{{ component("card", {
-					url: "/ressources/podcasts/",
-					title: "Podcasts",
-					description: "Écouter nos podcasts"
-				}) }}
-			</div>
-			<div class="fr-col-12 fr-col-md-4">
-				{% from "components/component.njk" import component with context %}
-				{{ component("card", {
-					url: "/ressources/lettres-information/",
-					title: "Lettres d'information",
-					description: "Relire nos lettres d'information"
+					url: "/publications/bonnes-pratiques/",
+					title: "Guide de bonnes pratiques numérique responsable pour les organisations",
+					image: {
+						src: "/img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp",
+						alt: ""
+					}
 				}) }}
 			</div>
 		</div>
+		<a href="" class="fr-link fr-fi-arrow-right-line fr-link--icon-right">Parcourir tous nos documents de références</a>
   </section>
   <section class="fr-mt-8w">
     <h2>Ressources multimédias</h2>
