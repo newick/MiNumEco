@@ -191,20 +191,3 @@ p:empty {
 .play-button:hover {
 	background: rgba(0, 0, 0, 0.8) !important;
 }
-
-.fr-card.fr-enlarge-button:not(.fr-card--no-icon) .fr-card__content,
-.fr-card.fr-enlarge-link:not(.fr-card--no-icon) .fr-card__content {
-	padding-bottom: 3rem;
-}
-
-.fr-card__title {
-	position: relative;
-}
-
-.fr-card.fr-enlarge-button .fr-card__title a::after,
-.fr-card.fr-enlarge-button .fr-card__title button::after,
-.fr-card.fr-enlarge-link .fr-card__title a::after,
-.fr-card.fr-enlarge-link .fr-card__title button::after {
-	right: 0;
-	bottom: -2rem;
-}
