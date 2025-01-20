@@ -2,12 +2,12 @@
 layout: layouts/fin-usage.njk
 title: Foire aux questions
 date: 2023-04-03
-image: /img/publications/fin-usage/atelier-fin-usage.webp
+image: /img/fin-usage/atelier-fin-usage.webp
 type: publication
 eleventyNavigation:
   parent: finUsage
   title: Foire aux questions
-  image: /img/publications/fin-usage/atelier-fin-usage.webp
+  image: /img/fin-usage/atelier-fin-usage.webp
   order: 40
 ---
 
@@ -186,7 +186,7 @@ Dans la convention de don, ce qui est inscrit c’est qu’il n’y a pas de gar
 Cela ne va peut-être pas intéresser les associations utilisatrices. En revanche cela peut éventuellement intéresser les associations qui sont autorisées à revendre le matériel. C’est un sujet qui sera évoqué dans le prochain décret sur les prix solidaires.
 
 </div>
-  
+
 <h3 class="fr-accordion__title">
 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-question-14">Réaliser un transfert d’une bien et non d’une cession gratuite permettrait-il de lever la limite du montant de la valeur vénale (300€) ?</button>
 </h3>

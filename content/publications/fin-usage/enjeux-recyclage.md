@@ -2,12 +2,12 @@
 layout: layouts/fin-usage.njk
 title: Acteurs et enjeux du recyclage
 date: 2022-04-20
-image: /img/publications/fin-usage/atelier-fin-usage.webp
+image: /img/fin-usage/atelier-fin-usage.webp
 type: publication
 eleventyNavigation:
   parent: finUsage
   title: Acteurs et enjeux du recyclage
-  image: /img/publications/fin-usage/atelier-fin-usage.webp
+  image: /img/fin-usage/atelier-fin-usage.webp
   order: 25
 ---
 
@@ -34,7 +34,7 @@ Selon l'ADEME, [près de 850000 tonnes de DEEE ont été collectés en 2020](htt
 
 <figure class="fr-content-media" role="group" aria-label="© Légende de l‘image">
     <div class="fr-content-media__img">
-        <img src="/img/publications/fin-usage/cartes-et-puces.webp" class="fr-responsive-img" alt="" />
+        <img src="/img/fin-usage/cartes-et-puces.webp" class="fr-responsive-img" alt="" />
     </div>
     <figcaption class="fr-content-media__caption">Recyclage des cartes électroniques</figcaption>
 </figure>

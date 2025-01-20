@@ -2,14 +2,14 @@
 layout: layouts/fin-usage.njk
 title: Focus sur le don
 date: 2022-03-22
-image: /img/publications/fin-usage/atelier-fin-usage.webp
+image: /img/fin-usage/atelier-fin-usage.webp
 type: publication
 eleventyNavigation:
   parent: finUsage
   key: focusSurLeDon
   title: Focus sur le don
   date: 2022-03-22
-  image: /img/publications/fin-usage/atelier-fin-usage.webp
+  image: /img/fin-usage/atelier-fin-usage.webp
   order: 20
 ---
 
