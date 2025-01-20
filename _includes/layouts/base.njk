@@ -75,6 +75,9 @@
 {% endjs %}
 {% getBundle "js", "body" %}
 <!-- Script en version es6 module et nomodule pour les navigateurs le ne supportant pas -->
+{% if extrajs %}
+    <script src="{{ extrajs }}"></script>
+{% endif %}
 <script type="module" src="/js/dsfr.module.min.js"></script>
 <script type="text/javascript" nomodule src="/js/dsfr.nomodule.min.js"></script>
   <script type="text/javascript" src="/js/dailymotion.js"></script>
