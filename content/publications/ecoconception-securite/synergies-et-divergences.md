@@ -38,7 +38,7 @@ eleventyNavigation:
 
 Des bonnes pratiques ainsi que des synergies peu évidentes entre écoconception, cybersécurité et protection des données ont été identifiées.
 
-![](/img/publications/ecoconception-securite/syntheses-des-synergies.webp)
+![](/img/ecoconception-securite/syntheses-des-synergies.webp)
 
 <section class="fr-accordion">
 <h3 class="fr-accordion__title">

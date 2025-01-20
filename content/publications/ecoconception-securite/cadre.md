@@ -19,7 +19,7 @@ _« Il faut penser l’écoconception le plus largement possible. Au-delà de l
 
 ## Cybersécurité
 
-![](/img/publications/ecoconception-securite/mindmap-cybersecurite.webp)
+![](/img/ecoconception-securite/mindmap-cybersecurite.webp)
 
 <section class="fr-accordion">
 <h3 class="fr-accordion__title">
@@ -62,7 +62,7 @@ _« Pour le RGPD, la majorité des organisations ont en tête les cookies et le
 
 Comme le souligne un participant, la protection des données à caractère personnel peut être perçue comme se résumant au consentement, or il s’agit d’un sujet bien plus vaste et surtout faisant l’objet d’une réglementation (RGPD), applicable à tous les pays européens, qui a entraîné en 2019 une mise à jour de la loi Informatiques et Libertés de 1978.
 
-![](/img/publications/ecoconception-securite/mindmap-protection-des-donnees.webp)
+![](/img/ecoconception-securite/mindmap-protection-des-donnees.webp)
 
 <section class="fr-accordion">
 <h3 class="fr-accordion__title">
@@ -84,14 +84,14 @@ Comme le souligne un participant, la protection des données à caractère perso
   - Territorialisation des données
 - **Gouvernance**
   - Responsable de traitement
-  - Délégué à la protection des données (DPO) 
+  - Délégué à la protection des données (DPO)
 
 </div>
 </section>
 
 ## Écoconception
 
-![](/img/publications/ecoconception-securite/mindmap-ecoconception.webp)
+![](/img/ecoconception-securite/mindmap-ecoconception.webp)
 
 <section class="fr-accordion">
 <h3 class="fr-accordion__title">

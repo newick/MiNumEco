@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 10
 ---
 
-![](/img/publications/fin-usage/cycle-vie.webp)
+![](/img/fin-usage/cycle-vie.webp)
 
 Il y a trois états dans la vie d’un produit
 * Neuf
@@ -20,7 +20,7 @@ Il y a trois états dans la vie d’un produit
 
 ## Un équipement neuf ou d’occasion peut faire l’objet d’un réemploi
 
-Ce réemploi peut prendre les formes suivantes. 
+Ce réemploi peut prendre les formes suivantes.
 
 ### 1. Remise en état
 
