@@ -5,6 +5,7 @@ eleventyNavigation:
   parent: formations
   title: Référentiel de compétences
   order: 2
+eleventyExcludeFromCollections: true
 ---
 
 <!-- chapô-->
@@ -14,7 +15,7 @@ Afin d'identifier les compétences numériques écoresponsable attendues pour le
 
 ## Outil pour les futures formations
 
-Ce référentiel a permis notamment d'identifier les besoins en formation pour l'ensemble des agents et pour les agents du numérique. 
+Ce référentiel a permis notamment d'identifier les besoins en formation pour l'ensemble des agents et pour les agents du numérique.
 C'est un préalable pour l'élaboration du parcours de formation réalisé par la MiNumEco, dont [le premier module est sorti le 17 décembre](https://mentor.gouv.fr/local/catalog/pages/training.php?trainingid=3087) et les 2 suivants sortiront au premier trimestre 2025.
 
 ## Valoriser les compétences des agents publics

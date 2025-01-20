@@ -53,3 +53,14 @@ eleventyNavigation:
 		}) }}
 	</div>
 </div>
+
+## Actualités concernant les documents de référence
+
+{% set postslist = [] %}
+{% for item in collections['Document de référence'] %}
+	{% if item.data.layout and 'layouts/post.njk' in item.data.layout %}
+		{% set postslist = postslist.concat(item) %}
+	{% endif %}
+{% endfor %}
+{% set postslist = postslist | reverse %}
+{% include "postslist.njk" %}
