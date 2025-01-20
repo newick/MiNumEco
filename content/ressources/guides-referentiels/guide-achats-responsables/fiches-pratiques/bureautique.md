@@ -3,6 +3,7 @@ layout: layouts/guide-achats.njk
 title: "Matériels bureautiques : PC fixes - portables - écrans - tablettes"
 date: 2021-04-29
 image: /img/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
+permalink: publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/bureautique/
 eleventyNavigation:
   key: guideachat-fiches-pratiques-bureautique
   parent: guideachat-fiches-pratiques

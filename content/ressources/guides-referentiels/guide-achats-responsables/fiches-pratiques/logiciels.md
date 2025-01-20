@@ -3,6 +3,7 @@ layout: layouts/guide-achats.njk
 title: Logiciels
 date: 2023-02-20
 image: /img/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
+permalink: /publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/logiciels/
 eleventyNavigation:
   key: guideachat-fiches-pratiques-logiciels
   parent: guideachat-fiches-pratiques

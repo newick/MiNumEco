@@ -3,6 +3,7 @@ layout: layouts/guide-achats.njk
 title: Matériels d’infrastructures informatiques et services d’hébergement / solutions hébergées
 date: 2021-04-29
 image: /img/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
+permalink: /publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/hebergement/
 eleventyNavigation:
   key: guideachat-fiches-pratiques-infra-cloud
   parent: guideachat-fiches-pratiques

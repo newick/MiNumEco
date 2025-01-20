@@ -3,6 +3,7 @@ layout: layouts/guide-achats.njk
 title: Solutions d’impression
 date: 2021-04-29
 image: /img/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
+permalink: /publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/impression/
 eleventyNavigation:
   key: guideachat-fiches-pratiques-impression
   parent: guideachat-fiches-pratiques
