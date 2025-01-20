@@ -5,6 +5,7 @@ tags: guideBpNrThematique
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 date: 2023-06-01
 idThematique: e.
+permalink: /publications/bonnes-pratiques/achat-durable/
 eleventyNavigation:
   key: bonnes-pratiques-achat-durable
   parent: guideBpNr

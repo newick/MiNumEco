@@ -5,6 +5,7 @@ tags: guideBpNrThematique
 date: 2023-06-01
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 idThematique: i.
+permalink: /publications/bonnes-pratiques/fin-usage/
 eleventyNavigation:
   key: bonnes-pratiques-fin-usage
   parent: guideBpNr

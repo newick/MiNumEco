@@ -1,8 +1,7 @@
 ---
 title: Données personnelles
-layout: layouts/page.njk
+layout: layouts/landing.njk
 description: Données personnelles et cookies
-showBreadcrumb: true
 permalink: /donnees-personnelles/
 ---
 
