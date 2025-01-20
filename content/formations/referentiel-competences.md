@@ -5,7 +5,6 @@ eleventyNavigation:
   parent: formations
   title: Référentiel de compétences
   order: 2
-eleventyExcludeFromCollections: true
 ---
 
 <!-- chapô-->
