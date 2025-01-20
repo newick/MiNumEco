@@ -3,6 +3,7 @@ layout: layouts/bonne-pratique/default.njk
 title: Glossaire
 date: 2023-06-01
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+permalink: /publications/bonnes-pratiques/glossaire/
 ---
 
 **Accessibilité Numérique** : Principe consistant à mettre à disposition de tous les individus, quels que soient leur matériel, logiciel ou infrastructure réseau ou leurs aptitudes physiques ou cognitives, des ressources numériques. Depuis 2012, tous les sites publics doivent être accessibles, c’est-à-dire 100 % conformes au RGAA, le Référentiel Général d’Amélioration de l’Accessibilité. L'objectif est ainsi de permettre à tous les usagers un égal accès à l'ensemble des services proposés afin de faire du numérique un levier d'inclusion.
@@ -13,11 +14,11 @@ image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 
 **AGEC** : Loi n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l’économie circulaire, dite « loi AGEC »
 
-**ANSSI** : l’Agence nationale de la sécurité des systèmes d'information est l’autorité nationale en matière de sécurité et de défense des systèmes d’information. 
+**ANSSI** : l’Agence nationale de la sécurité des systèmes d'information est l’autorité nationale en matière de sécurité et de défense des systèmes d’information.
 
 **ARM** : *Advanced RISC Machines*.
 
-**ASHRAE** : l’*American Society of Heating Refrigeration and Air Conditioning Engineers* a créé la certification ASHRAE qui atteste qu’un centre de données utilise du matériel qui peut continuer à fonctionner à des températures élevées, ce qui réduit considérablement les besoins en refroidissement et donc la consommation d’eau et d’énergie. 
+**ASHRAE** : l’*American Society of Heating Refrigeration and Air Conditioning Engineers* a créé la certification ASHRAE qui atteste qu’un centre de données utilise du matériel qui peut continuer à fonctionner à des températures élevées, ce qui réduit considérablement les besoins en refroidissement et donc la consommation d’eau et d’énergie.
 
 **AVEC** : l’expression « Apportez Votre Equipement de Communication » est une traduction adaptée du sigle anglais « BYOD », qui consiste à utiliser ses équipements numériques personnels dans un contexte professionnel.
 
@@ -33,7 +34,7 @@ image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 
 **CPU** : *Central Processing Unit* (en français UCT : unité centrale de traitement).
 
-**CSRD** : *Corporate Sustainability Reporting Directive*. Directive européenne sur le rapport de durabilité des entreprises. Mise à jour de la directive existante sur le rapport extra-financier, qui modifie les exigences en étendant les obligations des entreprises . 
+**CSRD** : *Corporate Sustainability Reporting Directive*. Directive européenne sur le rapport de durabilité des entreprises. Mise à jour de la directive existante sur le rapport extra-financier, qui modifie les exigences en étendant les obligations des entreprises .
 
 **CUE** : qui signifie *Carbon Usage Effectiveness* mesure le rapport entre la quantité totale de gaz à effet de serre (exprimée en kg équivalent CO2) résultant de l’activité du centre de données et la quantité d'énergie utilisée par les équipements informatiques.
 
@@ -117,7 +118,7 @@ image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 
 **REF :** le *Renewable Energy Factor* mesure la part d’énergie renouvelable consommée par le centre de données.
 
-**REP** : la « Responsabilité élargie du producteur » est une mesure basée sur le principe de « pollueur-payeur ». Le producteur s’engage à organiser la fin de vie des déchets produits par son activité. La filière REP spécialisée dans les DEEE permet aux éco-organismes de collecter des écocontributions auprès des fabricants qui financent le traitement des déchets et le fonctionnement de ces acteurs qui œuvrent pour l’intérêt général. 
+**REP** : la « Responsabilité élargie du producteur » est une mesure basée sur le principe de « pollueur-payeur ». Le producteur s’engage à organiser la fin de vie des déchets produits par son activité. La filière REP spécialisée dans les DEEE permet aux éco-organismes de collecter des écocontributions auprès des fabricants qui financent le traitement des déchets et le fonctionnement de ces acteurs qui œuvrent pour l’intérêt général.
 
 **Ressources abiotiques** : ressources naturelles non vivantes : eau, sol, minéraux... Elles se trouvent naturellement dans l’environnement et ne sont pas créées par l’homme. L’épuisement de ces ressources par l’activité humaine est un élément important d’inquiétude car ces ressources sont utilisées au-delà de la vitesse à laquelle elles se régénèrent. De plus, la transition numérique et la transition énergétique de nos sociétés puisent énormément dans ces ressources.
 
@@ -131,7 +132,7 @@ image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 
 **RISC** : *Reduced instruction set computer* ou ordinateur à jeu d’instructions réduit
 
-**RoHS :** acronyme de la directive européenne sur la limitation de l’utilisation de substances chimiques dangereuses dans les équipements électriques et électroniques (Restriction of hazardous substances in electrical and electronic equipment) 
+**RoHS :** acronyme de la directive européenne sur la limitation de l’utilisation de substances chimiques dangereuses dans les équipements électriques et électroniques (Restriction of hazardous substances in electrical and electronic equipment)
 
 **RSE** : Responsabilité Sociétale (ou Sociale) des Entreprises
 

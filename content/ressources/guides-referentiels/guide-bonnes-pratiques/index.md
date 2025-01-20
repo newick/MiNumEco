@@ -20,7 +20,9 @@ L’objectif de ce guide est d’une part de sensibiliser les différents acteur
 
   </div>
   <div class="fr-col-12 fr-col-md-5">
-<a target="_self" href="{{ metadata.guideBonnesPratiques.documentUrl }}" title="Télécharger le Guide de bonnes pratiques numérique responsable (pdf {{ metadata.guideBonnesPratiques.documentWeightInMo }} Mo)"><img src="/img/publications/bonnes-pratiques/guide-bonnes-pratiques-couverture.webp" class="fr-responsive-img" alt="" style="border: 1px solid #ccc"></a>
+		<a target="_self" href="{{ metadata.guideBonnesPratiques.documentUrl }}" title="Télécharger le Guide de bonnes pratiques numérique responsable (pdf {{ metadata.guideBonnesPratiques.documentWeightInMo }} Mo)">
+			<img src="/img/bonnes-pratiques/guide-bonnes-pratiques-couverture.webp" class="fr-responsive-img" alt="" style="border: 1px solid #ccc">
+		</a>
   </div>
 </div>
 

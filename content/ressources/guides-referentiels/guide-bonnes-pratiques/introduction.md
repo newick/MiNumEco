@@ -3,6 +3,7 @@ layout: layouts/bonne-pratique/default.njk
 title: À propos du Guide de bonnes pratiques numérique responsable pour les organisations
 date: 2023-06-19
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+permalink: /publications/bonnes-pratiques/introduction/
 ---
 
 <nav class="fr-summary" role="navigation" aria-labelledby="fr-summary-title">
@@ -76,7 +77,7 @@ Des guides, référentiels, outils, supports de sensibilisation sont publiés da
 
 Elle oriente, anime, soutient et coordonne les actions des administrations de l’État visant à améliorer la qualité, l’efficacité, l’efficience et la fiabilité des services rendus par le système d’information et de communication de l’État. Elle conseille le Premier ministre et les ministres compétents sur la prise en compte du numérique dans les politiques publiques mises en œuvre par les ministères.
 
-Dans le cadre de la mission interministérielle numérique écoresponsable du programme TECH.GOUV, la DINUM est engagée avec le Ministère de la Transition Ecologique auprès des ministères pour permettre aux administrations de s’inscrire durablement dans les démarches pour un numérique plus responsable. 
+Dans le cadre de la mission interministérielle numérique écoresponsable du programme TECH.GOUV, la DINUM est engagée avec le Ministère de la Transition Ecologique auprès des ministères pour permettre aux administrations de s’inscrire durablement dans les démarches pour un numérique plus responsable.
 
 ### Le Ministère de la Transition écologique et la de Cohésion des territoires
 
@@ -112,7 +113,7 @@ EcoInfo est l’acteur de référence pour l’Enseignement Supérieur et la Rec
 
 ### Ecologic
 
-[Ecologic](https://www.ecologic-france.com/) est un éco-organisme agréé, fortement investi depuis son origine sur le secteur IT. Entreprise à but non lucratif, Ecologic est investi par l’Etat d’une mission d’utilité publique consistant à développer la prévention des déchets et à assurer la gestion des déchets des équipements électriques et électroniques (DEEE) ménagers et professionnels. 
+[Ecologic](https://www.ecologic-france.com/) est un éco-organisme agréé, fortement investi depuis son origine sur le secteur IT. Entreprise à but non lucratif, Ecologic est investi par l’Etat d’une mission d’utilité publique consistant à développer la prévention des déchets et à assurer la gestion des déchets des équipements électriques et électroniques (DEEE) ménagers et professionnels.
 
 ### ecosystem
 

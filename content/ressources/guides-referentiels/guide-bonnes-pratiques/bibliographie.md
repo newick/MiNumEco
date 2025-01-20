@@ -3,13 +3,14 @@ layout: layouts/bonne-pratique/default.njk
 title: Bibliographie sélective
 date: 2023-06-01
 image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+permalink: /publications/bonnes-pratiques/bibliographie/
 ---
 
 Cette bibliographie est constituée de ressources imprimées et numériques qui complètent l’ensemble des informations proposées dans le Guide de bonnes pratiques numérique responsable.
 
 <div class="fr-grid-row">
 <div class="fr-col-12 fr-col-md-8">
- 
+
 Ce travail est le fruit d’une collaboration entre la Bibliothèque nationale de France ([centre de ressources et d’information sur le développement durable - CRIDD](https://bnf.libguides.com/developpementdurable) du département Sciences et techniques et la mission responsabilité sociétale) ainsi que la mission interministérielle numérique écoresponsable (Direction interministérielle du numérique).
 
 </div>
@@ -55,7 +56,7 @@ ADEME (Agence de la transition écologique)
 Flipo, Fabrice
 [La numérisation du monde : un désastre écologique](https://catalogue.bnf.fr/ark:/12148/cb468854777). Paris : L'échappée, 2021. 173 p.
 Impression : 14-Condé-sur-Noireau : Impr. Corlet
-Magasin – [2021-270892] 
+Magasin – [2021-270892]
 
 GreenIT.fr
 «Impacts environnementaux du numérique en France : étude « iNum »/ collectif d’experts, 17 janvier 2021 »
@@ -152,7 +153,7 @@ Salle D – PRISME – [0 84.75 TRIB r]
 
 ## Vers un numérique plus responsable ?
 
-« Le numérique peut-il être écologique et responsable ? ». Émission *De cause à effets, le magazine de l’environnement* [en ligne] diffusée sur France Culture le 25 mai 2021. 57 min. À écouter sur : 
+« Le numérique peut-il être écologique et responsable ? ». Émission *De cause à effets, le magazine de l’environnement* [en ligne] diffusée sur France Culture le 25 mai 2021. 57 min. À écouter sur :
 [France Culture](https://www.franceculture.fr/emissions/de-cause-a-effets-le-magazine-de-lenvironnement/de-cause-a-effets-le-magazine-de-lenvironnement-du-mardi-25-mai-2021)
 
 Bordage, Frédéric
