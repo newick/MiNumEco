@@ -2,7 +2,7 @@
 layout: layouts/bonne-pratique/default.njk
 title: Glossaire
 date: 2023-06-01
-image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+image: /img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 permalink: /publications/bonnes-pratiques/glossaire/
 ---
 

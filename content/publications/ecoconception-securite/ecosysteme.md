@@ -2,23 +2,23 @@
 layout: layouts/ecoconception-securite.njk
 title: Ecosystème
 date: 2022-07-01
-image: /img/publications/ecoconception-securite/ecoconception-securite.webp
+image: /img/ecoconception-securite/ecoconception-securite.webp
 type: publication
 eleventyNavigation:
   parent: ecoconceptionSecurite
   title: Ecosystème
-  image: /img/publications/ecoconception-securite/ecoconception-securite.webp
+  image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 50
 ---
 
-De nombreux acteurs sont impliqués sur les sujets de l’écoconception, la cybersécurité et la protection des données. 
+De nombreux acteurs sont impliqués sur les sujets de l’écoconception, la cybersécurité et la protection des données.
 
 ## Les acteurs de la régulation
 
 ### Protection des données
 
 - **[CNIL](https://www.cnil.fr/)** : Commission Nationale Informatique et Libertés
-La CNIL est une autorité administrative indépendante créée en 1978 avec la loi Informatique et libertés. Elle a une mission de régulation, de conseil et de contrôle ainsi que de certification, et gère deux référentiels de certification, l’un à destination des délégués à la protection des données, l’autre pour les organismes certificateurs. La CNIL a aussi un rôle de veille et de prospective sur l’utilisation des données. 
+La CNIL est une autorité administrative indépendante créée en 1978 avec la loi Informatique et libertés. Elle a une mission de régulation, de conseil et de contrôle ainsi que de certification, et gère deux référentiels de certification, l’un à destination des délégués à la protection des données, l’autre pour les organismes certificateurs. La CNIL a aussi un rôle de veille et de prospective sur l’utilisation des données.
 - **[CEPD](https://edpb.europa.eu/edpb_fr)** : Comité européen de la protection des données. Groupement institué par le règlement européen sur la protection des données (RGPD), il remplace l’ancien groupe de l’article 29 et a pour mission principale de veiller à l’application du RGPD dans tous les pays membres de l’Union Européenne.
 
 ### Cybersécurité
@@ -45,7 +45,7 @@ L’**[Arcep](https://www.arcep.fr/)** est une autorité administrative indépen
 
 ### Enseignement supérieur
 
-**Enseignants / Futurs ingénieurs et techniciens** : ils doivent concilier les enjeux de cybersécurité, protection des données et écoconception, trouver une cohérence entre ces trois piliers dont les enjeux sont parfois contradictoires. 
+**Enseignants / Futurs ingénieurs et techniciens** : ils doivent concilier les enjeux de cybersécurité, protection des données et écoconception, trouver une cohérence entre ces trois piliers dont les enjeux sont parfois contradictoires.
 
 ### Acteurs privés
 

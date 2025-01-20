@@ -1,7 +1,7 @@
 ---
 layout: layouts/bonne-pratique/thematique.njk
 title: Sensibilisation et formation
-image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+image: /img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 tags: guideBpNrThematique
 date: 2023-06-01
 idThematique: b.
@@ -18,7 +18,7 @@ S’engager vers un changement profond de fonctionnement nécessite d’y intég
 
 Développer une vision et une pensée systémiques sont à la base du développement de la pensée critique permettant d’identifier les croyances, les « allant de soi », les tabous, etc. C’est une nécessité pour aller plus loin, ailleurs, imaginer des solutions radicalement différentes, sortir de la pensée en « silo », ouvrir des possibles et éviter les effets rebond ou autres effets indirects négatifs.
 
-Enfin, sur un plan plus opérationnel, il y a une multitude de bonnes pratiques à mettre en œuvre, de compétences de développement ou de réparation à acquérir pour que la durabilité et la sobriété ne soient pas des mots creux. 
+Enfin, sur un plan plus opérationnel, il y a une multitude de bonnes pratiques à mettre en œuvre, de compétences de développement ou de réparation à acquérir pour que la durabilité et la sobriété ne soient pas des mots creux.
 
 Les actions de sensibilisation devraient idéalement concerner tous les acteurs de l’organisation et les actions de formation les plus volontaires, les directions, les participants aux processus participatifs.
 

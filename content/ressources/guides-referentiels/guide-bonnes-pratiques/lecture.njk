@@ -2,7 +2,7 @@
 layout: layouts/bonne-pratique/default.njk
 title: Guide de bonnes pratiques numérique responsable pour les organisations
 date: 2022-02-17
-image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+image: /img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 eleventyExcludeFromCollections: true
 ---
 
@@ -14,7 +14,7 @@ eleventyExcludeFromCollections: true
     {% for thematique in thematiques %}
         <li class="fr-mb-2w">
             <a class="fr-summary__link" href="#{{ thematique.key }}">{{ thematique.data.idThematique }} {{ thematique.title }}</a>
-        
+
             <ul>
             {% for bonnePratique in thematique.children %}
                 <li><small class="fr-tag">{{ bonnePratique.data.idbp }}</small> <a href="{{ bonnePratique.url }}">{{ bonnePratique.data.title }}</a></li>
@@ -38,7 +38,7 @@ eleventyExcludeFromCollections: true
 
     {% for bonnePratique in thematique.children %}
         <h3><small class="fr-tag">{{ bonnePratique.data.idbp }}</small> <a href="{{ bonnePratique.url }}">{{ bonnePratique.data.title }}</a></h3>
-    
+
         <p>Bla...</p>
     {% endfor %}
 {% endfor %}

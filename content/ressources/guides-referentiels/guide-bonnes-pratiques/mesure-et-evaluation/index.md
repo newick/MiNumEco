@@ -3,7 +3,7 @@ layout: layouts/bonne-pratique/thematique.njk
 title: Mesure et évaluation
 tags: guideBpNrThematique
 date: 2022-02-17
-image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+image: /img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 idThematique: c.
 eleventyNavigation:
   key: bonnes-pratiques-mesure-evaluation
@@ -12,7 +12,7 @@ eleventyNavigation:
   order: 30
 ---
 
-La mesure et les estimations sont nécessaires pour objectiver les progrès à faire ou réalisés. Pour autant, il faudra veiller à ce que la mesure, l’évaluation ne deviennent pas une fin en soi, avec le risque de rechercher un niveau de précision qui n’a pas de sens et n’est pas nécessaire pour agir ! 
+La mesure et les estimations sont nécessaires pour objectiver les progrès à faire ou réalisés. Pour autant, il faudra veiller à ce que la mesure, l’évaluation ne deviennent pas une fin en soi, avec le risque de rechercher un niveau de précision qui n’a pas de sens et n’est pas nécessaire pour agir !
 
 L’évaluation des impacts du numérique devrait idéalement inclure plusieurs indicateurs environnementaux (dont les émissions de gaz à effet de serre, la pollution, la quantité de déchets, la quantité d’eau douce, la quantité de ressources minérales) et sociaux (notamment l’accessibilité, la qualité de vie au travail, etc.) :
 

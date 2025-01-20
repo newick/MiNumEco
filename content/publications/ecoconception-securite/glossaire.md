@@ -2,12 +2,12 @@
 layout: layouts/ecoconception-securite.njk
 title: Glossaire
 date: 2022-07-01
-image: /img/publications/ecoconception-securite/ecoconception-securite.webp
+image: /img/ecoconception-securite/ecoconception-securite.webp
 type: publication
 eleventyNavigation:
   parent: ecoconceptionSecurite
   title: Glossaire
-  image: /img/publications/ecoconception-securite/ecoconception-securite.webp
+  image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 60
 ---
 
@@ -49,4 +49,4 @@ eleventyNavigation:
 
 **RGS** : [règlement général de sécurité](https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-referentiel-general-de-securite-rgs/)
 
-**RSSI** : Responsable de la sécurité des systèmes d’information 
+**RSSI** : Responsable de la sécurité des systèmes d’information

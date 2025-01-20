@@ -2,7 +2,7 @@
 layout: layouts/bonne-pratique/default.njk
 title: Bibliographie sélective
 date: 2023-06-01
-image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+image: /img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 permalink: /publications/bonnes-pratiques/bibliographie/
 ---
 
@@ -16,7 +16,7 @@ Ce travail est le fruit d’une collaboration entre la Bibliothèque nationale d
 </div>
 <div class="fr-col-12 fr-col-md-4">
 
-![BNF](/img/publications/bonnes-pratiques/logo-bnf.svg)
+![BNF](/img/bonnes-pratiques/logo-bnf.svg)
 
 </div>
 </div>
@@ -39,7 +39,7 @@ Illich, Ivan
 [La convivialité](http://ark.bnf.fr/ark:/12148/cb43897048t). Paris : Éd. Points, 2014. ([Points. Série Essais](https://catalogue.bnf.fr/ark:/12148/cb342883538), 65). 158 p.
 Magasin – [2014-210112]
 
-Massachusetts institute of technology 
+Massachusetts institute of technology
 [Rapport sur les limites à la croissance](http://ark.bnf.fr/ark:/12148/cb35379465w). Paris : [le Club français du livre], 1972. 314 p.
 Magasin – [8-R-75388]
 
@@ -113,7 +113,7 @@ Pouliquen,  Tanguy Marie
 Magasin : [2020-158933]
 
 Sergerie, Marie-Anne
-[Cyber dépendance : quand l'usage des technologies devient un problème](https://catalogue.bnf.fr/ark:/12148/cb466532986). Montréal (Québec) : les Éditions la Presse, 2020. 239 p. 
+[Cyber dépendance : quand l'usage des technologies devient un problème](https://catalogue.bnf.fr/ark:/12148/cb466532986). Montréal (Québec) : les Éditions la Presse, 2020. 239 p.
 Magasin – [2020-257247]
 
 Suissa, Amnon Jacob
@@ -143,7 +143,7 @@ Mauvilly, Karine
 Magasin – [CR338 MAUV c]
 
 Vinod Kumar, T. M.
-[Smart environment for smart cities](https://catalogue.bnf.fr/ark:/12148/cb45714070q). Singapore : Springer, copyright 2020. ([Advances in 21st century human settlements](https://catalogue.bnf.fr/ark:/12148/cb45650605m)). 530 p. 
+[Smart environment for smart cities](https://catalogue.bnf.fr/ark:/12148/cb45714070q). Singapore : Springer, copyright 2020. ([Advances in 21st century human settlements](https://catalogue.bnf.fr/ark:/12148/cb45650605m)). 530 p.
 Magasin – [2019-159478]
 
 [Rêvons nos villes](https://catalogue.bnf.fr/ark:/12148/cb46727856f)

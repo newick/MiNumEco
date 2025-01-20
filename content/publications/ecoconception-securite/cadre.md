@@ -2,12 +2,12 @@
 layout: layouts/ecoconception-securite.njk
 title: Cadre de la cybersécurité, la protection des données et l’écoconception
 date: 2022-07-01
-image: /img/publications/ecoconception-securite/ecoconception-securite.webp
+image: /img/ecoconception-securite/ecoconception-securite.webp
 type: publication
 eleventyNavigation:
   parent: ecoconceptionSecurite
   title: Cadres
-  image: /img/publications/ecoconception-securite/ecoconception-securite.webp
+  image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 20
 ---
 

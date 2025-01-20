@@ -3,7 +3,7 @@ layout: layouts/bonne-pratique/default.njk
 permalink: /publications/bonnes-pratiques/bonnes-pratiques/
 title: Bonnes pratiques numérique responsable pour les organisations
 date: 2023-06-19
-image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+image: /img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 extrajs: /js/filtre-bonnes-pratiques.js
 eleventyExcludeFromCollections: true
 eleventyNavigation:
@@ -42,7 +42,7 @@ eleventyNavigation:
                     <button class="fr-accordion__btn" aria-expanded="false" aria-controls="introduction-{{ thematique.key }}">Introduction</button>
                 </h3>
                 <div class="fr-collapse" id="introduction-{{ thematique.key }}">
-                    {{ thematiqueContent.templateContent | safe }}    
+                    {{ thematiqueContent.templateContent | safe }}
                 </div>
             </section>
         {% endif %}

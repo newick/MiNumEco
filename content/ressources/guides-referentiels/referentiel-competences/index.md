@@ -1,7 +1,7 @@
 ---
 layout: layouts/page-with-summary.njk
 title: Référentiel des compétences
-image: /img/publications/referentiel-general-ecoconception/referentiel-ecoconception.webp
+image: /img/referentiel-general-ecoconception/referentiel-ecoconception.webp
 description: Référentiel des compétences
 date: 2024-12-18
 permalink: publications/referentiel-competences/

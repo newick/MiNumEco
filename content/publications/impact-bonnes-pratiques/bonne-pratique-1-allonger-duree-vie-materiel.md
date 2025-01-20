@@ -2,17 +2,17 @@
 layout: layouts/impact-bonnes-pratiques.njk
 title: 1. Allonger la durée de vie du matériel
 date: 2021-11-23
-image: /img/publications/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
+image: /img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
 type: publication
 eleventyNavigation:
   parent: impact-bonnes-pratiques
   title: 1. Allonger la durée de vie du matériel
   date: 2021-11-23
-  image: /img/publications/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
+  image: /img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
   order: 100
 ---
 
-<img src="/img/publications/impact-bonnes-pratiques/sd/BPN1-AllongerDureeVieMateriel.png" class="fr-responsive-img" alt="" />
+<img src="/img/impact-bonnes-pratiques/sd/BPN1-AllongerDureeVieMateriel.png" class="fr-responsive-img" alt="" />
 
 <section class="fr-accordion">
   <h2 class="fr-accordion__title">
@@ -37,7 +37,7 @@ eleventyNavigation:
 
   * Ordinateur : 212 à 296 kg eq CO2
   * Smartphone : 50 à 57 kg eq CO2
-  
+
 **Gains :**
 
   * Allonger de 3 ans la durée de vie d'un ordinateur : -65 kg eq CO2
@@ -47,7 +47,7 @@ eleventyNavigation:
 
   * Diminuer la consommation d'eau lié à la fabrication des équipements
   * Diminuer la consommation de matières premières
-  * Diminuer les émissions de gaz à effet de serre 
+  * Diminuer les émissions de gaz à effet de serre
   * Réaliser des économies financières
 
   </div>

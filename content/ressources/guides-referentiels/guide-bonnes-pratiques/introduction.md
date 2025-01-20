@@ -2,7 +2,7 @@
 layout: layouts/bonne-pratique/default.njk
 title: À propos du Guide de bonnes pratiques numérique responsable pour les organisations
 date: 2023-06-19
-image: /img/publications/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
+image: /img/bonnes-pratiques/guide-bonnes-pratiques-vignette.webp
 permalink: /publications/bonnes-pratiques/introduction/
 ---
 
@@ -101,7 +101,7 @@ Au sein du service du pilotage stratégique et de la gouvernance, la sous-direct
 
 ### L’Institut du Numérique Responsable (INR)
 
-Association loi 1901 à but non lucratif créée en 2018, l’[INR](https://institutnr.org/) a pour objet d’être un lieu de réflexion sur les trois enjeux clés du numérique responsable : la réduction de l’empreinte (économique, sociale et environnementale) du numérique, la capacité du numérique à réduire l’empreinte (économique, sociale et environnementale) de l’humanité, et la création de valeur durable / innovation responsable via le numérique pour réussir l’e-inclusion de tous. 
+Association loi 1901 à but non lucratif créée en 2018, l’[INR](https://institutnr.org/) a pour objet d’être un lieu de réflexion sur les trois enjeux clés du numérique responsable : la réduction de l’empreinte (économique, sociale et environnementale) du numérique, la capacité du numérique à réduire l’empreinte (économique, sociale et environnementale) de l’humanité, et la création de valeur durable / innovation responsable via le numérique pour réussir l’e-inclusion de tous.
 
 L’INR est un acteur de référence rassemblant entreprises et organisations autour de l’expérimentation et la promotion de bonnes pratiques pour un numérique plus régénérateur, inclusif et éthique.
 

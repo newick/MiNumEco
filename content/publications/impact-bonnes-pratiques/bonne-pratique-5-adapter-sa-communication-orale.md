@@ -2,17 +2,17 @@
 layout: layouts/impact-bonnes-pratiques.njk
 title: 5. Adapter sa communication orale
 date: 2021-11-23
-image: /img/publications/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
+image: /img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
 type: publication
 eleventyNavigation:
   parent: impact-bonnes-pratiques
   title: 5. Adapter sa communication orale
   date: 2021-11-23
-  image: /img/publications/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
+  image: /img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
   order: 60
 ---
 
-<img src="/img/publications/impact-bonnes-pratiques/sd/BPN5-AdapterCommunicationOrale.png" class="fr-responsive-img" alt="" />
+<img src="/img/impact-bonnes-pratiques/sd/BPN5-AdapterCommunicationOrale.png" class="fr-responsive-img" alt="" />
 
 <section class="fr-accordion">
   <h2 class="fr-accordion__title">
@@ -32,8 +32,8 @@ eleventyNavigation:
   * 1,02 kg eq. CO2
   * 0,01 m3 d'eau consommé
   * 19,5 <abbr title="Méga joule">Mj</abbr> d'énergie primaire consommée
-  * 0,021 g <abbr title="équivalent antimoine">eq. Sb</abbr> de ressources abiotiques 
-  
+  * 0,021 g <abbr title="équivalent antimoine">eq. Sb</abbr> de ressources abiotiques
+
 **Gains :**
 
 Dématérialisation d'un évènement physique :
@@ -44,8 +44,8 @@ Dématérialisation d'un évènement physique :
 **Bénéfices :**
 
   * Diminuer la consommation d'eau
-  * Diminuer les émissions de gaz à effet de serre 
-  * Dinimuer la consommation d'énergie primaire 
+  * Diminuer les émissions de gaz à effet de serre
+  * Dinimuer la consommation d'énergie primaire
 
   </div>
 
@@ -68,7 +68,7 @@ La fabrication des équipements servant au visionnage de l’événement des par
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6">
     <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left" href="/publications/impact-bonnes-pratiques/bonne-pratique-6-organiser-environnement-de-travail/">Étape précédente :<br />6. Organiser son environnement de travail</a>
   </div>
-  
+
   <div class="fr-col-12 fr-col-sm-6 fr-col-md-6 text-align--right">
     <a class="fr-link fr-fi-arrow-right-line fr-link--icon-right" href="/publications/impact-bonnes-pratiques/bonne-pratique-4-limiter-les-flux-de-donnees/">Étape suivante :<br />4. Limiter les flux de données</a>
   </div>

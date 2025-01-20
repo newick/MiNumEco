@@ -3,7 +3,7 @@ layout: layouts/guide-indice-reparabilite.njk
 title: Prendre en compte l’indice de réparabilité dans les achats publics
 description: Ce guide vise à accompagner les acheteurs publics dans la mise en œuvre de l’obligation de prise en compte de l’indice de réparabilité, et plus largement à inspirer l’ensemble des acheteurs.
 date: 2023-01-05
-image: /img/publications/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
+image: /img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
 type: publication
 focus: false # Cette publication est en 3e section
 category: autres  # Champ supplémentaire pour distinguer de la 2e section
@@ -12,7 +12,7 @@ eleventyNavigation:
   parent: publications
   title: Prendre en compte l’indice de réparabilité dans les achats publics
   date: 2023-01-05
-  image: /img/publications/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
+  image: /img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
   order: 130
 ---
 

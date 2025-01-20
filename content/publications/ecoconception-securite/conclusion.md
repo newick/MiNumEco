@@ -2,12 +2,12 @@
 layout: layouts/ecoconception-securite.njk
 title: Conclusion et perspectives
 date: 2022-09-08
-image: /img/publications/ecoconception-securite/ecoconception-securite.webp
+image: /img/ecoconception-securite/ecoconception-securite.webp
 type: publication
 eleventyNavigation:
   parent: ecoconceptionSecurite
   title: Conclusion et perspectives
-  image: /img/publications/ecoconception-securite/ecoconception-securite.webp
+  image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 35
 ---
 
@@ -23,11 +23,11 @@ Afin de former et s’assurer des règles de conformité, il peut être envisag�
 
 **Le non-respect de l’accessibilité en passe de se durcir**
 
-[Une directive sur l’accessibilité des produits physiques et numériques sera applicable en 2025](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32019L0882). Les sanctions financières en cas de non-respect du RGAA, actuellement à hauteur de 20 000 euros, pourraient se durcir. 
+[Une directive sur l’accessibilité des produits physiques et numériques sera applicable en 2025](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=celex%3A32019L0882). Les sanctions financières en cas de non-respect du RGAA, actuellement à hauteur de 20 000 euros, pourraient se durcir.
 
 **Labels et code de conduite sur la protection des données**
 
-Des labels sur la protection des données pourraient voir le jour selon les experts. Des codes de conduite obligatoires en plus du RGPD devraient également faire leur apparition pour prendre en compte les spécificités sectorielles. 
+Des labels sur la protection des données pourraient voir le jour selon les experts. Des codes de conduite obligatoires en plus du RGPD devraient également faire leur apparition pour prendre en compte les spécificités sectorielles.
 
 **Un cadre normatif pour l’écoconception de service numérique**
 

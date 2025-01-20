@@ -1,7 +1,7 @@
 ---
 layout: layouts/referentiel-ecoconception.njk
 title: Journal des modifications
-image: /img/publications/referentiel-general-ecoconception/referentiel-ecoconception.webp
+image: /img/referentiel-general-ecoconception/referentiel-ecoconception.webp
 date: 2023-01-11
 eleventyNavigation:
   parent: referentiel-ecoconception

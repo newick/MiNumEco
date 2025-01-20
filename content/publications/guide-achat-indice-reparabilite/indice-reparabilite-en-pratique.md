@@ -2,12 +2,12 @@
 layout: layouts/guide-indice-reparabilite.njk
 title: L’indice de réparabilité en pratique
 date: 2023-01-05
-image: /img/publications/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
+image: /img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
 type: publication
 eleventyNavigation:
   parent: guideIndiceReparabilite
   title: L’indice de réparabilité en pratique
-  image: /img/publications/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
+  image: /img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
   order: 20
 ---
 

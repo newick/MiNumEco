@@ -11,10 +11,10 @@ eleventyNavigation:
   parent: publications
   title: Ressources ADEME sur le numérique responsable
   date: 2022-04-14
-  image: /img/publications/ressources-ademe/face-cachee-numerique.webp
+  image: /img/ressources-ademe/face-cachee-numerique.webp
   order: 10
 ---
-<!-- image: /img/publications/ressources-ademe/face-cachee-numerique.webp -->
+<!-- image: /img/ressources-ademe/face-cachee-numerique.webp -->
 
 ## Ressources ADEME
 
