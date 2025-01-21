@@ -43,5 +43,5 @@ eleventyNavigation:
 	<h2>Toutes les vidéos</h2>
 	{% set postslist = collections['Vidéo'] | limit(3) %}
 	{% include "postslist.njk" %}
-	<a href="/videos/">Voir toutes les vidéos</a>
+	<a href="/actualites/tags/video/">Voir toutes les vidéos</a>
 </article>
