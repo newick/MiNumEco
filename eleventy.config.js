@@ -218,6 +218,14 @@ module.exports = function (eleventyConfig) {
 		return posts.filter((post) => post.data.series === series);
 	});
 
+	eleventyConfig.addFilter("noSeries", function(posts) {
+    return posts.filter(post => !post.data.series);
+  });
+
+	eleventyConfig.addFilter("limit", function (arr, limit) {
+		return arr.slice(0, limit);
+	});
+
 	eleventyConfig.addFilter("extractHeadings", (content) => {
 		const regex = /<h2.*?>(.*?)<\/h2>/g;
 		let match;
