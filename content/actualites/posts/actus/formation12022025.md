@@ -1,5 +1,5 @@
 ---
-title: "Formation du 12 février"
+title: "Formation écoconception - 12 février"
 description: Formation en présentiel le 12 février - Ecoconception de Services Numériques - 3h00
 date: 2025-02-12
 image:
