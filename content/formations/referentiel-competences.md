@@ -8,6 +8,7 @@ eleventyNavigation:
 ---
 
 <!-- chapô-->
+
 Afin d'identifier les compétences numériques écoresponsable attendues pour les agents du numérique publique, la DINUM publie son guide en version beta.
 
 <!-- texte-->
@@ -33,23 +34,23 @@ Cette première version sera consolidée au 1er trimestre 2025 avec les retours 
 
 Les compétences sont réparties en 9 blocs :
 
-* usages quotidiens
-* green IT
-* Ecoconception applicative
-* Data et IA
-* Matériel
-* Hébergement
-* Réseaux et télécoms
-* Mesure de l'empreinte environnementale du SI
-* Achats
+- usages quotidiens
+- green IT
+- Ecoconception applicative
+- Data et IA
+- Matériel
+- Hébergement
+- Réseaux et télécoms
+- Mesure de l'empreinte environnementale du SI
+- Achats
 
 ## Les 5 niveaux d'expertises
 
-* NA - non nécessaire dans la pratique professionnelle
-* Niveau 1 - Bases de compréhension
-* Niveau 2 - Capacité de compréhension et d'échange avec un technicien, expert ou prestataire, exprimer un besoin métier
-* Niveau 3 - Maîtrise des concepts et capacités de mise en oeuvre liée à son métier (dév, design, data, etc)
-* Niveau 4 - Maîtrise des concepts pour l'ensemble des métiers et mise en oeuvre stratégie</* Niveau 5 - Expertise - capacité à proposer une stratégie
+- NA - non nécessaire dans la pratique professionnelle
+- Niveau 1 - Bases de compréhension
+- Niveau 2 - Capacité de compréhension et d'échange avec un technicien, expert ou prestataire, exprimer un besoin métier
+- Niveau 3 - Maîtrise des concepts et capacités de mise en oeuvre liée à son métier (dév, design, data, etc)
+- Niveau 4 - Maîtrise des concepts pour l'ensemble des métiers et mise en oeuvre stratégie</\* Niveau 5 - Expertise - capacité à proposer une stratégie
 
 ## Basé sur le RMFP de la DGAFP
 
@@ -57,22 +58,18 @@ Les compétences sont recensées pour les métiers 56 du numérique du <a href="
 
 ## Télécharger le référentiel en version beta
 
-<div class="fr-tile fr-tile--download fr-enlarge-link" id="tile-6735">
-	<div class="fr-tile__body">
-		<div class="fr-tile__content">
-			<h3 class="fr-tile__title">
-				<a href="/docs/2024/ReferentielCompetencesNumEco-Beta.xlsx" download>Télécharger le référentiel en version beta</a>
+<div class="fr-card fr-enlarge-link fr-card--download">
+	<div class="fr-card__body">
+		<div class="fr-card__content">
+			<h3 class="fr-card__title">
+					<a download href="/docs/2024/ReferentielCompetencesNumEco-Beta.xlsx">
+							Télécharger le référentiel de compétences numérique écoresponsable
+					</a>
 			</h3>
-		</div>
-	</div>
-
-	<div class="fr-tile__header">
-		<div class="fr-tile__pictogram">
-			<svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
-				<use class="fr-artwork-decorative" href="/img/artwork/pictograms/environment.svg#artwork-decorative"></use>
-				<use class="fr-artwork-minor" href="/img/artwork/pictograms/environment.svg#artwork-minor"></use>
-				<use class="fr-artwork-major" href="/img/artwork/pictograms/environment.svg#artwork-major"></use>
-			</svg>
+			<p class="fr-card__desc">Fichier excel, recensant les 9 blocs de compétences numérique écoresponsable, détaillé par niveau de compétence entre 1 et 4 pour les 57 métiers du numérique public, selon la nomenclature de la DGAFP</p>
+			<div class="fr-card__end">
+					<p class="fr-card__detail">Excel - 38 Ko</p>
+			</div>
 		</div>
 	</div>
 </div>
