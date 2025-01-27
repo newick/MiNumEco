@@ -51,5 +51,3 @@ Avoir suivi [le module mentor : les impacts environnementaux du numérique.](htt
 			Formulaire d'inscription
     </a>
 </div>
-
-
