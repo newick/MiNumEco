@@ -39,7 +39,6 @@ eleventyNavigation:
 </article>
 
 <article class="fr-mb-6w">
-	{% set seriesName = "Autres vidéos" %}
 	<h2>Toutes les vidéos</h2>
 	{% set postslist = collections['Vidéo'] | limit(3) %}
 	{% include "postslist.njk" %}
