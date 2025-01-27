@@ -54,7 +54,7 @@ eleventyNavigation:
 	</div>
 </div>
 
-## Actualités concernant les documents de référence
+## Actualités et autres documents
 
 {% set postslist = [] %}
 {% for item in collections['Document de référence'] %}
