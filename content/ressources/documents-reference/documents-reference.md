@@ -64,3 +64,4 @@ eleventyNavigation:
 {% endfor %}
 {% set postslist = postslist | reverse %}
 {% include "postslist.njk" %}
+<a href="/actualites/tags/document-de-reference/">Parcourir tous nos documents de référence</a>
