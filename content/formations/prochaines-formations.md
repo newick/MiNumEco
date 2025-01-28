@@ -42,7 +42,7 @@ En présentiel au 20 avenue de Ségur 75007
 Dans le cadre de la Brigade d'Intervention du Numérique (BIN), la MiNumEco propose des accompagnements à l'écoconception de services numériques et des formations aux enjeux du numérique responsable pour les administrations et agents publics. 
 Contactez-nous pour identifier les besoins de votre service et organiser un accompagnement.
 
-[Nous contacter](/fr/contact).
+[Nous contacter](/contact).
 
 </div>
 
