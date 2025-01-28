@@ -10,6 +10,7 @@ eleventyNavigation:
   date: 2023-07-13
   image: /img/strategie-numerique-responsable-des-collectivites/strategie-numerique-responsable-collectivites.webp
   order: 60
+permalink: /publications/strategie-numerique-responsable-des-collectivites/6-territoire-connecte-et-durable/
 ---
 
 #### Exemples d'actions et mesures mises en place pour y parvenir

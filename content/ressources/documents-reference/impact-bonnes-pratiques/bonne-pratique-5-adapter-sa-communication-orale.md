@@ -10,6 +10,7 @@ eleventyNavigation:
   date: 2021-11-23
   image: /img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
   order: 60
+permalink: /publications/impact-bonnes-pratiques/bonne-pratique-5-adapter-sa-communication-orale/
 ---
 
 <img src="/img/impact-bonnes-pratiques/sd/BPN5-AdapterCommunicationOrale.png" class="fr-responsive-img" alt="" />

@@ -16,7 +16,8 @@ retoursExperienceDeCollectivites: non
 accompagnement: Documentaire (guide d'utilisation de l'outil mis à disposition)
 openSourceOpenData: oui
 disponibilite: en ligne
-url: https://www.interconnectes.com/guide-outilsnr/  
+url: https://www.interconnectes.com/guide-outilsnr/
+permalink: /publications/strategie-numerique-responsable-des-collectivites/outils/auto-evaluation-inr/
 ---
 
 Tableur de mesure de l'empreinte numérique d'une collectivité

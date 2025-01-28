@@ -10,6 +10,7 @@ eleventyNavigation:
   date: 2023-07-13
   image: /img/strategie-numerique-responsable-des-collectivites/strategie-numerique-responsable-collectivites.webp
   order: 40
+permalink: /publications/strategie-numerique-responsable-des-collectivites/4-sensibilisation-elus-et-agents-publics/
 ---
 
 #### Exemples d'actions et mesures mises en place pour y parvenir

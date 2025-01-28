@@ -10,6 +10,7 @@ eleventyNavigation:
   date: 2021-11-23
   image: /img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
   order: 200
+permalink: /publications/impact-bonnes-pratiques/equipe-projet/
 ---
 
 ## Pilotage

@@ -10,6 +10,7 @@ eleventyNavigation:
   date: 2023-07-13
   image: /img/strategie-numerique-responsable-des-collectivites/strategie-numerique-responsable-collectivites.webp
   order: 30
+permalink: /publications/strategie-numerique-responsable-des-collectivites/3-ecoconception-services-numeriques/
 ---
 
 #### Exemples d'actions et mesures mises en place pour y parvenir

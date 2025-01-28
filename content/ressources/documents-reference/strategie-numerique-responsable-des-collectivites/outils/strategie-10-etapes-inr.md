@@ -17,6 +17,7 @@ accompagnement: Méthodologique
 openSourceOpenData: non spécifié
 disponibilite: en ligne
 url: https://www.interconnectes.com/wp-content/uploads/2023/06/web-Guide-methodologique_V8.pdf
+permalink: /publications/strategie-numerique-responsable-des-collectivites/outils/strategie-10-etapes-inr/
 ---
 
 Guide méthodologique - démarche pas à pas détaillée avec accès aux ressources et retours d'expéreinces de collectivités.

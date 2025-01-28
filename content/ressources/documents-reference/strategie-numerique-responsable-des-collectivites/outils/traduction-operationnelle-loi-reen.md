@@ -17,6 +17,7 @@ accompagnement: Méthodologique et Documentaire (renvoi vers des ressources mobi
 openSourceOpenData: oui
 disponibilite: en ligne
 url: /publications/strategie-numerique-responsable-des-collectivites/
+permalink: /publications/strategie-numerique-responsable-des-collectivites/outils/traduction-operationnelle-loi-reen/
 ---
 
 Notice d'explication et de traduction opérationnelle de la loi REEN et de ses différents articles.

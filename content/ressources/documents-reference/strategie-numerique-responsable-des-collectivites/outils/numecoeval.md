@@ -17,6 +17,7 @@ accompagnement: Documentaire (mise à disposition du code source et de documenta
 openSourceOpenData: oui
 disponibilite: en ligne
 url: https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval
+permalink: /publications/strategie-numerique-responsable-des-collectivites/outils/numecoeval/
 ---
 
 Outil open source d’évaluation et de pilotage de l’empreinte environnementale des systèmes d’information.

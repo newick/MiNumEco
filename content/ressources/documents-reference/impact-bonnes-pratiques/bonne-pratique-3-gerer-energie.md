@@ -10,6 +10,7 @@ eleventyNavigation:
   date: 2021-11-23
   image: /img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
   order: 80
+permalink: /publications/impact-bonnes-pratiques/bonne-pratique-3-gerer-energie/
 ---
 
 <img src="/img/impact-bonnes-pratiques/sd/BPN3-GererEnergie.png" class="fr-responsive-img" alt="" />

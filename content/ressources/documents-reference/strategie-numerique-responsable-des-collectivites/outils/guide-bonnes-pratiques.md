@@ -16,12 +16,13 @@ retoursExperienceDeCollectivites: non
 accompagnement: non
 openSourceOpenData: oui
 disponibilite: en ligne
-url: https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/    
+url: https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/
+permalink: /publications/strategie-numerique-responsable-des-collectivites/outils/guide-bonnes-pratiques/
 ---
 
 Guide de bonnes pratiques sous la forme de fiches recensant pour chacune d'elles :
 - des exemples d'indicateurs de pilotage
-- des exemples de personnes pilotes 
+- des exemples de personnes pilotes
 - des retours d'expériences sur sa mise en œuvre
 - un indicateur de difficulté de mise en oeuvre
 - un niveau de priorité

@@ -17,6 +17,7 @@ accompagnement: Documentaire (accès à des ressources permettant d'aller plus l
 openSourceOpenData: non
 disponibilite: Ouverture à l'ensemble des collectivités au T3 2023
 url: https://ecoclic.fr/
+permalink: /publications/strategie-numerique-responsable-des-collectivites/outils/ecoclic/
 ---
 
 Outil de pilotage conçu pour accompagner les différentes étapes de mise en œuvre d'une démarche responsable au sein des collectivités territoriales en :

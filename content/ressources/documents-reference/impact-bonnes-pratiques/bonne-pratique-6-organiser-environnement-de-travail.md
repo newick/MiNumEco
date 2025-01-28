@@ -10,6 +10,7 @@ eleventyNavigation:
   date: 2021-11-23
   image: /img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp
   order: 50
+permalink: /publications/impact-bonnes-pratiques/bonne-pratique-6-organiser-environnement-de-travail/
 ---
 
 <img src="/img/impact-bonnes-pratiques/sd/BPN6-OrganiserEnvironnementTravail.png" class="fr-responsive-img" alt="" />
