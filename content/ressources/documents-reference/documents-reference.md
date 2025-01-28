@@ -52,6 +52,72 @@ eleventyNavigation:
 			}
 		}) }}
 	</div>
+	<div class="fr-col-12 fr-col-md-4">
+		{% from "components/component.njk" import component with context %}
+		{{ component("card", {
+			url: "/publications/boite-outils/",
+			title: "Boite à outils numérique écoresponsable",
+			image: {
+				src: "/img/outils/outils.png",
+				alt: ""
+			}
+		}) }}
+	</div>
+	<div class="fr-col-12 fr-col-md-4">
+		{% from "components/component.njk" import component with context %}
+		{{ component("card", {
+			url: "/publications/ecoconception-securite/",
+			title: "Écoconception, cybersécurité et protection des données, quelles synergies ?",
+			image: {
+				src: "/img/ecoconception-securite/ecoconception-securite.webp",
+				alt: ""
+			}
+		}) }}
+	</div>
+	<div class="fr-col-12 fr-col-md-4">
+		{% from "components/component.njk" import component with context %}
+		{{ component("card", {
+			url: "/publications/fin-usage/",
+			title: "Fin d'usage, réemploi et fin de vie des équipements numériques, en pratique",
+			image: {
+				src: "/img/fin-usage/atelier-fin-usage.webp",
+				alt: ""
+			}
+		}) }}
+	</div>
+	<div class="fr-col-12 fr-col-md-4">
+		{% from "components/component.njk" import component with context %}
+		{{ component("card", {
+			url: "/publications/guide-achat-indice-reparabilite/",
+			title: "Prendre en compte l’indice de réparabilité dans les achats publics",
+			image: {
+				src: "/img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp",
+				alt: ""
+			}
+		}) }}
+	</div>
+	<div class="fr-col-12 fr-col-md-4">
+		{% from "components/component.njk" import component with context %}
+		{{ component("card", {
+			url: "/publications/impact-bonnes-pratiques/",
+			title: "L'impact des bonnes pratiques numériques écoresponsables au sein de votre organisation",
+			image: {
+				src: "/img/impact-bonnes-pratiques/apercu-impact-bonnes-pratiques.webp",
+				alt: ""
+			}
+		}) }}
+	</div>
+	<div class="fr-col-12 fr-col-md-4">
+		{% from "components/component.njk" import component with context %}
+		{{ component("card", {
+			url: "/publications/strategie-numerique-responsable-des-collectivites/",
+			title: "Stratégie numérique responsable des collectivités",
+			image: {
+				src: "/img/strategie-numerique-responsable-des-collectivites/strategie-numerique-responsable-collectivites.webp",
+				alt: ""
+			}
+		}) }}
+	</div>
 </div>
 
 ## Actualités et autres documents
