@@ -8,6 +8,7 @@ eleventyNavigation:
   title: Résumé
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 5
+permalink: /publications/ecoconception-securite/resume/
 ---
 
 **La maîtrise des impacts et vulnérabilités du numérique**

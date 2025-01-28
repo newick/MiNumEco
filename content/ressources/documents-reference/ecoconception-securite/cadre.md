@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Cadres
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 20
+permalink: /publications/ecoconception-securite/cadre/
 ---
 
 <div class="fr-highlight">

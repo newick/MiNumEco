@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Synergies et divergences
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 30
+permalink: /publications/ecoconception-securite/synergies-et-divergences/
 ---
 
 <nav class="fr-summary" role="navigation" aria-labelledby="fr-summary-title">

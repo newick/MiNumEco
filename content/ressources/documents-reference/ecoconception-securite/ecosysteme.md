@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Ecosystème
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 50
+permalink: /publications/ecoconception-securite/ecosysteme/
 ---
 
 De nombreux acteurs sont impliqués sur les sujets de l’écoconception, la cybersécurité et la protection des données.

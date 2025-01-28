@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Conclusion et perspectives
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 35
+permalink: /publications/ecoconception-securite/conclusion/
 ---
 
 Opposer les nécessités de cybersécurité et protection des données et les enjeux environnementaux n’a pas vraiment de sens, tant les bonnes pratiques d’écoconception vont dans la même direction. L’amélioration de l’empreinte environnementale d’un service numérique et la réduction de l’obsolescence des matériels sont potentiellement aussi favorables à une meilleure sécurité des données et des systèmes. Toutefois, des mesures de protection plus profondes peuvent augmenter la consommation de ressources informatiques et énergétiques d’un service numérique.

@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Ressources complémentaires
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 70
+permalink: /publications/ecoconception-securite/ressources-complementaires/
 ---
 
 ## Écoconception

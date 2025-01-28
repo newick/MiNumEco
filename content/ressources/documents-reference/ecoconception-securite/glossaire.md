@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Glossaire
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 60
+permalink: /publications/ecoconception-securite/glossaire/
 ---
 
 **ACV** : analyse du cycle de vie

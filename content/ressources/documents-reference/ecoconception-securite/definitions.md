@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Définitions
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 10
+permalink: /publications/ecoconception-securite/definitions/
 ---
 
 ## Écoconception

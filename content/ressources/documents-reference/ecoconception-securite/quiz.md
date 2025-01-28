@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Quiz
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 40
+permalink: /publications/ecoconception-securite/quiz/
 ---
 
 <form class="fr-form-group" data-quiz-json="/js/quiz/quiz-ecoconception-securite.json"></form>
