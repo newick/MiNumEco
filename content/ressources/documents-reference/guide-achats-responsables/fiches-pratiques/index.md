@@ -8,9 +8,10 @@ eleventyNavigation:
   parent: guideachat
   title: Fiches pratiques par segment d’achats
   order: 30
+permalink: /publications/guide-pratique-achats-numeriques-responsables/fiches-pratiques/
 ---
 
-## Comment lire chaque fiche ?</h2>
+## Comment lire chaque fiche ?
 
 Les conseils pratiques pour les achats sont rédigés sous la forme de fiches opérationnelles permettant à tout acheteur de disposer :
 
