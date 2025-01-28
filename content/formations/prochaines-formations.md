@@ -10,10 +10,9 @@ eleventyNavigation:
 ## Prochaines dates
 {% set postslist = [] %}
 {% for item in collections['Formation'] %}
-	{% if item.data.tags and 'Événement' in item.data.tags %}
-	{{item.data.date}}
-		{% set postslist = postslist.concat(item) %}
-	{% endif %}
+    {% if item.data.tags and 'Événement' in item.data.tags and item.data.date | isFutureDate %}
+      {% set postslist = postslist.concat(item) %}
+    {% endif %}
 {% endfor %}
 {% include "postslist-2cols.njk" %}
 

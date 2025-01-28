@@ -263,6 +263,13 @@ module.exports = function (eleventyConfig) {
 		});
 	});
 
+	eleventyConfig.addFilter("isFutureDate", function(dateString) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    const itemDate = new Date(dateString);
+    return itemDate >= today;
+  });
+
 	// Customize Markdown library settings:
 	// eleventyConfig.amendLibrary("md", (mdLib) => {
 	// 	mdLib.use(markdownItAnchor, {
