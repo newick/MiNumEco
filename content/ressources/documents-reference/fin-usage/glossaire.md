@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Glossaire
   image: /img/fin-usage/atelier-fin-usage.webp
   order: 60
+permalink: /publications/fin-usage/glossaire/
 ---
 
 - **3DS** : loi relative à la différenciation, décentralisation, déconcentration et portant diverses mesures de simplification de l’action publique locale

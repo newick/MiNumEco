@@ -11,6 +11,7 @@ eleventyNavigation:
   date: 2022-03-22
   image: /img/fin-usage/atelier-fin-usage.webp
   order: 20
+permalink: /publications/fin-usage/don/
 ---
 
 ## Le don de matériel des organismes publics : la réglementation

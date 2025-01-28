@@ -10,6 +10,7 @@ eleventyNavigation:
   title: Quiz
   image: /img/fin-usage/atelier-fin-usage.webp
   order: 50
+permalink: /publications/fin-usage/quiz-fin-usage-deee/
 ---
 
 <form class="fr-form-group" data-quiz-json="/js/quiz/quiz-fin-usage.json"></form>

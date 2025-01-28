@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Autres ressources
   image: /img/fin-usage/atelier-fin-usage.webp
   order: 70
+permalink: /publications/fin-usage/autres-ressources/
 ---
 
 ## Les ressources proposées par la MiNumEco

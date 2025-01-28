@@ -9,6 +9,7 @@ eleventyNavigation:
   title: "Retour d’expérience : la démarche d’économie circulaire à Pôle Emploi"
   image: /img/fin-usage/atelier-fin-usage.webp
   order: 30
+permalink: /publications/fin-usage/retour-experience/
 ---
 
 La **démarche d’économie circulaire** de Pôle Emploi pour son matériel informatique s’inscrit dans la politique de lutte contre le changement climatique qui est une priorité du plan stratégique de l’organisation et de sa feuille de route RSE (responsabilité sociétale des entreprises).

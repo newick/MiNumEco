@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Cycle de vie de l’équipement numérique
   image: /img/fin-usage/atelier-fin-usage.webp
   order: 10
+permalink: /publications/fin-usage/cycle-de-vie/
 ---
 
 ![](/img/fin-usage/cycle-vie.webp)

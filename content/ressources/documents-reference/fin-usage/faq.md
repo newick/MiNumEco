@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Foire aux questions
   image: /img/fin-usage/atelier-fin-usage.webp
   order: 40
+permalink: /publications/fin-usage/faq/
 ---
 
 ## DEEE
