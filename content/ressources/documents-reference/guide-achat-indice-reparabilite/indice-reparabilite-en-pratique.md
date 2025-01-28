@@ -9,6 +9,7 @@ eleventyNavigation:
   title: L’indice de réparabilité en pratique
   image: /img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
   order: 20
+permalink: /publications/guide-achat-indice-reparabilite/indice-reparabilite-en-pratique/
 ---
 
 ## Quels produits sont concernés ?

@@ -8,7 +8,8 @@ eleventyNavigation:
   parent: guideIndiceReparabilite
   title: Prendre en compte l’indice de réparabilité dans les achats publics
   image: /img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
-  order: 30
+  order: 3
+permalink: /publications/guide-achat-indice-reparabilite/indice-reparabilite-et-achats-publics/
 ---
 
 L’obligation de prise en compte de l’indice de réparabilité s’applique à compter du 1er janvier 2023, en application de l’article 15 de la loi REEN.

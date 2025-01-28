@@ -9,6 +9,7 @@ eleventyNavigation:
   title: Comprendre l’indice de réparabilité
   image: /img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
   order: 10
+permalink: /publications/guide-achat-indice-reparabilite/comprendre-indice-reparabilite/
 ---
 
 L’indice de réparabilité de chaque produit est noté sur 10. Plus un produit est réparable, plus la note sera élevée. Afin de faciliter la lecture de l’indice, un code couleur accompagne la notation, allant du rouge vif pour les produits non réparables au vert foncé pour les produits réparables aisément.
