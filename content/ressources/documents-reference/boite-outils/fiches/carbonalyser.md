@@ -16,6 +16,7 @@ author: The Shift Project
 link: https://theshiftproject.org/carbonalyser-extension-navigateur/
 codeRepository: https://github.com/carbonalyser/Carbonalyser
 licence: MIT
+permalink: /publications/boite-outils/fiches/carbonalyser/
 ---
 
 Cette extension de navigateur permet de visualiser la consommation électrique et les émissions de gaz à effet de serre (GES) associées à une navigation internet.

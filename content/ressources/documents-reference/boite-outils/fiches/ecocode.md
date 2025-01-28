@@ -16,6 +16,7 @@ author: collectif Green Code Initiative
 link: https://github.com/green-code-initiative
 codeRepository: https://github.com/green-code-initiative/ecoCode
 licence: AGPL-3.0
+permalink: /publications/boite-outils/fiches/ecocode/
 ---
 
 Outils proposant un catalogue d'analyseurs statiques de code pouvant s'intégrer à SonarQube permettant de lever les défauts de qualité du code source d'un projet pouvant avoir un impact écologique : consommation d'énergie et de ressources, obésiciels, durée de vie des terminaux

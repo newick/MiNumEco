@@ -16,6 +16,7 @@ author: Ministère de la Transition Écologique et de la Cohésion des Territoir
 link: https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval
 codeRepository: https://gitlab-forge.din.developpement-durable.gouv.fr/pub/numeco/m4g/numecoeval
 licence: Apache
+permalink: /publications/boite-outils/fiches/numecoval/
 ---
 
 NumEcoEval est une solution permettant de calculer l’empreinte environnementale d'un système d'information.

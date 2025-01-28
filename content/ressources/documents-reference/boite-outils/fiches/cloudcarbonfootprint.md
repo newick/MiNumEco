@@ -16,6 +16,7 @@ author: Thoughtworks
 link: https://www.cloudcarbonfootprint.org/
 codeRepository: https://github.com/cloud-carbon-footprint/cloud-carbon-footprint
 licence: Apache-2.0
+permalink: /publications/boite-outils/fiches/cloudcarbonfootprint/
 ---
 
 Outil open source à installer et qui fournit une visibilité des émissions de carbone induites par les usages du Cloud.

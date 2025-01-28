@@ -16,6 +16,7 @@ author: Gaël Métais
 link: https://yellowlab.tools/
 codeRepository: https://github.com/YellowLabTools/YellowLabTools
 licence: GPL-2.0
+permalink: /publications/boite-outils/fiches/yellowlabtools/
 ---
 
 Outil en ligne ou à installer permettant de mesurer d'abord les performances d'une page web. Il donne des indications d'améliorations possibles favorables également pour réduire l'impact environnemental des services numériques.

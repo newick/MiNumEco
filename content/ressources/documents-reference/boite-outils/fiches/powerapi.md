@@ -16,6 +16,7 @@ author: INRIA, Université de Lille
 link: https://powerapi-ng.github.io/
 codeRepository: https://github.com/powerapi-ng/powerapi
 licence: BSD 3-Clause License
+permalink: /publications/boite-outils/fiches/powerapi/
 ---
 
 PowerAPI est une boîte à outils middleware permettant de mesurer la consommation énergétique d'un code ou d'un logiciel.

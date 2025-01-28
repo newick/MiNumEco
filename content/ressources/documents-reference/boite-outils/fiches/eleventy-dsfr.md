@@ -16,6 +16,7 @@ author: codegouvfr
 link: https://codegouvfr.github.io/eleventy-dsfr/
 codeRepository: https://github.com/codegouvfr/eleventy-dsfr
 licence: MIT
+permalink: /publications/boite-outils/fiches/eleventy-dsfr/
 ---
 
 Template pour la création d'un site utilisant le système de design de l'État avec Eleventy.

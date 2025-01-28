@@ -16,6 +16,7 @@ author: EcoInfo / CNRS
 link: https://ecoinfo.cnrs.fr/ecodiag-calcul/
 codeRepository: https://gitlab.inria.fr/guenneba/ecodiag
 licence: GNU Affero
+permalink: /publications/boite-outils/fiches/ecodiag/
 ---
 
 Le service EcoDiag a pour objectif la réalisation d’un bilan carbone des équipements informatiques d’un laboratoire de recherche, d’une unité CNRS ou de toute autre structure dont le périmètre est bien défini.

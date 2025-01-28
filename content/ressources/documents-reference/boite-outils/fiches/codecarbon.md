@@ -16,6 +16,7 @@ author: MILA
 link: https://codecarbon.io/
 codeRepository: https://github.com/mlco2/codecarbon
 licence: MIT
+permalink: /publications/boite-outils/fiches/codecarbon/
 ---
 
 Package Python permettant d'évaluer l'impact carbone des algorithmes d'intelligence artificielle et plus spécifiquement les modèles de Machine Learning

@@ -16,6 +16,7 @@ author: GoogleChrome
 link: https://developers.google.com/web/tools/lighthouse/
 codeRepository: https://github.com/GoogleChrome/lighthouse
 licence: Apache-2.0
+permalink: /publications/boite-outils/fiches/lighthouse/
 ---
 
 Mesure d'abord des performances d'une page web, donne des indications d'améliorations possibles favorables également pour réduire l'impact environnemental des services numériques

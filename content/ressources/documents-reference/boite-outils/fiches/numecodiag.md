@@ -16,6 +16,7 @@ author: MiNumEco
 link: /publications/referentiel-general-ecoconception/numecodiag/
 codeRepository: https://github.com/DISIC/NumEcoDiag/
 licence: European Union Public License 1
+permalink: /publications/boite-outils/fiches/numecodiag/
 ---
 
 NumEcoDiag vous permet d’évaluer facilement l’écoconception de votre service ou produit numérique. Développé par la MiNumEco, il se base sur les 79 critères du [Référentiel Général d’Écoconception de Services Numériques (RGESN)](/publications/referentiel-general-ecoconception/)
