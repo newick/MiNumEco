@@ -44,7 +44,7 @@ eleventyNavigation:
 	<div class="fr-col-12 fr-col-md-4">
 		{% from "components/component.njk" import component with context %}
 		{{ component("card", {
-			url: "/publications/referentiel-competences/",
+			url: "/formations/referentiel-competences/",
 			title: "Référentiel de compétences",
 			image: {
 				src: "/img/parcours-formation-numeco.webp",
