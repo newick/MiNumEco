@@ -13,6 +13,7 @@ eleventyNavigation:
   date: 2022-07-01
   image: /img/ecoconception-securite/ecoconception-securite.webp
   order: 120
+permalink: /publications/ecoconception-securite/
 ---
 
 ![]({{image}})

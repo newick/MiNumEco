@@ -11,6 +11,7 @@ eleventyNavigation:
 {% set postslist = [] %}
 {% for item in collections['Formation'] %}
 	{% if item.data.tags and 'Événement' in item.data.tags %}
+	{{item.data.date}}
 		{% set postslist = postslist.concat(item) %}
 	{% endif %}
 {% endfor %}

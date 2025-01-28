@@ -6,7 +6,7 @@ date: 2021-04-29
 image: /img/guide-pratique-achats-numeriques-responsables/guide-achats-numerique-responsable.webp
 type: publication
 focus: true # Cette publication est en 1ère section
-permalink: publications/guide-pratique-achats-numeriques-responsables/
+permalink: /publications/guide-pratique-achats-numeriques-responsables/
 eleventyNavigation:
   key: guideachat
   parent: publications

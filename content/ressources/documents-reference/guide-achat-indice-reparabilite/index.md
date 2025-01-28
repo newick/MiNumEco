@@ -14,6 +14,7 @@ eleventyNavigation:
   date: 2023-01-05
   image: /img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp
   order: 130
+permalink: /publications/guide-achat-indice-reparabilite/
 ---
 
 ![](/img/guide-achat-indice-reparabilite/prise-en-compte-indice-reparabilite.webp)
