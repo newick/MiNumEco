@@ -139,3 +139,6 @@ Il est maintenu par la [mission logiciels libres](https://code.gouv.fr/) de la D
 
 ### Modifier le texte du footer
 Il se trouve dans `_data/data.js`.
+
+### Formations
+Pour qu'une formation n'apparraisse plus dans la page prochaine formation il faut que la date spécifiée entre `---` soit passée.
