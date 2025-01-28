@@ -29,6 +29,17 @@ Sous la forme d'un jeu de plateau collaboratif, définissez la feuille de route 
 * 1h de jeu de plateau : Econumia 
 * 30 minutes d'explication et échanges avec l'experte numérique écoresponsable de la DINUM
 
+## Econumia en vidéo
+
+<!-- intégraton vidéo dailymotion de la chaine de la DINUM -->
+{%- dailymotion "x9axoycu" -%}
+
+<!-- légende de la vidéo-->
+**Découvrez Econumia**
+
+<!-- description-->
+Formation des référents Numérique Ecoresponsable à l'outil Econumia. Découvrez le jeu de plateau pour élaborer sa feuille de route numérique responsable.
+
 ## Pré-requis
 
 Aucun
