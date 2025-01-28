@@ -32,7 +32,7 @@ Sous la forme d'un jeu de plateau collaboratif, définissez la feuille de route 
 ## Econumia en vidéo
 
 <!-- intégraton vidéo dailymotion de la chaine de la DINUM -->
-{%- dailymotion "x9axoycu" -%}
+{%- dailymotion "x9axoyc" -%}
 
 <!-- légende de la vidéo-->
 **Découvrez Econumia**
