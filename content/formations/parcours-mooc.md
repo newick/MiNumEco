@@ -11,7 +11,7 @@ eleventyNavigation:
 Basé sur le [référentiel de compétences NumEco publié par la DINUM](/formations/referentiel-competences/), le parcours NumEco de la DINUM propose 3 modules de base et un serious game.
 2 modules sont destinés à tous les agents publics et 2 modules sont destinés aux agents publics travaillant dans le numérique.
 
-## Modules MOOC sur mentor.gouv.fr 
+## Modules MOOC sur mentor.gouv.fr
 
 
 <!-- grille avec les cartes présentant les différents modules-->
