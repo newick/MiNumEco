@@ -14,7 +14,7 @@ eleventyNavigation:
 		{% set postslist = postslist.concat(item) %}
 	{% endif %}
 {% endfor %}
-{% include "postslist.njk" %}
+{% include "postslist-2cols.njk" %}
 
 ## Public concerné
 Agent public d'État travaillant dans le numérique
@@ -25,9 +25,9 @@ Quelque soit votre métier : chef de projet ou de produit, MOA, AMOA, UX researc
 
 * écoconception de services numériques
 * élaborer sa feuille de route numérique responsable
-* identifier et déjouer les effets rebonds 
+* identifier et déjouer les effets rebonds
 
-## Organisateur 
+## Organisateur
 * Formations organisées par la Brigade d'Intervention du Numérique (BIN) de la Direction Interministérielle du Numérique (DINUM).
 * Formatrice : <a href="https://fr.linkedin.com/in/melanieraphael" target="_blank" title="Nouvelle fenêtre : Page Linkedin de Mélanie Raphaël">Mélanie Raphaël, Experte numérique écoresponsable, DINUM</a>
 Lieu de la formation 20 avenue de Ségur 75007 Paris
@@ -39,7 +39,7 @@ En présentiel au 20 avenue de Ségur 75007
 
 <div class="fr-highlight">
 
-Dans le cadre de la Brigade d'Intervention du Numérique (BIN), la MiNumEco propose des accompagnements à l'écoconception de services numériques et des formations aux enjeux du numérique responsable pour les administrations et agents publics. 
+Dans le cadre de la Brigade d'Intervention du Numérique (BIN), la MiNumEco propose des accompagnements à l'écoconception de services numériques et des formations aux enjeux du numérique responsable pour les administrations et agents publics.
 Contactez-nous pour identifier les besoins de votre service et organiser un accompagnement.
 
 [Nous contacter](/contact).
