@@ -143,3 +143,5 @@ Il se trouve dans `_data/data.js`.
 
 ### Formations
 Pour qu'une formation n'apparraisse plus dans la page prochaine formation il faut que la date spécifiée entre `---` soit passée.
+
+test
